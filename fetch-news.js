@@ -8,11 +8,11 @@ const parser = new RssParser({
 });
 
 const SOURCES = [
-  { name: "TechCrunch", url: "https://techcrunch.com/category/artificial-intelligence/feed/", lang: "en" },
-  { name: "MIT科技评论", url: "https://www.technologyreview.com/feed/", lang: "en" },
-  { name: "VentureBeat", url: "https://venturebeat.com/category/ai/feed/", lang: "en" },
-  { name: "量子位", url: "https://www.qbitai.com/feed", lang: "zh" },
-  { name: "机器之心", url: "https://www.jiqizhixin.com/rss", lang: "zh" },
+  { name: "TechCrunch", url: "https://techcrunch.com/category/artificial-intelligence/feed/", lang: "en", weight: 1.2 },
+  { name: "MIT科技评论", url: "https://www.technologyreview.com/feed/", lang: "en", weight: 1.0 },
+  { name: "VentureBeat", url: "https://venturebeat.com/category/ai/feed/", lang: "en", weight: 0.9 },
+  { name: "量子位", url: "https://www.qbitai.com/feed", lang: "zh", weight: 1.3 },
+  { name: "机器之心", url: "https://www.jiqizhixin.com/rss", lang: "zh", weight: 1.1 },
 ];
 
 const AI_KEYWORDS = [
@@ -25,6 +25,57 @@ const AI_KEYWORDS = [
   "ai", "人工智能", "大模型", "深度学习", "机器学习", "智能体",
   "openai", "谷歌", "微软", "meta", "英伟达", "算力", "芯片",
 ];
+
+// 热门话题额外加分关键词
+const HOT_TOPICS = [
+  { kw: "openai", score: 5 }, { kw: "chatgpt", score: 5 }, { kw: "gpt-5", score: 5 },
+  { kw: "nvidia", score: 4 }, { kw: "黄仁勋", score: 4 }, { kw: "英伟达", score: 4 },
+  { kw: "claude", score: 3 }, { kw: "anthropic", score: 3 },
+  { kw: "gemini", score: 3 }, { kw: "google", score: 3 }, { kw: "谷歌", score: 3 },
+  { kw: "agent", score: 3 }, { kw: "智能体", score: 3 },
+  { kw: "agi", score: 4 }, { kw: "通用人工智能", score: 4 },
+  { kw: "robot", score: 3 }, { kw: "机器人", score: 3 }, { kw: "具身", score: 3 },
+  { kw: "马斯克", score: 4 }, { kw: "musk", score: 4 }, { kw: "xai", score: 3 },
+  { kw: "芯片", score: 3 }, { kw: "gpu", score: 3 }, { kw: "算力", score: 3 },
+  { kw: "大模型", score: 3 }, { kw: "deepseek", score: 4 },
+];
+
+function calcHotScore(title, summary, sourceWeight, dateStr) {
+  const now = Date.now();
+  const age = now - new Date(dateStr).getTime();
+  const hours = age / (1000 * 60 * 60);
+
+  // 时效分：24小时内满分，超过衰减，超过7天归零
+  let recencyScore = 0;
+  if (hours <= 24) {
+    recencyScore = 50 - (hours / 24) * 20; // 50~30
+  } else if (hours <= 72) {
+    recencyScore = 30 - ((hours - 24) / 48) * 20; // 30~10
+  } else if (hours <= 168) {
+    recencyScore = 10 - ((hours - 72) / 96) * 10; // 10~0
+  }
+
+  // 来源权重分
+  const sourceScore = sourceWeight * 10;
+
+  // 热门话题加分
+  const text = ((title || "") + " " + (summary || "")).toLowerCase();
+  let topicScore = 0;
+  for (const t of HOT_TOPICS) {
+    if (text.includes(t.kw.toLowerCase())) topicScore += t.score;
+  }
+  topicScore = Math.min(topicScore, 25); // 上限25
+
+  // 标题质量分
+  let qualityScore = 0;
+  const len = (title || "").length;
+  if (len >= 15 && len <= 60) qualityScore = 8;
+  else if (len > 60 && len <= 100) qualityScore = 5;
+  else if (len > 10) qualityScore = 3;
+
+  const total = Math.round(recencyScore + sourceScore + topicScore + qualityScore);
+  return Math.min(total, 100);
+}
 
 function isAIArticle(title, summary) {
   const text = (title + " " + (summary || "")).toLowerCase();
@@ -71,6 +122,7 @@ async function fetchFeed(source) {
         summary,
         link: item.link?.trim() || "",
         source: source.name,
+        weight: source.weight,
         date: item.pubDate || item.isoDate || new Date().toISOString(),
         needsTranslate: source.lang === "en",
       });
@@ -108,7 +160,7 @@ async function main() {
   console.log(`\n过滤后剩 ${filtered.length} 篇（去除非AI内容）`);
 
   filtered.sort((a, b) => new Date(b.date) - new Date(a.date));
-  const latest = filtered.slice(0, 35);
+  const latest = filtered.slice(0, 50);
 
   console.log("\n翻译英文内容中…");
   for (let i = 0; i < latest.length; i++) {
@@ -121,17 +173,33 @@ async function main() {
     }
   }
 
+  // 计算热度分
+  console.log("\n计算热度…");
+  for (const item of latest) {
+    item.hotScore = calcHotScore(item.title, item.summary, item.weight || 1, item.date);
+  }
+
+  const now = Date.now();
+  const dailyItems = latest.filter((item) => now - new Date(item.date).getTime() < 24 * 60 * 60 * 1000);
+  const weeklyItems = latest.filter((item) => now - new Date(item.date).getTime() < 7 * 24 * 60 * 60 * 1000);
+
   const out = {
     updated: new Date().toISOString(),
     count: latest.length,
-    items: latest.map(({ title, summary, link, source, date }) => ({
-      title, summary, link, source, date,
+    items: latest.map(({ title, summary, link, source, date, hotScore }) => ({
+      title, summary, link, source, date, hotScore,
+    })),
+    daily: dailyItems.sort((a, b) => b.hotScore - a.hotScore).map(({ title, summary, link, source, date, hotScore }) => ({
+      title, summary, link, source, date, hotScore,
+    })),
+    weekly: weeklyItems.sort((a, b) => b.hotScore - a.hotScore).map(({ title, summary, link, source, date, hotScore }) => ({
+      title, summary, link, source, date, hotScore,
     })),
   };
 
   const outPath = path.join(__dirname, "news.json");
   fs.writeFileSync(outPath, JSON.stringify(out, null, 2), "utf-8");
-  console.log(`\n完成！${out.count} 条中文资讯已保存到 news.json`);
+  console.log(`\n完成！${out.count} 条资讯 (日榜 ${out.daily.length} / 周榜 ${out.weekly.length}) 已保存`);
 }
 
 main().catch((err) => {
