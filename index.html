@@ -1,0 +1,292 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>AI 资讯速递</title>
+  <style>
+    :root {
+      --bg: #f5f5f7;
+      --card-bg: #ffffff;
+      --text: #1d1d1f;
+      --text-secondary: #6e6e73;
+      --accent: #0071e3;
+      --border: #e5e5e7;
+      --tag-bg: #f0f0f2;
+    }
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, "SF Pro Display", "PingFang SC", "Microsoft YaHei", sans-serif;
+      background: var(--bg);
+      color: var(--text);
+      min-height: 100vh;
+      -webkit-font-smoothing: antialiased;
+    }
+
+    /* header */
+    header {
+      position: sticky;
+      top: 0;
+      z-index: 10;
+      background: rgba(245, 245, 247, 0.85);
+      backdrop-filter: saturate(180%) blur(20px);
+      border-bottom: 1px solid var(--border);
+      padding: 12px 16px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+    }
+    header h1 {
+      font-size: 20px;
+      font-weight: 700;
+      letter-spacing: -0.3px;
+    }
+    header .updated {
+      font-size: 12px;
+      color: var(--text-secondary);
+    }
+    .refresh-btn {
+      background: var(--accent);
+      color: #fff;
+      border: none;
+      padding: 8px 16px;
+      border-radius: 20px;
+      font-size: 14px;
+      font-weight: 500;
+      cursor: pointer;
+      transition: opacity 0.15s;
+    }
+    .refresh-btn:active { opacity: 0.7; }
+
+    /* loading */
+    .loading {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      padding: 80px 20px;
+      color: var(--text-secondary);
+    }
+    .spinner {
+      width: 32px;
+      height: 32px;
+      border: 3px solid var(--border);
+      border-top-color: var(--accent);
+      border-radius: 50%;
+      animation: spin 0.7s linear infinite;
+      margin-bottom: 12px;
+    }
+    @keyframes spin { to { transform: rotate(360deg); } }
+
+    /* error */
+    .error {
+      text-align: center;
+      padding: 80px 20px;
+      color: var(--text-secondary);
+    }
+    .error button {
+      margin-top: 12px;
+      background: var(--accent);
+      color: #fff;
+      border: none;
+      padding: 10px 24px;
+      border-radius: 20px;
+      font-size: 14px;
+      cursor: pointer;
+    }
+
+    /* news list */
+    .news-list {
+      max-width: 680px;
+      margin: 0 auto;
+      padding: 12px 16px 40px;
+      display: flex;
+      flex-direction: column;
+      gap: 10px;
+    }
+    .card {
+      background: var(--card-bg);
+      border-radius: 16px;
+      padding: 16px;
+      border: 1px solid var(--border);
+      cursor: pointer;
+      transition: transform 0.1s, box-shadow 0.15s;
+      text-decoration: none;
+      color: inherit;
+      display: block;
+    }
+    .card:active {
+      transform: scale(0.985);
+      box-shadow: 0 2px 8px rgba(0,0,0,0.06);
+    }
+    .card-meta {
+      display: flex;
+      align-items: center;
+      gap: 8px;
+      margin-bottom: 8px;
+    }
+    .card-source {
+      font-size: 12px;
+      font-weight: 600;
+      color: var(--accent);
+      background: #e8f2fd;
+      padding: 2px 8px;
+      border-radius: 4px;
+      white-space: nowrap;
+    }
+    .card-date {
+      font-size: 12px;
+      color: var(--text-secondary);
+    }
+    .card-title {
+      font-size: 17px;
+      font-weight: 600;
+      line-height: 1.4;
+      margin-bottom: 8px;
+      display: -webkit-box;
+      -webkit-line-clamp: 2;
+      -webkit-box-orient: vertical;
+      overflow: hidden;
+    }
+    .card-summary {
+      font-size: 14px;
+      line-height: 1.6;
+      color: var(--text-secondary);
+      display: -webkit-box;
+      -webkit-line-clamp: 3;
+      -webkit-box-orient: vertical;
+      overflow: hidden;
+    }
+
+    /* desktop tweaks */
+    @media (min-width: 680px) {
+      .card:hover {
+        box-shadow: 0 4px 16px rgba(0,0,0,0.06);
+        transform: translateY(-1px);
+      }
+      .card:active {
+        transform: scale(0.99);
+      }
+    }
+
+    /* empty */
+    .empty {
+      text-align: center;
+      padding: 80px 20px;
+      color: var(--text-secondary);
+      font-size: 14px;
+    }
+
+    /* refresh toast */
+    .toast {
+      position: fixed;
+      top: 60px;
+      left: 50%;
+      transform: translateX(-50%);
+      background: #1d1d1f;
+      color: #fff;
+      padding: 8px 20px;
+      border-radius: 20px;
+      font-size: 13px;
+      pointer-events: none;
+      opacity: 0;
+      transition: opacity 0.3s;
+      z-index: 20;
+    }
+    .toast.show { opacity: 1; }
+  </style>
+</head>
+<body>
+  <header>
+    <div>
+      <h1>AI 资讯速递</h1>
+      <span class="updated" id="updateTime">加载中…</span>
+    </div>
+    <button class="refresh-btn" onclick="loadNews(true)">刷新</button>
+  </header>
+
+  <div class="toast" id="toast">已更新 ✓</div>
+
+  <main id="main">
+    <div class="loading">
+      <div class="spinner"></div>
+      <span>正在加载 AI 资讯…</span>
+    </div>
+  </main>
+
+  <script>
+    const main = document.getElementById("main");
+    const toast = document.getElementById("toast");
+    const updateTime = document.getElementById("updateTime");
+
+    function timeAgo(iso) {
+      const diff = Date.now() - new Date(iso).getTime();
+      const min = Math.floor(diff / 60000);
+      if (min < 1) return "刚刚";
+      if (min < 60) return `${min} 分钟前`;
+      const hr = Math.floor(min / 60);
+      if (hr < 24) return `${hr} 小时前`;
+      const d = Math.floor(hr / 24);
+      return `${d} 天前`;
+    }
+
+    function formatDate(iso) {
+      const d = new Date(iso);
+      const month = d.getMonth() + 1;
+      const day = d.getDate();
+      const hour = String(d.getHours()).padStart(2, "0");
+      const min = String(d.getMinutes()).padStart(2, "0");
+      return `${month}月${day}日 ${hour}:${min}`;
+    }
+
+    function render(news) {
+      if (!news.items || news.items.length === 0) {
+        main.innerHTML = `<div class="empty">暂未抓到新闻，请稍后再试</div>`;
+        return;
+      }
+      updateTime.textContent = `更新于 ${formatDate(news.updated)}`;
+      let html = `<div class="news-list">`;
+      for (const item of news.items) {
+        html += `
+          <a class="card" href="${escapeHtml(item.link)}" target="_blank" rel="noopener">
+            <div class="card-meta">
+              <span class="card-source">${escapeHtml(item.source)}</span>
+              <span class="card-date">${timeAgo(item.date)}</span>
+            </div>
+            <div class="card-title">${escapeHtml(item.title)}</div>
+            ${item.summary ? `<div class="card-summary">${escapeHtml(item.summary)}</div>` : ""}
+          </a>`;
+      }
+      html += `</div>`;
+      main.innerHTML = html;
+    }
+
+    function escapeHtml(str) {
+      const map = { "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" };
+      return String(str).replace(/[&<>"']/g, (c) => map[c]);
+    }
+
+    async function loadNews(refresh) {
+      main.innerHTML = `<div class="loading"><div class="spinner"></div><span>正在加载…</span></div>`;
+      try {
+        const res = await fetch(`news.json?t=${Date.now()}`);
+        if (!res.ok) throw new Error("HTTP " + res.status);
+        const data = await res.json();
+        render(data);
+        if (refresh) {
+          toast.classList.add("show");
+          setTimeout(() => toast.classList.remove("show"), 2000);
+        }
+      } catch (e) {
+        main.innerHTML = `<div class="error">
+          <p>加载失败</p>
+          <button onclick="loadNews()">重试</button>
+        </div>`;
+        console.error(e);
+      }
+    }
+
+    loadNews();
+  </script>
+</body>
+</html>
