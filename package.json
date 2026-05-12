@@ -11,6 +11,8 @@
   "license": "ISC",
   "type": "commonjs",
   "dependencies": {
-    "rss-parser": "^3.13.0"
+    "@vitalets/google-translate-api": "^9.2.1",
+    "rss-parser": "^3.13.0",
+    "translation.js": "^0.7.15"
   }
 }

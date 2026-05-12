@@ -1,5 +1,5 @@
 {
-  "updated": "2026-05-12T16:00:45.817Z",
+  "updated": "2026-05-12T16:45:55.799Z",
   "bilibili": [
     {
       "id": "hot_116559624278509",
@@ -8,7 +8,7 @@
       "link": "https://b23.tv/BV12M5K6wEdp",
       "image": "http://i0.hdslb.com/bfs/archive/b2d02635891d6b8e534ab21749b469cdcff720ef.jpg",
       "author": "Unitree宇树科技",
-      "views": 1894992,
+      "views": 1954649,
       "platform": "B站",
       "type": "video"
     },
@@ -19,18 +19,7 @@
       "link": "https://b23.tv/BV1kX546QEjG",
       "image": "http://i0.hdslb.com/bfs/archive/ea066ef317e7400afb52f37e75a9544996e3157a.jpg",
       "author": "数字游牧人",
-      "views": 221212,
-      "platform": "B站",
-      "type": "video"
-    },
-    {
-      "id": "hot_116551235669764",
-      "title": "对姚顺宇的4小时访谈：请允许我小疯一下！在Anthropic和Gemini训模型、技术预测、英雄主义已过去",
-      "desc": "姚顺宇戴了一副茶色眼镜走过来，这副眼镜会随光线变化而改变颜色。\n\n硅谷AI业界有两位Yao Shunyu，他们曾是清华同一届毕业生，这让姚顺雨与姚顺宇时常成为话题人物。\n\n前一位姚顺雨2025年从OpenAI跳槽到腾讯，他去年来过我们节目（",
-      "link": "https://b23.tv/BV1YR5E6EE9o",
-      "image": "http://i0.hdslb.com/bfs/archive/72e478e6353621d08b32d644a5e58378a68058e6.jpg",
-      "author": "张小珺商业访谈录",
-      "views": 169370,
+      "views": 237533,
       "platform": "B站",
       "type": "video"
     },
@@ -41,37 +30,14 @@
       "link": "https://b23.tv/BV1tZ5W6QExi",
       "image": "http://i2.hdslb.com/bfs/archive/0c6321ec4aa15ce70612e5427a3ffe08aa55a13b.jpg",
       "author": "龙林yys",
-      "views": 133697,
+      "views": 145972,
       "platform": "B站",
       "type": "video"
     }
   ],
-  "douyin": [
-    {
-      "id": "dy_d8898f4e-47cc-46cd-a9bb-bd829a53d831",
-      "title": "🔥 把AI用到了最有意义的场合",
-      "desc": "抖音实时热搜 · 热度值: 7640744 · 点击搜索相关视频",
-      "link": "https://www.douyin.com/search/%E6%8A%8AAI%E7%94%A8%E5%88%B0%E4%BA%86%E6%9C%80%E6%9C%89%E6%84%8F%E4%B9%89%E7%9A%84%E5%9C%BA%E5%90%88?type=video",
-      "image": "",
-      "author": "抖音热搜榜",
-      "views": 7640744,
-      "platform": "抖音",
-      "type": "video"
-    }
-  ],
+  "douyin": [],
   "x": [],
   "all": [
-    {
-      "id": "dy_d8898f4e-47cc-46cd-a9bb-bd829a53d831",
-      "title": "🔥 把AI用到了最有意义的场合",
-      "desc": "抖音实时热搜 · 热度值: 7640744 · 点击搜索相关视频",
-      "link": "https://www.douyin.com/search/%E6%8A%8AAI%E7%94%A8%E5%88%B0%E4%BA%86%E6%9C%80%E6%9C%89%E6%84%8F%E4%B9%89%E7%9A%84%E5%9C%BA%E5%90%88?type=video",
-      "image": "",
-      "author": "抖音热搜榜",
-      "views": 7640744,
-      "platform": "抖音",
-      "type": "video"
-    },
     {
       "id": "hot_116559624278509",
       "title": "宇树发布: GD01 载人变形机甲 390万元起",
@@ -79,7 +45,7 @@
       "link": "https://b23.tv/BV12M5K6wEdp",
       "image": "http://i0.hdslb.com/bfs/archive/b2d02635891d6b8e534ab21749b469cdcff720ef.jpg",
       "author": "Unitree宇树科技",
-      "views": 1894992,
+      "views": 1954649,
       "platform": "B站",
       "type": "video"
     },
@@ -90,18 +56,7 @@
       "link": "https://b23.tv/BV1kX546QEjG",
       "image": "http://i0.hdslb.com/bfs/archive/ea066ef317e7400afb52f37e75a9544996e3157a.jpg",
       "author": "数字游牧人",
-      "views": 221212,
-      "platform": "B站",
-      "type": "video"
-    },
-    {
-      "id": "hot_116551235669764",
-      "title": "对姚顺宇的4小时访谈：请允许我小疯一下！在Anthropic和Gemini训模型、技术预测、英雄主义已过去",
-      "desc": "姚顺宇戴了一副茶色眼镜走过来，这副眼镜会随光线变化而改变颜色。\n\n硅谷AI业界有两位Yao Shunyu，他们曾是清华同一届毕业生，这让姚顺雨与姚顺宇时常成为话题人物。\n\n前一位姚顺雨2025年从OpenAI跳槽到腾讯，他去年来过我们节目（",
-      "link": "https://b23.tv/BV1YR5E6EE9o",
-      "image": "http://i0.hdslb.com/bfs/archive/72e478e6353621d08b32d644a5e58378a68058e6.jpg",
-      "author": "张小珺商业访谈录",
-      "views": 169370,
+      "views": 237533,
       "platform": "B站",
       "type": "video"
     },
@@ -112,7 +67,7 @@
       "link": "https://b23.tv/BV1tZ5W6QExi",
       "image": "http://i2.hdslb.com/bfs/archive/0c6321ec4aa15ce70612e5427a3ffe08aa55a13b.jpg",
       "author": "龙林yys",
-      "views": 133697,
+      "views": 145972,
       "platform": "B站",
       "type": "video"
     }

@@ -1,5 +1,6 @@
 const RssParser = require("rss-parser");
 const { HttpsProxyAgent } = require("https-proxy-agent");
+const { translate: googleTranslate } = require("@vitalets/google-translate-api");
 const fs = require("fs");
 const path = require("path");
 const crypto = require("crypto");
@@ -77,20 +78,30 @@ const HOT_TOPICS = [
   { kw: "大模型", score: 3 }, { kw: "deepseek", score: 4 },
 ];
 
-// ======= TRANSLATION (Google via proxy + MyMemory fallback) =======
-async function translateGoogle(text) {
-  try {
-    const url = "https://translate.googleapis.com/translate_a/single?client=gtx&sl=en&tl=zh-CN&dt=t&q=" + encodeURIComponent(text);
-    const res = await fetchWithProxy(url, { headers: { "User-Agent": "Mozilla/5.0" } });
-    const data = await res.json();
-    if (data?.[0]) {
-      return data[0].map(s => s[0]).join("");
-    }
-  } catch {}
-  return null;
-}
+// ======= TRANSLATION (Google via proxy with retry + direct fallback) =======
+async function translateText(text) {
+  if (!text || text.length < 5) return text;
 
-async function translateMyMemory(text) {
+  // Attempt 1: Google via proxy (primary)
+  for (let attempt = 0; attempt < 3; attempt++) {
+    try {
+      const result = await googleTranslate(text, {
+        from: "en",
+        to: "zh-CN",
+        fetchOptions: { agent: proxyAgent },
+      });
+      if (result.text && result.text !== text) return result.text;
+    } catch {}
+    if (attempt < 2) await delay(1000 * (attempt + 1)); // backoff: 1s, 2s
+  }
+
+  // Attempt 2: Google directly (no proxy, might work intermittently)
+  try {
+    const result = await googleTranslate(text, { from: "en", to: "zh-CN" });
+    if (result.text && result.text !== text) return result.text;
+  } catch {}
+
+  // Attempt 3: MyMemory (rate-limited but sometimes available)
   try {
     const url = "https://api.mymemory.translated.net/get?q=" + encodeURIComponent(text) + "&langpair=en|zh-CN";
     const res = await fetch(url, { signal: AbortSignal.timeout(10000) });
@@ -98,17 +109,7 @@ async function translateMyMemory(text) {
     const t = data?.responseData?.translatedText || "";
     if (t && !t.includes("MYMEMORY WARNING") && !t.includes("QUOTA")) return t;
   } catch {}
-  return null;
-}
 
-async function translateText(text) {
-  if (!text || text.length < 5) return text;
-  // Try Google via proxy first
-  const gResult = await translateGoogle(text);
-  if (gResult) return gResult;
-  // Fallback to MyMemory
-  const mResult = await translateMyMemory(text);
-  if (mResult) return mResult;
   return text;
 }
 
@@ -465,10 +466,13 @@ async function main() {
   console.log("\n翻译(Google via proxy)…");
   for (let i = 0; i < latest.length; i++) {
     if (latest[i].needsTranslate) {
+      const origTitle = latest[i].title, origSummary = latest[i].summary;
       latest[i].title = await translateText(latest[i].title);
+      await delay(600); // longer delay to avoid rate limit
       latest[i].summary = await translateText(latest[i].summary);
-      if (i % 5 === 0) console.log(`  翻译 [${i+1}/${latest.length}]…`);
-      await delay(300);
+      const changed = latest[i].title !== origTitle || latest[i].summary !== origSummary;
+      if (i % 5 === 0) console.log(`  翻译 [${i+1}/${latest.length}]${changed ? '' : ' ⚠部分失败'}…`);
+      await delay(600);
     }
   }
 
