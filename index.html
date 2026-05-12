@@ -55,28 +55,13 @@
 
     .news-list { max-width: 680px; margin: 0 auto; padding: 6px 12px 80px; display: flex; flex-direction: column; gap: 10px; }
 
-    /* ---- CARD with image on TOP ---- */
+    /* ---- CARD: image between title and summary ---- */
     .card {
       background: var(--card-bg); border-radius: 14px; border: 1px solid var(--border);
-      overflow: hidden; transition: transform 0.1s; position: relative;
+      transition: transform 0.1s; position: relative; padding: 12px 14px;
     }
     .card:active { transform: scale(0.985); }
     @media (min-width: 680px) { .card:hover { box-shadow: 0 4px 16px rgba(0,0,0,0.06); } }
-
-    .card-img-wrap {
-      width: 100%; height: 140px; overflow: hidden; background: #f0f0f2;
-      display: flex; align-items: center; justify-content: center; position: relative;
-    }
-    .card-img-wrap img {
-      width: 100%; height: 100%; object-fit: cover;
-    }
-    .card-img-placeholder {
-      font-size: 40px; color: #94a3b8;
-      background: linear-gradient(135deg, #f0f0f2, #e8e8ea);
-      width: 100%; height: 100%; display: flex; align-items: center; justify-content: center;
-    }
-
-    .card-body { padding: 12px 14px; }
 
     .card-meta { display: flex; align-items: center; gap: 6px; margin-bottom: 6px; flex-wrap: wrap; }
     .card-source {
@@ -89,8 +74,17 @@
     .card-hot.mid { background: #fff8e1; color: #f9a825; }
 
     .card-title {
-      font-size: 15px; font-weight: 600; line-height: 1.45; margin-bottom: 4px;
+      font-size: 15px; font-weight: 600; line-height: 1.45; margin-bottom: 8px;
       display: -webkit-box; -webkit-line-clamp: 3; -webkit-box-orient: vertical; overflow: hidden;
+    }
+    /* Image between title and summary */
+    .card-img-wrap {
+      width: 100%; margin-bottom: 8px; border-radius: 8px; overflow: hidden;
+      background: #f8f8fa; display: flex; align-items: center; justify-content: center;
+    }
+    .card-img-wrap img {
+      width: 100%; height: auto; max-height: 220px;
+      object-fit: contain; display: block;
     }
     .card-summary {
       font-size: 12px; line-height: 1.55; color: var(--text-2);
@@ -105,10 +99,10 @@
     .card-fav {
       position: absolute; top: 8px; right: 8px;
       width: 30px; height: 30px; border-radius: 50%;
-      border: none; background: rgba(0,0,0,0.35); color: #fff; font-size: 16px; cursor: pointer;
+      border: none; background: rgba(0,0,0,0.08); color: #666; font-size: 16px; cursor: pointer;
       display: flex; align-items: center; justify-content: center; z-index: 2;
     }
-    .card-fav.faved { background: rgba(255,152,0,0.85); }
+    .card-fav.faved { background: rgba(255,152,0,0.85); color: #fff; }
 
     .rank-num {
       position: absolute; top: 8px; left: 8px; z-index: 2;
@@ -259,32 +253,31 @@
       return '<div class="card-model-tags">'+models.map(m=>'<span class="card-model-tag">'+esc(m)+'</span>').join('')+'</div>';
     }
     function imgBlock(src) {
-      if (src) return '<div class="card-img-wrap"><img src="'+esc(src)+'" alt="" loading="lazy" onerror="this.style.display=\'none\'"><div class="card-img-placeholder" style="display:none">📰</div></div>';
-      return '<div class="card-img-wrap"><div class="card-img-placeholder">📰</div></div>';
+      if (!src) return '';
+      return '<div class="card-img-wrap"><img src="'+esc(src)+'" alt="" loading="lazy" onerror="this.parentElement.style.display=\'none\'"></div>';
     }
     function videoImg(src) {
-      if (src) return '<div class="card-img-wrap"><img src="'+esc(src)+'" alt="" loading="lazy" onerror="this.style.display=\'none\'"><div class="play-icon"></div><div class="card-img-placeholder" style="display:none">📹</div></div>';
-      return '<div class="card-img-wrap"><div class="card-img-placeholder">📹</div><div class="play-icon"></div></div>';
+      if (!src) return '';
+      return '<div class="card-img-wrap" style="position:relative"><img src="'+esc(src)+'" alt="" loading="lazy" onerror="this.parentElement.style.display=\'none\'"><div class="play-icon"></div></div>';
     }
 
     function makeCard(item, idx) {
       const faved = isFaved(item.link), le = encodeURIComponent(item.link);
       const scoreHtml = item.hotScore != null ? hotLabel(item.hotScore) : '';
       const idxHtml = idx != null ? '<span class="rank-num '+(idx<3?'top'+(idx+1):'normal')+'">'+(idx+1)+'</span>' : '';
+      const isQbit = item.source === "量子位";
       return `<div class="card">
-        ${imgBlock(item.image)}
-        <div class="card-body">
-          <div class="card-meta">
-            <span class="card-source">${esc(item.source)}</span>
-            <span class="card-date">${timeAgo(item.date)}</span>
-            ${scoreHtml}
-          </div>
-          <a href="${esc(item.link)}" target="_blank" rel="noopener" style="color:inherit;text-decoration:none">
-            <div class="card-title">${esc(item.title)}</div>
-            ${item.summary ? '<div class="card-summary">'+esc(item.summary)+'</div>' : ''}
-          </a>
-          ${modelTags(item.models)}
+        <div class="card-meta">
+          <span class="card-source">${esc(item.source)}</span>
+          <span class="card-date">${timeAgo(item.date)}</span>
+          ${scoreHtml}
         </div>
+        <a href="${esc(item.link)}" target="_blank" rel="noopener" style="color:inherit;text-decoration:none">
+          <div class="card-title">${esc(item.title)}</div>
+        </a>
+        ${!isQbit ? imgBlock(item.image) : ''}
+        ${item.summary ? '<div class="card-summary">'+esc(item.summary)+'</div>' : ''}
+        ${modelTags(item.models)}
         ${idxHtml}
         <button class="card-fav ${faved?'faved':''}" onclick="event.stopPropagation();toggleFavByLink('${le}')">${faved?'★':'☆'}</button>
       </div>`;
@@ -294,18 +287,16 @@
       const vn = v.views>=10000 ? (v.views/10000).toFixed(1)+'万' : v.views;
       const pc = v.platform==='B站'?'bilibili':v.platform==='抖音'?'douyin':'x';
       return `<div class="card">
-        ${videoImg(v.image)}
-        <div class="card-body">
-          <div class="card-meta">
-            <span class="video-platform ${pc}">${esc(v.platform)}</span>
-            <span class="video-author">${esc(v.author||'')}</span>
-            ${v.views>0 ? '<span class="video-views">▶ '+vn+' 播放</span>' : ''}
-          </div>
-          <a href="${esc(v.link)}" target="_blank" rel="noopener" style="color:inherit;text-decoration:none">
-            <div class="card-title">${esc(v.title)}</div>
-            ${v.desc ? '<div class="card-summary">'+esc(v.desc)+'</div>' : ''}
-          </a>
+        <div class="card-meta">
+          <span class="video-platform ${pc}">${esc(v.platform)}</span>
+          <span class="video-author">${esc(v.author||'')}</span>
+          ${v.views>0 ? '<span class="video-views">▶ '+vn+' 播放</span>' : ''}
         </div>
+        <a href="${esc(v.link)}" target="_blank" rel="noopener" style="color:inherit;text-decoration:none">
+          <div class="card-title">${esc(v.title)}</div>
+        </a>
+        ${videoImg(v.image)}
+        ${v.desc ? '<div class="card-summary">'+esc(v.desc)+'</div>' : ''}
       </div>`;
     }
 

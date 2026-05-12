@@ -1,14 +1,44 @@
 {
-  "updated": "2026-05-12T10:01:52.652Z",
-  "count": 34,
+  "updated": "2026-05-12T12:38:54.279Z",
+  "count": 33,
   "items": [
+    {
+      "title": "The Download: a Nobel winner on AI, and the case for fixing everything",
+      "summary": "This is today’s edition of The Download, our weekday newsletter that provides a daily dose of what’s going on in the world of technology. Three things in AI to watch, according to a Nobel-winning…",
+      "link": "https://www.technologyreview.com/2026/05/12/1137103/the-download-nobel-winner-ai-maintenance-of-everything/",
+      "source": "MIT科技评论",
+      "date": "Tue, 12 May 2026 12:10:00 +0000",
+      "hotScore": 65,
+      "models": [],
+      "image": "https://wp.technologyreview.com/wp-content/uploads/2026/05/SoundofDataFinal1f-V-edited.jpeg"
+    },
+    {
+      "title": "AI voice startup Vapi hits $500M valuation after winning Amazon Ring over 40 rivals",
+      "summary": "Vapi says its enterprise business has grown 10-fold since early 2025 as companies shift customer support and sales calls to AI agents.",
+      "link": "https://techcrunch.com/2026/05/12/vapi-hits-500m-valuation-as-amazon-ring-chose-its-ai-platform-over-40-rivals/",
+      "source": "TechCrunch",
+      "date": "Tue, 12 May 2026 11:30:00 +0000",
+      "hotScore": 69,
+      "models": [],
+      "image": "https://techcrunch.com/wp-content/uploads/2026/05/vapi-founders-jordan-dearsley-nikhil-gupta.jpg?resize=1200,800"
+    },
+    {
+      "title": "360发布OpenClaw生态安全报告：AI智能体风险进入自动化审计阶段",
+      "summary": "累计发现23个独立安全漏洞",
+      "link": "https://www.qbitai.com/2026/05/416582.html",
+      "source": "量子位",
+      "date": "Tue, 12 May 2026 09:35:29 +0000",
+      "hotScore": 71,
+      "models": [],
+      "image": "https://www.qbitai.com/wp-content/uploads/imgs/qbitai-logo-1.png"
+    },
     {
       "title": "AI第一金主黄仁勋：日均花掉20亿",
       "summary": "“AI御三家”都投了",
       "link": "https://www.qbitai.com/2026/05/416540.html",
       "source": "量子位",
       "date": "Tue, 12 May 2026 08:03:52 +0000",
-      "hotScore": 73,
+      "hotScore": 71,
       "models": [],
       "image": "https://www.qbitai.com/wp-content/uploads/imgs/qbitai-logo-1.png"
     },
@@ -18,7 +48,7 @@
       "link": "https://www.qbitai.com/2026/05/416056.html",
       "source": "量子位",
       "date": "Tue, 12 May 2026 06:06:38 +0000",
-      "hotScore": 68,
+      "hotScore": 66,
       "models": [],
       "image": "https://www.qbitai.com/wp-content/uploads/imgs/qbitai-logo-1.png"
     },
@@ -28,7 +58,7 @@
       "link": "https://techcrunch.com/2026/05/11/thinking-machines-wants-to-build-an-ai-that-actually-listens-while-it-talks/",
       "source": "TechCrunch",
       "date": "Tue, 12 May 2026 04:52:35 +0000",
-      "hotScore": 63,
+      "hotScore": 61,
       "models": [],
       "image": "https://techcrunch.com/wp-content/uploads/2026/05/GettyImages-2271655163.jpg?resize=1200,879"
     },
@@ -38,7 +68,7 @@
       "link": "https://www.qbitai.com/2026/05/416034.html",
       "source": "量子位",
       "date": "Tue, 12 May 2026 04:02:50 +0000",
-      "hotScore": 69,
+      "hotScore": 67,
       "models": [],
       "image": "https://www.qbitai.com/wp-content/uploads/imgs/qbitai-logo-1.png"
     },
@@ -48,7 +78,7 @@
       "link": "https://techcrunch.com/2026/05/11/riding-an-ai-rally-robinhood-preps-second-retail-venture-ipo/",
       "source": "TechCrunch",
       "date": "Tue, 12 May 2026 00:09:01 +0000",
-      "hotScore": 59,
+      "hotScore": 57,
       "models": [],
       "image": "https://techcrunch.com/wp-content/uploads/2026/05/vlad-tenev-robinhood-GettyImages-2272038864.jpg?w=1024"
     },
@@ -58,7 +88,7 @@
       "link": "https://techcrunch.com/2026/05/11/gm-just-laid-off-hundreds-of-it-workers-to-hire-those-with-stronger-ai-skills/",
       "source": "TechCrunch",
       "date": "Mon, 11 May 2026 23:04:10 +0000",
-      "hotScore": 61,
+      "hotScore": 59,
       "models": [],
       "image": "https://techcrunch.com/wp-content/uploads/2026/05/gm-headquarters-getty.jpg?resize=1200,800"
     },
@@ -68,7 +98,7 @@
       "link": "https://www.technologyreview.com/2026/05/11/1137090/three-things-in-ai-to-watch-according-to-a-nobel-winning-economist/",
       "source": "MIT科技评论",
       "date": "Mon, 11 May 2026 17:35:12 +0000",
-      "hotScore": 51,
+      "hotScore": 49,
       "models": [],
       "image": "https://wp.technologyreview.com/wp-content/uploads/2026/05/260507_algo2.jpg?resize=1200,600"
     },
@@ -78,7 +108,7 @@
       "link": "https://techcrunch.com/2026/05/11/digg-tries-again-this-time-as-an-ai-news-aggregator/",
       "source": "TechCrunch",
       "date": "Mon, 11 May 2026 17:02:35 +0000",
-      "hotScore": 56,
+      "hotScore": 54,
       "models": [],
       "image": "https://techcrunch.com/wp-content/uploads/2026/05/digg-ver2-at-10.40.29-AM.jpg?resize=1200,888"
     },
@@ -88,7 +118,7 @@
       "link": "https://www.technologyreview.com/2026/05/11/1136967/fostering-breakthrough-ai-innovation-through-customer-back-engineering/",
       "source": "MIT科技评论",
       "date": "Mon, 11 May 2026 13:33:06 +0000",
-      "hotScore": 48,
+      "hotScore": 46,
       "models": [],
       "image": "https://wp.technologyreview.com/wp-content/uploads/2026/05/Capital-One-iStock-2208464815.jpg?w=1943"
     },
@@ -98,7 +128,7 @@
       "link": "https://techcrunch.com/2026/05/11/there-arent-enough-rockets-for-space-data-centers-cowboy-space-raised-275-million-to-build-them/",
       "source": "TechCrunch",
       "date": "Mon, 11 May 2026 13:00:00 +0000",
-      "hotScore": 49,
+      "hotScore": 47,
       "models": [],
       "image": "https://techcrunch.com/wp-content/uploads/2026/05/Cowbow-Space-Company-photo.jpeg?resize=1200,960"
     },
@@ -108,7 +138,7 @@
       "link": "https://www.technologyreview.com/2026/05/11/1136786/implementing-advanced-ai-technologies-in-finance/",
       "source": "MIT科技评论",
       "date": "Mon, 11 May 2026 13:00:00 +0000",
-      "hotScore": 50,
+      "hotScore": 48,
       "models": [],
       "image": "https://wp.technologyreview.com/wp-content/uploads/2026/05/NetSuite-social-card.png"
     },
@@ -118,7 +148,7 @@
       "link": "https://www.technologyreview.com/2026/05/11/1137031/the-download-hantavirus-outbreak-musk-altman-trial/",
       "source": "MIT科技评论",
       "date": "Mon, 11 May 2026 12:10:00 +0000",
-      "hotScore": 51,
+      "hotScore": 49,
       "models": [],
       "image": "https://wp.technologyreview.com/wp-content/uploads/2023/10/ND23-space-01b.jpg?w=3000"
     },
@@ -128,7 +158,7 @@
       "link": "https://www.qbitai.com/2026/05/415263.html",
       "source": "量子位",
       "date": "Mon, 11 May 2026 10:18:49 +0000",
-      "hotScore": 54,
+      "hotScore": 53,
       "models": [],
       "image": "https://www.qbitai.com/wp-content/uploads/imgs/qbitai-logo-1.png"
     },
@@ -138,7 +168,7 @@
       "link": "https://www.qbitai.com/2026/05/415842.html",
       "source": "量子位",
       "date": "Mon, 11 May 2026 08:31:05 +0000",
-      "hotScore": 50,
+      "hotScore": 49,
       "models": [],
       "image": "https://www.qbitai.com/wp-content/uploads/imgs/qbitai-logo-1.png"
     },
@@ -148,27 +178,7 @@
       "link": "https://www.qbitai.com/2026/05/415810.html",
       "source": "量子位",
       "date": "Mon, 11 May 2026 07:57:03 +0000",
-      "hotScore": 53,
-      "models": [],
-      "image": "https://www.qbitai.com/wp-content/uploads/imgs/qbitai-logo-1.png"
-    },
-    {
-      "title": "OpenAI砸200亿美元买单，英伟达挑战者冲刺350亿美元估值IPO",
-      "summary": "Cerebras预计本周公布定价",
-      "link": "https://www.qbitai.com/2026/05/415714.html",
-      "source": "量子位",
-      "date": "Mon, 11 May 2026 07:37:05 +0000",
-      "hotScore": 59,
-      "models": [],
-      "image": "https://www.qbitai.com/wp-content/uploads/imgs/qbitai-logo-1.png"
-    },
-    {
-      "title": "黄仁勋喊话毕业生：AI不会取代你，但善用AI的人会",
-      "summary": "自曝创业至暗时刻，飞日本求世嘉CEO救命",
-      "link": "https://www.qbitai.com/2026/05/415403.html",
-      "source": "量子位",
-      "date": "Mon, 11 May 2026 06:32:05 +0000",
-      "hotScore": 54,
+      "hotScore": 52,
       "models": [],
       "image": "https://www.qbitai.com/wp-content/uploads/imgs/qbitai-logo-1.png"
     },
@@ -178,7 +188,7 @@
       "link": "https://techcrunch.com/2026/05/10/get-ready-for-the-whisper-filled-office-of-the-future/",
       "source": "TechCrunch",
       "date": "Sun, 10 May 2026 21:15:30 +0000",
-      "hotScore": 45,
+      "hotScore": 44,
       "models": [],
       "image": "https://techcrunch.com/wp-content/uploads/2022/12/GettyImages-84164497.jpg?resize=1200,798"
     },
@@ -188,7 +198,7 @@
       "link": "https://techcrunch.com/2026/05/10/anthropic-says-evil-portrayals-of-ai-were-responsible-for-claudes-blackmail-attempts/",
       "source": "TechCrunch",
       "date": "Sun, 10 May 2026 20:40:41 +0000",
-      "hotScore": 47,
+      "hotScore": 46,
       "models": [
         "Claude"
       ],
@@ -200,7 +210,7 @@
       "link": "https://techcrunch.com/2026/05/10/were-feeling-cynical-about-xais-big-deal-with-anthropic/",
       "source": "TechCrunch",
       "date": "Sun, 10 May 2026 15:34:25 +0000",
-      "hotScore": 48,
+      "hotScore": 47,
       "models": [
         "Claude",
         "Grok"
@@ -213,7 +223,7 @@
       "link": "https://techcrunch.com/2026/05/09/voice-ai-in-india-is-hard-wispr-flow-is-betting-on-it-anyway/",
       "source": "TechCrunch",
       "date": "Sun, 10 May 2026 02:00:00 +0000",
-      "hotScore": 34,
+      "hotScore": 33,
       "models": [],
       "image": "https://techcrunch.com/wp-content/uploads/2026/05/wispr-flow-india-image.jpg?resize=1200,800"
     },
@@ -223,7 +233,7 @@
       "link": "https://techcrunch.com/2026/05/09/artificial-intelligence-definition-glossary-hallucinations-guide-to-common-ai-terms/",
       "source": "TechCrunch",
       "date": "Sat, 09 May 2026 21:45:00 +0000",
-      "hotScore": 32,
+      "hotScore": 31,
       "models": [],
       "image": "https://techcrunch.com/wp-content/uploads/2025/03/GettyImages-ai-generated-eb728837-4a65-4ce4-b814-abd0c140d20c.jpg?w=1024"
     },
@@ -233,7 +243,7 @@
       "link": "https://techcrunch.com/2026/05/09/nvidia-has-already-committed-40b-to-equity-ai-deals-this-year/",
       "source": "TechCrunch",
       "date": "Sat, 09 May 2026 14:43:30 +0000",
-      "hotScore": 33,
+      "hotScore": 32,
       "models": [],
       "image": "https://techcrunch.com/wp-content/uploads/2026/03/GettyImages-2266475966.jpg?w=1024"
     },
@@ -295,7 +305,7 @@
       "link": "https://www.technologyreview.com/2026/05/08/1136985/the-download-ai-malaise-babymaking-ivf-tech/",
       "source": "MIT科技评论",
       "date": "Fri, 08 May 2026 12:10:00 +0000",
-      "hotScore": 26,
+      "hotScore": 25,
       "models": [],
       "image": "https://wp.technologyreview.com/wp-content/uploads/2024/04/5.-Hanusik-thumb.jpg?w=3000"
     },
@@ -328,41 +338,38 @@
       "hotScore": 23,
       "models": [],
       "image": "https://techcrunch.com/wp-content/uploads/2026/05/Pit-team-2.-Photo-by-Hugo-Thambert.jpg?resize=1200,800"
-    },
-    {
-      "title": "OpenAI introduces new ‘Trusted Contact’ safeguard for cases of possible self-harm",
-      "summary": "The company is expanding its efforts to protect ChatGPT users in cases where conversations may turn to self-harm.",
-      "link": "https://techcrunch.com/2026/05/07/openai-introduces-new-trusted-contact-safeguard-for-cases-of-possible-self-harm/",
-      "source": "TechCrunch",
-      "date": "Thu, 07 May 2026 20:20:20 +0000",
-      "hotScore": 33,
-      "models": [
-        "GPT",
-        "ChatGPT"
-      ],
-      "image": "https://techcrunch.com/wp-content/uploads/2025/02/GettyImages-2195918462.jpg?w=1024"
-    },
-    {
-      "title": "The Download: the tech reshaping IVF and the rise of balcony solar",
-      "summary": "This is today’s edition of The Download, our weekday newsletter that provides a daily dose of what’s going on in the world of technology. What’s next for IVF IVF has brought millions of babies into…",
-      "link": "https://www.technologyreview.com/2026/05/07/1136956/the-download-ivf-tech-balcony-solar/",
-      "source": "MIT科技评论",
-      "date": "Thu, 07 May 2026 12:10:00 +0000",
-      "hotScore": 20,
-      "models": [],
-      "image": "https://wp.technologyreview.com/wp-content/uploads/2026/05/RYCJ4H-edited.webp"
     }
   ],
   "daily": [
+    {
+      "title": "360发布OpenClaw生态安全报告：AI智能体风险进入自动化审计阶段",
+      "summary": "累计发现23个独立安全漏洞",
+      "link": "https://www.qbitai.com/2026/05/416582.html",
+      "source": "量子位",
+      "date": "Tue, 12 May 2026 09:35:29 +0000",
+      "hotScore": 71,
+      "models": [],
+      "image": "https://www.qbitai.com/wp-content/uploads/imgs/qbitai-logo-1.png"
+    },
     {
       "title": "AI第一金主黄仁勋：日均花掉20亿",
       "summary": "“AI御三家”都投了",
       "link": "https://www.qbitai.com/2026/05/416540.html",
       "source": "量子位",
       "date": "Tue, 12 May 2026 08:03:52 +0000",
-      "hotScore": 73,
+      "hotScore": 71,
       "models": [],
       "image": "https://www.qbitai.com/wp-content/uploads/imgs/qbitai-logo-1.png"
+    },
+    {
+      "title": "AI voice startup Vapi hits $500M valuation after winning Amazon Ring over 40 rivals",
+      "summary": "Vapi says its enterprise business has grown 10-fold since early 2025 as companies shift customer support and sales calls to AI agents.",
+      "link": "https://techcrunch.com/2026/05/12/vapi-hits-500m-valuation-as-amazon-ring-chose-its-ai-platform-over-40-rivals/",
+      "source": "TechCrunch",
+      "date": "Tue, 12 May 2026 11:30:00 +0000",
+      "hotScore": 69,
+      "models": [],
+      "image": "https://techcrunch.com/wp-content/uploads/2026/05/vapi-founders-jordan-dearsley-nikhil-gupta.jpg?resize=1200,800"
     },
     {
       "title": "OpenClaw低调更新重磅版本，龙虾长手长脚了",
@@ -370,7 +377,7 @@
       "link": "https://www.qbitai.com/2026/05/416034.html",
       "source": "量子位",
       "date": "Tue, 12 May 2026 04:02:50 +0000",
-      "hotScore": 69,
+      "hotScore": 67,
       "models": [],
       "image": "https://www.qbitai.com/wp-content/uploads/imgs/qbitai-logo-1.png"
     },
@@ -380,9 +387,19 @@
       "link": "https://www.qbitai.com/2026/05/416056.html",
       "source": "量子位",
       "date": "Tue, 12 May 2026 06:06:38 +0000",
-      "hotScore": 68,
+      "hotScore": 66,
       "models": [],
       "image": "https://www.qbitai.com/wp-content/uploads/imgs/qbitai-logo-1.png"
+    },
+    {
+      "title": "The Download: a Nobel winner on AI, and the case for fixing everything",
+      "summary": "This is today’s edition of The Download, our weekday newsletter that provides a daily dose of what’s going on in the world of technology. Three things in AI to watch, according to a Nobel-winning…",
+      "link": "https://www.technologyreview.com/2026/05/12/1137103/the-download-nobel-winner-ai-maintenance-of-everything/",
+      "source": "MIT科技评论",
+      "date": "Tue, 12 May 2026 12:10:00 +0000",
+      "hotScore": 65,
+      "models": [],
+      "image": "https://wp.technologyreview.com/wp-content/uploads/2026/05/SoundofDataFinal1f-V-edited.jpeg"
     },
     {
       "title": "Thinking Machines wants to build an AI that actually listens while it talks",
@@ -390,7 +407,7 @@
       "link": "https://techcrunch.com/2026/05/11/thinking-machines-wants-to-build-an-ai-that-actually-listens-while-it-talks/",
       "source": "TechCrunch",
       "date": "Tue, 12 May 2026 04:52:35 +0000",
-      "hotScore": 63,
+      "hotScore": 61,
       "models": [],
       "image": "https://techcrunch.com/wp-content/uploads/2026/05/GettyImages-2271655163.jpg?resize=1200,879"
     },
@@ -400,7 +417,7 @@
       "link": "https://techcrunch.com/2026/05/11/gm-just-laid-off-hundreds-of-it-workers-to-hire-those-with-stronger-ai-skills/",
       "source": "TechCrunch",
       "date": "Mon, 11 May 2026 23:04:10 +0000",
-      "hotScore": 61,
+      "hotScore": 59,
       "models": [],
       "image": "https://techcrunch.com/wp-content/uploads/2026/05/gm-headquarters-getty.jpg?resize=1200,800"
     },
@@ -410,7 +427,7 @@
       "link": "https://techcrunch.com/2026/05/11/riding-an-ai-rally-robinhood-preps-second-retail-venture-ipo/",
       "source": "TechCrunch",
       "date": "Tue, 12 May 2026 00:09:01 +0000",
-      "hotScore": 59,
+      "hotScore": 57,
       "models": [],
       "image": "https://techcrunch.com/wp-content/uploads/2026/05/vlad-tenev-robinhood-GettyImages-2272038864.jpg?w=1024"
     },
@@ -420,19 +437,9 @@
       "link": "https://techcrunch.com/2026/05/11/digg-tries-again-this-time-as-an-ai-news-aggregator/",
       "source": "TechCrunch",
       "date": "Mon, 11 May 2026 17:02:35 +0000",
-      "hotScore": 56,
-      "models": [],
-      "image": "https://techcrunch.com/wp-content/uploads/2026/05/digg-ver2-at-10.40.29-AM.jpg?resize=1200,888"
-    },
-    {
-      "title": "做AI漫剧的、搞Agent的、投硅谷的，5.20这些赛道顶流碰头了｜最新嘉宾阵容",
-      "summary": "5月20日，马上AI起来！",
-      "link": "https://www.qbitai.com/2026/05/415263.html",
-      "source": "量子位",
-      "date": "Mon, 11 May 2026 10:18:49 +0000",
       "hotScore": 54,
       "models": [],
-      "image": "https://www.qbitai.com/wp-content/uploads/imgs/qbitai-logo-1.png"
+      "image": "https://techcrunch.com/wp-content/uploads/2026/05/digg-ver2-at-10.40.29-AM.jpg?resize=1200,888"
     },
     {
       "title": "Three things in AI to watch, according to a Nobel-winning economist",
@@ -440,19 +447,9 @@
       "link": "https://www.technologyreview.com/2026/05/11/1137090/three-things-in-ai-to-watch-according-to-a-nobel-winning-economist/",
       "source": "MIT科技评论",
       "date": "Mon, 11 May 2026 17:35:12 +0000",
-      "hotScore": 51,
+      "hotScore": 49,
       "models": [],
       "image": "https://wp.technologyreview.com/wp-content/uploads/2026/05/260507_algo2.jpg?resize=1200,600"
-    },
-    {
-      "title": "The Download: the hantavirus outbreak and Musk v. Altman week 2",
-      "summary": "This is today’s edition of The Download, our weekday newsletter that provides a daily dose of what’s going on in the world of technology. Here’s what you need to know about the cruise ship hantavirus…",
-      "link": "https://www.technologyreview.com/2026/05/11/1137031/the-download-hantavirus-outbreak-musk-altman-trial/",
-      "source": "MIT科技评论",
-      "date": "Mon, 11 May 2026 12:10:00 +0000",
-      "hotScore": 51,
-      "models": [],
-      "image": "https://wp.technologyreview.com/wp-content/uploads/2023/10/ND23-space-01b.jpg?w=3000"
     },
     {
       "title": "Implementing advanced AI technologies in finance",
@@ -460,7 +457,7 @@
       "link": "https://www.technologyreview.com/2026/05/11/1136786/implementing-advanced-ai-technologies-in-finance/",
       "source": "MIT科技评论",
       "date": "Mon, 11 May 2026 13:00:00 +0000",
-      "hotScore": 50,
+      "hotScore": 48,
       "models": [],
       "image": "https://wp.technologyreview.com/wp-content/uploads/2026/05/NetSuite-social-card.png"
     },
@@ -470,7 +467,7 @@
       "link": "https://techcrunch.com/2026/05/11/there-arent-enough-rockets-for-space-data-centers-cowboy-space-raised-275-million-to-build-them/",
       "source": "TechCrunch",
       "date": "Mon, 11 May 2026 13:00:00 +0000",
-      "hotScore": 49,
+      "hotScore": 47,
       "models": [],
       "image": "https://techcrunch.com/wp-content/uploads/2026/05/Cowbow-Space-Company-photo.jpeg?resize=1200,960"
     },
@@ -480,21 +477,41 @@
       "link": "https://www.technologyreview.com/2026/05/11/1136967/fostering-breakthrough-ai-innovation-through-customer-back-engineering/",
       "source": "MIT科技评论",
       "date": "Mon, 11 May 2026 13:33:06 +0000",
-      "hotScore": 48,
+      "hotScore": 46,
       "models": [],
       "image": "https://wp.technologyreview.com/wp-content/uploads/2026/05/Capital-One-iStock-2208464815.jpg?w=1943"
     }
   ],
   "weekly": [
     {
+      "title": "360发布OpenClaw生态安全报告：AI智能体风险进入自动化审计阶段",
+      "summary": "累计发现23个独立安全漏洞",
+      "link": "https://www.qbitai.com/2026/05/416582.html",
+      "source": "量子位",
+      "date": "Tue, 12 May 2026 09:35:29 +0000",
+      "hotScore": 71,
+      "models": [],
+      "image": "https://www.qbitai.com/wp-content/uploads/imgs/qbitai-logo-1.png"
+    },
+    {
       "title": "AI第一金主黄仁勋：日均花掉20亿",
       "summary": "“AI御三家”都投了",
       "link": "https://www.qbitai.com/2026/05/416540.html",
       "source": "量子位",
       "date": "Tue, 12 May 2026 08:03:52 +0000",
-      "hotScore": 73,
+      "hotScore": 71,
       "models": [],
       "image": "https://www.qbitai.com/wp-content/uploads/imgs/qbitai-logo-1.png"
+    },
+    {
+      "title": "AI voice startup Vapi hits $500M valuation after winning Amazon Ring over 40 rivals",
+      "summary": "Vapi says its enterprise business has grown 10-fold since early 2025 as companies shift customer support and sales calls to AI agents.",
+      "link": "https://techcrunch.com/2026/05/12/vapi-hits-500m-valuation-as-amazon-ring-chose-its-ai-platform-over-40-rivals/",
+      "source": "TechCrunch",
+      "date": "Tue, 12 May 2026 11:30:00 +0000",
+      "hotScore": 69,
+      "models": [],
+      "image": "https://techcrunch.com/wp-content/uploads/2026/05/vapi-founders-jordan-dearsley-nikhil-gupta.jpg?resize=1200,800"
     },
     {
       "title": "OpenClaw低调更新重磅版本，龙虾长手长脚了",
@@ -502,7 +519,7 @@
       "link": "https://www.qbitai.com/2026/05/416034.html",
       "source": "量子位",
       "date": "Tue, 12 May 2026 04:02:50 +0000",
-      "hotScore": 69,
+      "hotScore": 67,
       "models": [],
       "image": "https://www.qbitai.com/wp-content/uploads/imgs/qbitai-logo-1.png"
     },
@@ -512,9 +529,19 @@
       "link": "https://www.qbitai.com/2026/05/416056.html",
       "source": "量子位",
       "date": "Tue, 12 May 2026 06:06:38 +0000",
-      "hotScore": 68,
+      "hotScore": 66,
       "models": [],
       "image": "https://www.qbitai.com/wp-content/uploads/imgs/qbitai-logo-1.png"
+    },
+    {
+      "title": "The Download: a Nobel winner on AI, and the case for fixing everything",
+      "summary": "This is today’s edition of The Download, our weekday newsletter that provides a daily dose of what’s going on in the world of technology. Three things in AI to watch, according to a Nobel-winning…",
+      "link": "https://www.technologyreview.com/2026/05/12/1137103/the-download-nobel-winner-ai-maintenance-of-everything/",
+      "source": "MIT科技评论",
+      "date": "Tue, 12 May 2026 12:10:00 +0000",
+      "hotScore": 65,
+      "models": [],
+      "image": "https://wp.technologyreview.com/wp-content/uploads/2026/05/SoundofDataFinal1f-V-edited.jpeg"
     },
     {
       "title": "Thinking Machines wants to build an AI that actually listens while it talks",
@@ -522,7 +549,7 @@
       "link": "https://techcrunch.com/2026/05/11/thinking-machines-wants-to-build-an-ai-that-actually-listens-while-it-talks/",
       "source": "TechCrunch",
       "date": "Tue, 12 May 2026 04:52:35 +0000",
-      "hotScore": 63,
+      "hotScore": 61,
       "models": [],
       "image": "https://techcrunch.com/wp-content/uploads/2026/05/GettyImages-2271655163.jpg?resize=1200,879"
     },
@@ -532,7 +559,7 @@
       "link": "https://techcrunch.com/2026/05/11/gm-just-laid-off-hundreds-of-it-workers-to-hire-those-with-stronger-ai-skills/",
       "source": "TechCrunch",
       "date": "Mon, 11 May 2026 23:04:10 +0000",
-      "hotScore": 61,
+      "hotScore": 59,
       "models": [],
       "image": "https://techcrunch.com/wp-content/uploads/2026/05/gm-headquarters-getty.jpg?resize=1200,800"
     },
@@ -542,19 +569,9 @@
       "link": "https://techcrunch.com/2026/05/11/riding-an-ai-rally-robinhood-preps-second-retail-venture-ipo/",
       "source": "TechCrunch",
       "date": "Tue, 12 May 2026 00:09:01 +0000",
-      "hotScore": 59,
+      "hotScore": 57,
       "models": [],
       "image": "https://techcrunch.com/wp-content/uploads/2026/05/vlad-tenev-robinhood-GettyImages-2272038864.jpg?w=1024"
-    },
-    {
-      "title": "OpenAI砸200亿美元买单，英伟达挑战者冲刺350亿美元估值IPO",
-      "summary": "Cerebras预计本周公布定价",
-      "link": "https://www.qbitai.com/2026/05/415714.html",
-      "source": "量子位",
-      "date": "Mon, 11 May 2026 07:37:05 +0000",
-      "hotScore": 59,
-      "models": [],
-      "image": "https://www.qbitai.com/wp-content/uploads/imgs/qbitai-logo-1.png"
     },
     {
       "title": "Digg tries again, this time as an AI news aggregator",
@@ -562,7 +579,7 @@
       "link": "https://techcrunch.com/2026/05/11/digg-tries-again-this-time-as-an-ai-news-aggregator/",
       "source": "TechCrunch",
       "date": "Mon, 11 May 2026 17:02:35 +0000",
-      "hotScore": 56,
+      "hotScore": 54,
       "models": [],
       "image": "https://techcrunch.com/wp-content/uploads/2026/05/digg-ver2-at-10.40.29-AM.jpg?resize=1200,888"
     },
@@ -572,17 +589,7 @@
       "link": "https://www.qbitai.com/2026/05/415263.html",
       "source": "量子位",
       "date": "Mon, 11 May 2026 10:18:49 +0000",
-      "hotScore": 54,
-      "models": [],
-      "image": "https://www.qbitai.com/wp-content/uploads/imgs/qbitai-logo-1.png"
-    },
-    {
-      "title": "黄仁勋喊话毕业生：AI不会取代你，但善用AI的人会",
-      "summary": "自曝创业至暗时刻，飞日本求世嘉CEO救命",
-      "link": "https://www.qbitai.com/2026/05/415403.html",
-      "source": "量子位",
-      "date": "Mon, 11 May 2026 06:32:05 +0000",
-      "hotScore": 54,
+      "hotScore": 53,
       "models": [],
       "image": "https://www.qbitai.com/wp-content/uploads/imgs/qbitai-logo-1.png"
     },
@@ -592,7 +599,7 @@
       "link": "https://www.qbitai.com/2026/05/415810.html",
       "source": "量子位",
       "date": "Mon, 11 May 2026 07:57:03 +0000",
-      "hotScore": 53,
+      "hotScore": 52,
       "models": [],
       "image": "https://www.qbitai.com/wp-content/uploads/imgs/qbitai-logo-1.png"
     },
@@ -602,7 +609,7 @@
       "link": "https://www.technologyreview.com/2026/05/11/1137090/three-things-in-ai-to-watch-according-to-a-nobel-winning-economist/",
       "source": "MIT科技评论",
       "date": "Mon, 11 May 2026 17:35:12 +0000",
-      "hotScore": 51,
+      "hotScore": 49,
       "models": [],
       "image": "https://wp.technologyreview.com/wp-content/uploads/2026/05/260507_algo2.jpg?resize=1200,600"
     },
@@ -612,19 +619,9 @@
       "link": "https://www.technologyreview.com/2026/05/11/1137031/the-download-hantavirus-outbreak-musk-altman-trial/",
       "source": "MIT科技评论",
       "date": "Mon, 11 May 2026 12:10:00 +0000",
-      "hotScore": 51,
+      "hotScore": 49,
       "models": [],
       "image": "https://wp.technologyreview.com/wp-content/uploads/2023/10/ND23-space-01b.jpg?w=3000"
-    },
-    {
-      "title": "Implementing advanced AI technologies in finance",
-      "summary": "In finance departments that have long been defined by precision and control, AI has arrived less as a neatly managed upgrade than as a quiet insurgency. Employees are already using it while…",
-      "link": "https://www.technologyreview.com/2026/05/11/1136786/implementing-advanced-ai-technologies-in-finance/",
-      "source": "MIT科技评论",
-      "date": "Mon, 11 May 2026 13:00:00 +0000",
-      "hotScore": 50,
-      "models": [],
-      "image": "https://wp.technologyreview.com/wp-content/uploads/2026/05/NetSuite-social-card.png"
     },
     {
       "title": "硅谷刷屏的AI护城河新论：代码能抄，产品能抄，但有一样东西，谁都抄不走",
@@ -632,9 +629,19 @@
       "link": "https://www.qbitai.com/2026/05/415842.html",
       "source": "量子位",
       "date": "Mon, 11 May 2026 08:31:05 +0000",
-      "hotScore": 50,
+      "hotScore": 49,
       "models": [],
       "image": "https://www.qbitai.com/wp-content/uploads/imgs/qbitai-logo-1.png"
+    },
+    {
+      "title": "Implementing advanced AI technologies in finance",
+      "summary": "In finance departments that have long been defined by precision and control, AI has arrived less as a neatly managed upgrade than as a quiet insurgency. Employees are already using it while…",
+      "link": "https://www.technologyreview.com/2026/05/11/1136786/implementing-advanced-ai-technologies-in-finance/",
+      "source": "MIT科技评论",
+      "date": "Mon, 11 May 2026 13:00:00 +0000",
+      "hotScore": 48,
+      "models": [],
+      "image": "https://wp.technologyreview.com/wp-content/uploads/2026/05/NetSuite-social-card.png"
     },
     {
       "title": "There aren’t enough rockets for space data centers — Cowboy Space raised $275M to build them",
@@ -642,19 +649,9 @@
       "link": "https://techcrunch.com/2026/05/11/there-arent-enough-rockets-for-space-data-centers-cowboy-space-raised-275-million-to-build-them/",
       "source": "TechCrunch",
       "date": "Mon, 11 May 2026 13:00:00 +0000",
-      "hotScore": 49,
+      "hotScore": 47,
       "models": [],
       "image": "https://techcrunch.com/wp-content/uploads/2026/05/Cowbow-Space-Company-photo.jpeg?resize=1200,960"
-    },
-    {
-      "title": "Fostering breakthrough AI innovation through customer-back engineering",
-      "summary": "Despite years of digitization, organizations capture less than one-third of the value expected from digital investments, according to McKinsey research. That’s because most big companies begin with…",
-      "link": "https://www.technologyreview.com/2026/05/11/1136967/fostering-breakthrough-ai-innovation-through-customer-back-engineering/",
-      "source": "MIT科技评论",
-      "date": "Mon, 11 May 2026 13:33:06 +0000",
-      "hotScore": 48,
-      "models": [],
-      "image": "https://wp.technologyreview.com/wp-content/uploads/2026/05/Capital-One-iStock-2208464815.jpg?w=1943"
     },
     {
       "title": "We’re feeling cynical about xAI’s big deal with Anthropic",
@@ -662,7 +659,7 @@
       "link": "https://techcrunch.com/2026/05/10/were-feeling-cynical-about-xais-big-deal-with-anthropic/",
       "source": "TechCrunch",
       "date": "Sun, 10 May 2026 15:34:25 +0000",
-      "hotScore": 48,
+      "hotScore": 47,
       "models": [
         "Claude",
         "Grok"
@@ -670,12 +667,22 @@
       "image": "https://techcrunch.com/wp-content/uploads/2025/06/GettyImages-2217198328.jpeg?resize=1200,800"
     },
     {
+      "title": "Fostering breakthrough AI innovation through customer-back engineering",
+      "summary": "Despite years of digitization, organizations capture less than one-third of the value expected from digital investments, according to McKinsey research. That’s because most big companies begin with…",
+      "link": "https://www.technologyreview.com/2026/05/11/1136967/fostering-breakthrough-ai-innovation-through-customer-back-engineering/",
+      "source": "MIT科技评论",
+      "date": "Mon, 11 May 2026 13:33:06 +0000",
+      "hotScore": 46,
+      "models": [],
+      "image": "https://wp.technologyreview.com/wp-content/uploads/2026/05/Capital-One-iStock-2208464815.jpg?w=1943"
+    },
+    {
       "title": "Anthropic says ‘evil’ portrayals of AI were responsible for Claude’s blackmail attempts",
       "summary": "Fictional portrayals of artificial intelligence can have a real effect on AI models, according to Anthropic.",
       "link": "https://techcrunch.com/2026/05/10/anthropic-says-evil-portrayals-of-ai-were-responsible-for-claudes-blackmail-attempts/",
       "source": "TechCrunch",
       "date": "Sun, 10 May 2026 20:40:41 +0000",
-      "hotScore": 47,
+      "hotScore": 46,
       "models": [
         "Claude"
       ],
@@ -687,7 +694,7 @@
       "link": "https://techcrunch.com/2026/05/10/get-ready-for-the-whisper-filled-office-of-the-future/",
       "source": "TechCrunch",
       "date": "Sun, 10 May 2026 21:15:30 +0000",
-      "hotScore": 45,
+      "hotScore": 44,
       "models": [],
       "image": "https://techcrunch.com/wp-content/uploads/2022/12/GettyImages-84164497.jpg?resize=1200,798"
     },
@@ -709,7 +716,7 @@
       "link": "https://techcrunch.com/2026/05/09/voice-ai-in-india-is-hard-wispr-flow-is-betting-on-it-anyway/",
       "source": "TechCrunch",
       "date": "Sun, 10 May 2026 02:00:00 +0000",
-      "hotScore": 34,
+      "hotScore": 33,
       "models": [],
       "image": "https://techcrunch.com/wp-content/uploads/2026/05/wispr-flow-india-image.jpg?resize=1200,800"
     },
@@ -719,22 +726,9 @@
       "link": "https://techcrunch.com/2026/05/09/nvidia-has-already-committed-40b-to-equity-ai-deals-this-year/",
       "source": "TechCrunch",
       "date": "Sat, 09 May 2026 14:43:30 +0000",
-      "hotScore": 33,
+      "hotScore": 32,
       "models": [],
       "image": "https://techcrunch.com/wp-content/uploads/2026/03/GettyImages-2266475966.jpg?w=1024"
-    },
-    {
-      "title": "OpenAI introduces new ‘Trusted Contact’ safeguard for cases of possible self-harm",
-      "summary": "The company is expanding its efforts to protect ChatGPT users in cases where conversations may turn to self-harm.",
-      "link": "https://techcrunch.com/2026/05/07/openai-introduces-new-trusted-contact-safeguard-for-cases-of-possible-self-harm/",
-      "source": "TechCrunch",
-      "date": "Thu, 07 May 2026 20:20:20 +0000",
-      "hotScore": 33,
-      "models": [
-        "GPT",
-        "ChatGPT"
-      ],
-      "image": "https://techcrunch.com/wp-content/uploads/2025/02/GettyImages-2195918462.jpg?w=1024"
     },
     {
       "title": "So you’ve heard these AI terms and nodded along; let’s fix that",
@@ -742,7 +736,7 @@
       "link": "https://techcrunch.com/2026/05/09/artificial-intelligence-definition-glossary-hallucinations-guide-to-common-ai-terms/",
       "source": "TechCrunch",
       "date": "Sat, 09 May 2026 21:45:00 +0000",
-      "hotScore": 32,
+      "hotScore": 31,
       "models": [],
       "image": "https://techcrunch.com/wp-content/uploads/2025/03/GettyImages-ai-generated-eb728837-4a65-4ce4-b814-abd0c140d20c.jpg?w=1024"
     },
@@ -777,16 +771,6 @@
       "image": "https://techcrunch.com/wp-content/uploads/2022/06/GettyImages-528022874.jpg?w=1024"
     },
     {
-      "title": "The Download: AI malaise and babymaking tech",
-      "summary": "This is today’s edition of The Download, our weekday newsletter that provides a daily dose of what’s going on in the world of technology. We’ve entered the era of AI malaise AI is spreading…",
-      "link": "https://www.technologyreview.com/2026/05/08/1136985/the-download-ai-malaise-babymaking-ivf-tech/",
-      "source": "MIT科技评论",
-      "date": "Fri, 08 May 2026 12:10:00 +0000",
-      "hotScore": 26,
-      "models": [],
-      "image": "https://wp.technologyreview.com/wp-content/uploads/2024/04/5.-Hanusik-thumb.jpg?w=3000"
-    },
-    {
       "title": "Cloudflare says AI made 1,100 jobs obsolete, even as revenue hit a record high",
       "summary": "Cloudflare announced its first large-scale layoff. CEO Matthew Prince says because of AI efficiency gains, the company doesn't need as many support roles.",
       "link": "https://techcrunch.com/2026/05/08/cloudflare-says-ai-made-1100-jobs-obsolete-even-as-revenue-hit-a-record-high/",
@@ -795,6 +779,16 @@
       "hotScore": 25,
       "models": [],
       "image": "https://techcrunch.com/wp-content/uploads/2019/12/Matthew-Prince-CloudflareDSC00252.jpg?resize=1200,800"
+    },
+    {
+      "title": "The Download: AI malaise and babymaking tech",
+      "summary": "This is today’s edition of The Download, our weekday newsletter that provides a daily dose of what’s going on in the world of technology. We’ve entered the era of AI malaise AI is spreading…",
+      "link": "https://www.technologyreview.com/2026/05/08/1136985/the-download-ai-malaise-babymaking-ivf-tech/",
+      "source": "MIT科技评论",
+      "date": "Fri, 08 May 2026 12:10:00 +0000",
+      "hotScore": 25,
+      "models": [],
+      "image": "https://wp.technologyreview.com/wp-content/uploads/2024/04/5.-Hanusik-thumb.jpg?w=3000"
     },
     {
       "title": "The fax machine is the bottleneck in US healthcare, and VCs are starting to notice",
@@ -825,16 +819,6 @@
       "hotScore": 23,
       "models": [],
       "image": "https://techcrunch.com/wp-content/uploads/2026/05/Pit-team-2.-Photo-by-Hugo-Thambert.jpg?resize=1200,800"
-    },
-    {
-      "title": "The Download: the tech reshaping IVF and the rise of balcony solar",
-      "summary": "This is today’s edition of The Download, our weekday newsletter that provides a daily dose of what’s going on in the world of technology. What’s next for IVF IVF has brought millions of babies into…",
-      "link": "https://www.technologyreview.com/2026/05/07/1136956/the-download-ivf-tech-balcony-solar/",
-      "source": "MIT科技评论",
-      "date": "Thu, 07 May 2026 12:10:00 +0000",
-      "hotScore": 20,
-      "models": [],
-      "image": "https://wp.technologyreview.com/wp-content/uploads/2026/05/RYCJ4H-edited.webp"
     }
   ],
   "models": [
@@ -844,7 +828,7 @@
       "link": "https://techcrunch.com/2026/05/10/were-feeling-cynical-about-xais-big-deal-with-anthropic/",
       "source": "TechCrunch",
       "date": "Sun, 10 May 2026 15:34:25 +0000",
-      "hotScore": 48,
+      "hotScore": 47,
       "models": [
         "Claude",
         "Grok"
@@ -857,7 +841,7 @@
       "link": "https://techcrunch.com/2026/05/10/anthropic-says-evil-portrayals-of-ai-were-responsible-for-claudes-blackmail-attempts/",
       "source": "TechCrunch",
       "date": "Sun, 10 May 2026 20:40:41 +0000",
-      "hotScore": 47,
+      "hotScore": 46,
       "models": [
         "Claude"
       ],
@@ -874,19 +858,6 @@
         "Claude"
       ],
       "image": "https://techcrunch.com/wp-content/uploads/2025/08/Claude-Chrome-Ext_email-hero-hero.png?w=1200"
-    },
-    {
-      "title": "OpenAI introduces new ‘Trusted Contact’ safeguard for cases of possible self-harm",
-      "summary": "The company is expanding its efforts to protect ChatGPT users in cases where conversations may turn to self-harm.",
-      "link": "https://techcrunch.com/2026/05/07/openai-introduces-new-trusted-contact-safeguard-for-cases-of-possible-self-harm/",
-      "source": "TechCrunch",
-      "date": "Thu, 07 May 2026 20:20:20 +0000",
-      "hotScore": 33,
-      "models": [
-        "GPT",
-        "ChatGPT"
-      ],
-      "image": "https://techcrunch.com/wp-content/uploads/2025/02/GettyImages-2195918462.jpg?w=1024"
     }
   ]
 }

@@ -215,60 +215,56 @@ async function fetchFeed(source) {
   }
 }
 
-// ======= BILIBILI (热门榜 + AI精选过滤) =======
+// ======= BILIBILI (热门榜大量爬取 + AI精准筛选) =======
 async function fetchBilibili() {
-  console.log("  获取B站AI相关视频（近一周热门）…");
+  console.log("  获取B站AI相关视频(热门榜×10页)…");
   const allVideos = [];
   const seen = new Set();
+  const headers = {
+    "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36",
+    "Referer": "https://www.bilibili.com/c/ai/",
+    "Accept-Language": "zh-CN,zh;q=0.9",
+  };
 
-  // 从热门榜爬取，用AI标签精准筛选
-  for (let page = 1; page <= 7; page++) {
+  for (let page = 1; page <= 10; page++) {
     try {
       const url = `https://api.bilibili.com/x/web-interface/popular?ps=50&pn=${page}`;
-      const res = await fetch(url, {
-        headers: { "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64)", "Referer": "https://www.bilibili.com" },
-        signal: AbortSignal.timeout(15000),
-      });
+      const res = await fetch(url, { headers, signal: AbortSignal.timeout(15000) });
       const data = await res.json();
       if (data.code !== 0 || !data.data?.list) continue;
 
       for (const v of data.data.list) {
         if (seen.has(v.aid)) continue;
+        seen.add(v.aid);
+
         const title = (v.title || ""), desc = (v.desc || "").slice(0, 200);
         const text = (title + " " + desc).toLowerCase();
 
-        // 核心AI关键词（必须匹配至少一个）
-        const aiCore = ["ai", "人工智能", "大模型", "gpt", "openai", "deepseek", "chatgpt",
-          "机器学习", "深度学习", "智能体", "agent", "英伟达", "nvidia", "claude", "gemini",
-          "llm", "神经网络", "ai工具", "ai开发", "ai编程", "ai融资", "ai芯片",
-          "模型训练", "具身智能", "ai行业", "机器人.*ai", "自动驾驶", "智能驾驶"];
-        if (!aiCore.some(t => new RegExp(t, "i").test(text))) continue;
+        // 严格AI匹配
+        const aiMatch = ["人工智能", "大模型", "gpt", "openai", "deepseek", "chatgpt", "claude",
+          "gemini", "llm", "ai工具", "ai开发", "ai编程", "ai融资", "ai芯片", "模型训练",
+          "具身智能", "智能体", "agent", "ai行业", "机器人", "自动驾驶", "英伟达", "nvidia",
+          "机器学习", "深度学习", "ai搜索", "ai视频", "ai绘画", "ai写作"];
+        if (!aiMatch.some(t => text.includes(t))) continue;
 
-        // 排除非AI娱乐内容
-        const exclude = /漫剧|鬼畜|翻唱|恶仙|哆啦|瓜梦|游戏实况|kpop|饭拍|直拍|舞蹈版|应援|生日|节日|瓜有引力|奶龙|捧腹|手书|鸡煲|aespa|nmixx|dohoon|hueningkai/i;
-        if (exclude.test(text)) continue;
-        if (["搞笑","鬼畜","娱乐","音乐","舞蹈","生活","美食","时尚","动物","影视","综艺"].includes(v.tname)) continue;
+        // 排除非AI
+        if (/漫剧|鬼畜|翻唱|恶仙|瓜梦|游戏实况|kpop|饭拍|直拍|舞蹈|应援|生日|节日|妈妈.*快乐|扫地|驾控/i.test(text)) continue;
+        if (["搞笑","鬼畜","娱乐","音乐","舞蹈","生活","美食","时尚","动物","汽车","居家","运动"].includes(v.tname)) continue;
 
-        // 检查时效性（最近7天）
+        // 近两周
         const age = (Date.now()/1000) - (v.pubdate || 0);
-        if (age > 7 * 86400) continue;
+        if (age > 14 * 86400) continue;
 
-        seen.add(v.aid);
         allVideos.push({
-          id: "hot_" + v.aid,
-          title,
-          desc: desc.slice(0, 120),
+          id: "hot_" + v.aid, title, desc: desc.slice(0, 120),
           link: v.short_link_v2 || `https://www.bilibili.com/video/${v.bvid}`,
-          image: v.pic || "",
-          author: v.owner?.name || "",
-          views: v.stat?.view || 0,
-          platform: "B站",
-          type: "video",
+          image: v.pic || "", author: v.owner?.name || "",
+          views: v.stat?.view || 0, platform: "B站", type: "video",
         });
       }
       await delay(200);
     } catch (e) {
-      console.error(`    B站 p${page} 失败: ${e.message}`);
+      console.error(`    B站p${page}失败: ${e.message}`);
     }
   }
 
