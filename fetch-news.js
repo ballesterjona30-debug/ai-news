@@ -368,6 +368,12 @@ async function main() {
   filtered.sort((a, b) => new Date(b.date) - new Date(a.date));
   const latest = filtered.slice(0, 50);
 
+  // 翻译前先匹配模型关键词（英文原文）
+  console.log("\n模型标签匹配(原文)…");
+  for (const item of latest) {
+    item.models = matchModels(item.title, item.summary);
+  }
+
   // 翻译
   console.log("\n翻译(Google via proxy)…");
   for (let i = 0; i < latest.length; i++) {
@@ -377,6 +383,15 @@ async function main() {
       if (i % 5 === 0) console.log(`  翻译 [${i+1}/${latest.length}]…`);
       await delay(300);
     }
+  }
+
+  // 翻译后再匹配一次（中文关键词）
+  console.log("\n模型标签补充(译文)…");
+  for (const item of latest) {
+    const extraModels = matchModels(item.title, item.summary);
+    // 合并去重
+    const combined = new Set([...(item.models || []), ...extraModels]);
+    item.models = [...combined];
   }
 
   // 为没有图片的文章抓取 og:image
@@ -392,10 +407,9 @@ async function main() {
   console.log(`  为 ${imgFetched} 篇文章补了图片`);
 
   // 热度 + 模型
-  console.log("\n计算热度 & 模型标签…");
+  console.log("\n计算热度…");
   for (const item of latest) {
     item.hotScore = calcHotScore(item.title, item.summary, item.weight || 1, item.date);
-    item.models = matchModels(item.title, item.summary);
   }
 
   const now = Date.now();
