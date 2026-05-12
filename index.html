@@ -308,6 +308,10 @@
       el.innerHTML = items.map((item,i)=>makeCard(item,showRank?i:null)).join("");
     }
     function renderContentList(el, items) {
+      if (cSub==="x" && (!items||!items.length)) {
+        el.innerHTML='<div class="empty" style="padding:40px 20px"><div style="font-size:40px;margin-bottom:12px">🐦</div><div style="font-weight:600;margin-bottom:6px">X 内容暂不可用</div><div style="font-size:11px;color:#999">Nitter 实例当前无法访问<br>如需获取 X 内容，请设置 X API Bearer Token<br>详见 fetch-news.js 中的 X_BEARER_TOKEN</div></div>';
+        return;
+      }
       if (!items||!items.length) { el.innerHTML='<div class="empty">暂无内容，尝试更多数据源中...</div>'; return; }
       el.innerHTML = items.map(makeVideoCard).join("");
     }

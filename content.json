@@ -1,5 +1,5 @@
 {
-  "updated": "2026-05-12T13:35:10.685Z",
+  "updated": "2026-05-12T16:00:45.817Z",
   "bilibili": [
     {
       "id": "hot_116559624278509",
@@ -8,29 +8,7 @@
       "link": "https://b23.tv/BV12M5K6wEdp",
       "image": "http://i0.hdslb.com/bfs/archive/b2d02635891d6b8e534ab21749b469cdcff720ef.jpg",
       "author": "Unitree宇树科技",
-      "views": 1515623,
-      "platform": "B站",
-      "type": "video"
-    },
-    {
-      "id": "hot_116548433944460",
-      "title": "【硬核解析】阻止Ai叛乱，反被狂删邮件？Meta女高管的遭遇并不是一场意外。",
-      "desc": "一位做了10年AI安全的专家，开发出了预防核弹的检测工具，却差点被AI“清空人生”。这不是bug，而是AI算出来的“最优解”。更离谱的是，市面上几乎所有Ai Agent都存在类似的问题。有没有一条路，能让AI既有脑子、又不乱来？这期视频，我",
-      "link": "https://b23.tv/BV1Qo5j6uEQi",
-      "image": "http://i0.hdslb.com/bfs/archive/13902b41b9d827f33c2b806627d02bd021351792.jpg",
-      "author": "GenJi是真想教会你",
-      "views": 400029,
-      "platform": "B站",
-      "type": "video"
-    },
-    {
-      "id": "hot_116555379705466",
-      "title": "谁说舒适or操控只能二选一？我们绝不妥协！",
-      "desc": "为什么一定要上800V主动悬架？为什么要做完全体线控底盘？这套悬架和线控底盘，对L4自动驾驶来说究竟意味着什么？这期和老汤哥一起聊聊～",
-      "link": "https://b23.tv/BV1xN546RENi",
-      "image": "http://i1.hdslb.com/bfs/archive/e5365445686c17628e6bfe07ad6e26c7a1f14ead.jpg",
-      "author": "李想",
-      "views": 256330,
+      "views": 1894992,
       "platform": "B站",
       "type": "video"
     },
@@ -41,7 +19,7 @@
       "link": "https://b23.tv/BV1kX546QEjG",
       "image": "http://i0.hdslb.com/bfs/archive/ea066ef317e7400afb52f37e75a9544996e3157a.jpg",
       "author": "数字游牧人",
-      "views": 191115,
+      "views": 221212,
       "platform": "B站",
       "type": "video"
     },
@@ -52,20 +30,31 @@
       "link": "https://b23.tv/BV1YR5E6EE9o",
       "image": "http://i0.hdslb.com/bfs/archive/72e478e6353621d08b32d644a5e58378a68058e6.jpg",
       "author": "张小珺商业访谈录",
-      "views": 158071,
+      "views": 169370,
+      "platform": "B站",
+      "type": "video"
+    },
+    {
+      "id": "hot_116554557626514",
+      "title": "AI续写：《轻音少女》第三季大学篇（一）",
+      "desc": "各位久等了，最近几个月为了摆脱以往的制作流程，我也是沉淀了一下，尝试了其他各种AI模型。不得不说AI模型的发展速度出乎意料的快，一刻也没有为Sora2的停运哀悼，立刻投入使用的是Vidu、Seedance、Kling...相信未来AI视频创",
+      "link": "https://b23.tv/BV1tZ5W6QExi",
+      "image": "http://i2.hdslb.com/bfs/archive/0c6321ec4aa15ce70612e5427a3ffe08aa55a13b.jpg",
+      "author": "龙林yys",
+      "views": 133697,
       "platform": "B站",
       "type": "video"
     }
   ],
   "douyin": [
     {
-      "id": "dy_29bfa771-fddb-4c50-85bd-3030559778ad",
+      "id": "dy_d8898f4e-47cc-46cd-a9bb-bd829a53d831",
       "title": "🔥 把AI用到了最有意义的场合",
-      "desc": "抖音热搜 · 热度: 7655124",
-      "link": "https://www.douyin.com/search/%E6%8A%8AAI%E7%94%A8%E5%88%B0%E4%BA%86%E6%9C%80%E6%9C%89%E6%84%8F%E4%B9%89%E7%9A%84%E5%9C%BA%E5%90%88",
+      "desc": "抖音实时热搜 · 热度值: 7640744 · 点击搜索相关视频",
+      "link": "https://www.douyin.com/search/%E6%8A%8AAI%E7%94%A8%E5%88%B0%E4%BA%86%E6%9C%80%E6%9C%89%E6%84%8F%E4%B9%89%E7%9A%84%E5%9C%BA%E5%90%88?type=video",
       "image": "",
-      "author": "抖音热搜",
-      "views": 7655124,
+      "author": "抖音热搜榜",
+      "views": 7640744,
       "platform": "抖音",
       "type": "video"
     }
@@ -73,13 +62,13 @@
   "x": [],
   "all": [
     {
-      "id": "dy_29bfa771-fddb-4c50-85bd-3030559778ad",
+      "id": "dy_d8898f4e-47cc-46cd-a9bb-bd829a53d831",
       "title": "🔥 把AI用到了最有意义的场合",
-      "desc": "抖音热搜 · 热度: 7655124",
-      "link": "https://www.douyin.com/search/%E6%8A%8AAI%E7%94%A8%E5%88%B0%E4%BA%86%E6%9C%80%E6%9C%89%E6%84%8F%E4%B9%89%E7%9A%84%E5%9C%BA%E5%90%88",
+      "desc": "抖音实时热搜 · 热度值: 7640744 · 点击搜索相关视频",
+      "link": "https://www.douyin.com/search/%E6%8A%8AAI%E7%94%A8%E5%88%B0%E4%BA%86%E6%9C%80%E6%9C%89%E6%84%8F%E4%B9%89%E7%9A%84%E5%9C%BA%E5%90%88?type=video",
       "image": "",
-      "author": "抖音热搜",
-      "views": 7655124,
+      "author": "抖音热搜榜",
+      "views": 7640744,
       "platform": "抖音",
       "type": "video"
     },
@@ -90,29 +79,7 @@
       "link": "https://b23.tv/BV12M5K6wEdp",
       "image": "http://i0.hdslb.com/bfs/archive/b2d02635891d6b8e534ab21749b469cdcff720ef.jpg",
       "author": "Unitree宇树科技",
-      "views": 1515623,
-      "platform": "B站",
-      "type": "video"
-    },
-    {
-      "id": "hot_116548433944460",
-      "title": "【硬核解析】阻止Ai叛乱，反被狂删邮件？Meta女高管的遭遇并不是一场意外。",
-      "desc": "一位做了10年AI安全的专家，开发出了预防核弹的检测工具，却差点被AI“清空人生”。这不是bug，而是AI算出来的“最优解”。更离谱的是，市面上几乎所有Ai Agent都存在类似的问题。有没有一条路，能让AI既有脑子、又不乱来？这期视频，我",
-      "link": "https://b23.tv/BV1Qo5j6uEQi",
-      "image": "http://i0.hdslb.com/bfs/archive/13902b41b9d827f33c2b806627d02bd021351792.jpg",
-      "author": "GenJi是真想教会你",
-      "views": 400029,
-      "platform": "B站",
-      "type": "video"
-    },
-    {
-      "id": "hot_116555379705466",
-      "title": "谁说舒适or操控只能二选一？我们绝不妥协！",
-      "desc": "为什么一定要上800V主动悬架？为什么要做完全体线控底盘？这套悬架和线控底盘，对L4自动驾驶来说究竟意味着什么？这期和老汤哥一起聊聊～",
-      "link": "https://b23.tv/BV1xN546RENi",
-      "image": "http://i1.hdslb.com/bfs/archive/e5365445686c17628e6bfe07ad6e26c7a1f14ead.jpg",
-      "author": "李想",
-      "views": 256330,
+      "views": 1894992,
       "platform": "B站",
       "type": "video"
     },
@@ -123,7 +90,7 @@
       "link": "https://b23.tv/BV1kX546QEjG",
       "image": "http://i0.hdslb.com/bfs/archive/ea066ef317e7400afb52f37e75a9544996e3157a.jpg",
       "author": "数字游牧人",
-      "views": 191115,
+      "views": 221212,
       "platform": "B站",
       "type": "video"
     },
@@ -134,7 +101,18 @@
       "link": "https://b23.tv/BV1YR5E6EE9o",
       "image": "http://i0.hdslb.com/bfs/archive/72e478e6353621d08b32d644a5e58378a68058e6.jpg",
       "author": "张小珺商业访谈录",
-      "views": 158071,
+      "views": 169370,
+      "platform": "B站",
+      "type": "video"
+    },
+    {
+      "id": "hot_116554557626514",
+      "title": "AI续写：《轻音少女》第三季大学篇（一）",
+      "desc": "各位久等了，最近几个月为了摆脱以往的制作流程，我也是沉淀了一下，尝试了其他各种AI模型。不得不说AI模型的发展速度出乎意料的快，一刻也没有为Sora2的停运哀悼，立刻投入使用的是Vidu、Seedance、Kling...相信未来AI视频创",
+      "link": "https://b23.tv/BV1tZ5W6QExi",
+      "image": "http://i2.hdslb.com/bfs/archive/0c6321ec4aa15ce70612e5427a3ffe08aa55a13b.jpg",
+      "author": "龙林yys",
+      "views": 133697,
       "platform": "B站",
       "type": "video"
     }

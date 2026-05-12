@@ -284,12 +284,16 @@ async function fetchBilibili() {
   return allVideos;
 }
 
-// ======= DOUYIN =======
+// ======= DOUYIN (热搜 + 精细化) =======
 async function fetchDouyin() {
-  console.log("  尝试抖音…");
+  console.log("  获取抖音AI热搜…");
   const items = [];
+  // AI相关的热搜关键词
+  const aiTerms = ["ai", "人工智能", "gpt", "大模型", "openai", "deepseek", "机器人", "芯片",
+    "英伟达", "claude", "chatgpt", "gemini", "模型", "智能", "算力", "自动驾驶", "编程ai",
+    "ai工具", "ai绘画", "ai视频", "ai写作", "ai搜索", "ai编程", "aigc", "机器学习"];
   try {
-    const res = await fetch("https://www.douyin.com/aweme/v1/web/hot/search/list/?detail_list=1&count=15", {
+    const res = await fetch("https://www.douyin.com/aweme/v1/web/hot/search/list/?detail_list=1&count=30", {
       headers: { "User-Agent": "Mozilla/5.0 (iPhone; CPU iPhone OS 16_0 like Mac OS X)", "Referer": "https://www.douyin.com" },
       signal: AbortSignal.timeout(15000),
     });
@@ -297,57 +301,129 @@ async function fetchDouyin() {
     if (text.startsWith("{")) {
       const data = JSON.parse(text);
       for (const w of data?.data?.word_list || []) {
-        const title = w.word || "";
-        if (["ai", "人工智能", "gpt", "大模型", "openai", "deepseek", "机器人", "芯片", "英伟达"].some(k => title.toLowerCase().includes(k))) {
-          items.push({
-            id: "dy_" + crypto.randomUUID(),
-            title: "🔥 " + title,
-            desc: "抖音热搜 · 热度: " + (w.hot_value || "N/A"),
-            link: `https://www.douyin.com/search/${encodeURIComponent(title)}`,
-            image: "",
-            author: "抖音热搜",
-            views: w.hot_value || 0,
-            platform: "抖音",
-            type: "video",
-          });
-        }
+        const title = (w.word || "").trim();
+        if (!title) continue;
+        const lower = title.toLowerCase();
+        if (!aiTerms.some(t => lower.includes(t))) continue;
+        items.push({
+          id: "dy_" + crypto.randomUUID(),
+          title: "🔥 " + title,
+          desc: `抖音实时热搜 · 热度值: ${w.hot_value || "N/A"} · 点击搜索相关视频`,
+          link: `https://www.douyin.com/search/${encodeURIComponent(title)}?type=video`,
+          image: "",
+          author: "抖音热搜榜",
+          views: w.hot_value || 0,
+          platform: "抖音",
+          type: "video",
+        });
       }
     }
   } catch (e) {
     console.error("    抖音失败:", e.message);
   }
-  console.log(`  [OK] 抖音: ${items.length} 条`);
+  console.log(`  [OK] 抖音: ${items.length} 条热搜`);
   return items;
 }
 
-// ======= X =======
+// ======= X (Nitter RSS — limited availability) =======
+// Note: Nitter instances are often unreachable from CN proxies.
+// If you have an X API v2 Bearer Token, set X_BEARER_TOKEN in env and
+// uncomment the X_API_ACCOUNTS path below.
+const X_BEARER_TOKEN = process.env.X_BEARER_TOKEN || "";
+
+// Fetch RSS via proxy and parse with rss-parser
+async function fetchRSSViaProxy(url) {
+  try {
+    const res = await fetchWithProxy(url);
+    if (!res.ok) return null;
+    const xml = await res.text();
+    return await parser.parseString(xml);
+  } catch { return null; }
+}
+
 async function fetchX() {
   console.log("  尝试X…");
-  const items = [];
-  // Try multiple nitter instances
-  const instances = ["https://nitter.net", "https://nitter.poast.org", "https://nitter.privacydev.net"];
-  for (const instance of instances) {
-    try {
-      const feed = await parser.parseURL(`${instance}/search/rss?q=AI+artificial+intelligence`);
-      for (const item of (feed.items || []).slice(0, 15)) {
-        if (!item.title) continue;
-        items.push({
-          id: "x_" + crypto.randomUUID(),
-          title: item.title,
-          desc: summarize(item.contentSnippet || item.content || ""),
-          link: item.link || "",
-          image: "",
-          author: item.creator || "X",
-          views: 0,
-          platform: "X",
-          type: "post",
+
+  // --- Path A: X API v2 (if token available) ---
+  if (X_BEARER_TOKEN) {
+    console.log("    X API v2 mode…");
+    const accounts = [
+      "OpenAI", "AnthropicAI", "GoogleDeepMind", "DeepSeekAI",
+      "nvidia", "MistralAI", "Cohere", "sama", "ylecun",
+    ];
+    const items = [];
+    const seen = new Set();
+    for (const username of accounts) {
+      try {
+        const url = `https://api.x.com/2/tweets/search/recent?query=from:${username}&max_results=5&tweet.fields=created_at,public_metrics`;
+        const res = await fetchWithProxy(url, {
+          headers: { Authorization: `Bearer ${X_BEARER_TOKEN}` },
         });
-      }
-      if (items.length > 0) break; // got results, stop trying other instances
-    } catch {}
+        const data = await res.json();
+        for (const tw of data?.data || []) {
+          const key = tw.id;
+          if (seen.has(key)) continue;
+          seen.add(key);
+          items.push({
+            id: "x_" + tw.id,
+            title: tw.text.slice(0, 120),
+            desc: "",
+            link: `https://x.com/${username}/status/${tw.id}`,
+            image: "",
+            author: `@${username}`,
+            views: tw.public_metrics?.like_count || 0,
+            platform: "X",
+            type: "post",
+          });
+        }
+      } catch {}
+      await delay(300);
+    }
+    console.log(`  [OK] X: ${items.length} 条 (API)`);
+    return items;
   }
-  console.log(`  [OK] X: ${items.length} 条`);
-  return items;
+
+  // --- Path B: Nitter RSS (quick attempt) ---
+  console.log("    Nitter RSS模式…");
+  const items = [];
+  const seen = new Set();
+  const instances = [
+    "https://nitter.poast.org",
+    "https://xcancel.com",
+    "https://nitter.privacyredirect.com",
+  ];
+
+  // Try searching on first instance only (fast)
+  for (const instance of instances.slice(0, 2)) {
+    for (const q of ["AI", "OpenAI", "LLM"]) {
+      const feed = await fetchRSSViaProxy(`${instance}/search/rss?q=${encodeURIComponent(q)}`);
+      if (feed?.items) {
+        for (const item of feed.items.slice(0, 10)) {
+          const key = (item.title || "").slice(0, 60);
+          if (!seen.has(key)) {
+            seen.add(key);
+            items.push({
+              id: "x_" + crypto.randomUUID(),
+              title: item.title || "",
+              desc: summarize(item.contentSnippet || item.content || ""),
+              link: item.link || "",
+              image: "",
+              author: item.creator || "X",
+              views: 0,
+              platform: "X",
+              type: "post",
+            });
+          }
+        }
+      }
+      if (items.length >= 10) break;
+      await delay(300);
+    }
+    if (items.length >= 10) break;
+  }
+
+  console.log(`  [OK] X: ${items.length} 条${items.length === 0 ? ' (Nitter不可达,可设X_BEARER_TOKEN开启API模式)' : ''}`);
+  return items.slice(0, 15);
 }
 
 // ======= MAIN =======
