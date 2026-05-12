@@ -1,7 +1,13 @@
 const RssParser = require("rss-parser");
+const { HttpsProxyAgent } = require("https-proxy-agent");
 const fs = require("fs");
 const path = require("path");
 const crypto = require("crypto");
+
+// ======= CONFIG =======
+const PROXY = "http://127.0.0.1:33210";
+const proxyAgent = new HttpsProxyAgent(PROXY);
+const fetchWithProxy = (url, opts = {}) => fetch(url, { ...opts, agent: proxyAgent, signal: AbortSignal.timeout(15000) });
 
 const parser = new RssParser({
   timeout: 15000,
@@ -20,55 +26,42 @@ const SOURCES = [
 const AI_KEYWORDS = [
   "ai", "artificial intelligence", "machine learning", "deep learning", "llm",
   "gpt", "chatgpt", "openai", "anthropic", "claude", "gemini", "copilot",
-  "neural network", "transformer", "diffusion", "stable diffusion", "midjourney",
+  "neural network", "transformer", "diffusion", "stable diffusion",
   "robot", "automation", "autonomous", "chip", "gpu", "nvidia", "semiconductor",
-  "data center", "compute", "training", "inference", "fine-tun",
-  "generative", "agent", "agi", "embedding", "rag", "vector database",
+  "data center", "compute", "training", "inference",
+  "generative", "agent", "agi", "embedding", "rag",
   "人工智能", "大模型", "深度学习", "机器学习", "智能体",
   "openai", "谷歌", "微软", "meta", "英伟达", "算力", "芯片",
 ];
 
-// 全面模型关键词
 const MODEL_KEYWORDS = [
-  // OpenAI 系
-  { kw: "gpt", tag: "GPT" }, { kw: "chatgpt", tag: "ChatGPT" }, { kw: "openai o", tag: "OpenAI o系列" },
-  { kw: "sora", tag: "Sora" }, { kw: "dall-e", tag: "DALL-E" },
-  // Anthropic
+  { kw: "gpt", tag: "GPT" }, { kw: "chatgpt", tag: "ChatGPT" },
   { kw: "claude", tag: "Claude" }, { kw: "anthropic", tag: "Claude" },
-  // Google
   { kw: "gemini", tag: "Gemini" }, { kw: "deepmind", tag: "Gemini" },
-  { kw: "google bard", tag: "Gemini" }, { kw: "veo", tag: "Veo" }, { kw: "google ai", tag: "Google AI" },
-  // Meta
   { kw: "llama", tag: "Llama" }, { kw: "meta ai", tag: "Llama" },
-  // xAI
   { kw: "grok", tag: "Grok" }, { kw: "xai", tag: "Grok" },
-  // Mistral
   { kw: "mistral", tag: "Mistral" },
-  // 国内模型
   { kw: "deepseek", tag: "DeepSeek" }, { kw: "深度求索", tag: "DeepSeek" },
   { kw: "通义千问", tag: "通义千问" }, { kw: "qwen", tag: "Qwen" },
   { kw: "文心一言", tag: "文心一言" }, { kw: "ernie", tag: "文心一言" }, { kw: "百度文心", tag: "文心一言" },
   { kw: "kimi", tag: "Kimi" }, { kw: "月之暗面", tag: "Kimi" },
-  { kw: "豆包", tag: "豆包" }, { kw: "doubao", tag: "豆包" }, { kw: "字节ai", tag: "豆包" },
+  { kw: "豆包", tag: "豆包" }, { kw: "doubao", tag: "豆包" },
   { kw: "minimax", tag: "MiniMax" }, { kw: "海螺ai", tag: "MiniMax" },
   { kw: "智谱", tag: "智谱GLM" }, { kw: "chatglm", tag: "智谱GLM" }, { kw: "glm", tag: "智谱GLM" },
   { kw: "百川", tag: "百川" },
-  { kw: "零一万物", tag: "零一万物" }, { kw: "yi-", tag: "零一万物" },
-  { kw: "讯飞星火", tag: "讯飞星火" }, { kw: "星火大模型", tag: "讯飞星火" },
-  { kw: "商汤", tag: "商汤日日新" }, { kw: "sensetime", tag: "商汤日日新" },
+  { kw: "零一万物", tag: "零一万物" },
+  { kw: "讯飞星火", tag: "讯飞星火" }, { kw: "星火大模型", tag: "讯飞星火" }, { kw: "科大讯飞", tag: "讯飞星火" },
+  { kw: "商汤", tag: "商汤日日新" },
   { kw: "腾讯混元", tag: "腾讯混元" }, { kw: "混元", tag: "腾讯混元" },
   { kw: "昆仑万维", tag: "昆仑万维" }, { kw: "天工ai", tag: "昆仑万维" },
-  { kw: "阶跃星辰", tag: "阶跃星辰" }, { kw: "step-", tag: "阶跃星辰" },
+  { kw: "阶跃星辰", tag: "阶跃星辰" },
   { kw: "面壁智能", tag: "面壁智能" }, { kw: "minicpm", tag: "面壁智能" },
-  { kw: "猎户星空", tag: "猎户星空" },
-  { kw: "科大讯飞", tag: "讯飞星火" },
-  // 其他
-  { kw: "cohere", tag: "Cohere" }, { kw: "stability ai", tag: "Stability" },
-  { kw: "midjourney", tag: "Midjourney" }, { kw: "runway", tag: "Runway" },
+  { kw: "sora", tag: "Sora" }, { kw: "midjourney", tag: "Midjourney" },
+  { kw: "runway", tag: "Runway" }, { kw: "stability", tag: "Stability" },
   { kw: "perplexity", tag: "Perplexity" }, { kw: "cursor", tag: "Cursor" },
   { kw: "copilot", tag: "Copilot" }, { kw: "cowork", tag: "Cowork" },
-  { kw: "nous", tag: "Nous" }, { kw: "hugging face", tag: "HuggingFace" },
-  { kw: "replicate", tag: "Replicate" },
+  { kw: "nous", tag: "Nous" }, { kw: "cohere", tag: "Cohere" },
+  { kw: "hugging face", tag: "HuggingFace" },
 ];
 
 const HOT_TOPICS = [
@@ -84,56 +77,42 @@ const HOT_TOPICS = [
   { kw: "大模型", score: 3 }, { kw: "deepseek", score: 4 },
 ];
 
-// ======= WBI SIGNING FOR BILIBILI =======
-let wbiKeys = null;
-async function getWbiKeys() {
-  if (wbiKeys) return wbiKeys;
-  const res = await fetch("https://api.bilibili.com/x/web-interface/nav", {
-    headers: { "User-Agent": "Mozilla/5.0", "Referer": "https://www.bilibili.com" },
-  });
-  const data = await res.json();
-  const img = data?.data?.wbi_img?.img_url || "";
-  const sub = data?.data?.wbi_img?.sub_url || "";
-  const imgKey = img.split("/").pop()?.split(".")[0] || "";
-  const subKey = sub.split("/").pop()?.split(".")[0] || "";
-  wbiKeys = { imgKey, subKey };
-  return wbiKeys;
-}
-function mixWbiKey(imgKey, subKey) {
-  const mixinKeyEncTab = [46,47,18,2,53,8,23,32,15,50,10,31,58,3,45,35,27,43,5,49,33,9,42,19,29,28,14,39,12,38,41,13,37,48,7,16,24,55,40,61,26,17,0,1,60,51,30,4,22,25,54,21,56,59,6,63,57,62,11,36,20,52,44,34];
-  const combined = (imgKey + subKey);
-  let result = "";
-  for (const idx of mixinKeyEncTab) {
-    if (idx < combined.length) result += combined[idx];
-  }
-  return result.slice(0, 32);
-}
-function signWbi(params, mixinKey) {
-  const sorted = Object.keys(params).sort();
-  const query = sorted.map(k => encodeURIComponent(k) + "=" + encodeURIComponent(params[k])).join("&");
-  const signStr = query + mixinKey;
-  return crypto.createHash("md5").update(signStr).digest("hex");
-}
-async function bilibiliSearch(keyword, page) {
+// ======= TRANSLATION (Google via proxy + MyMemory fallback) =======
+async function translateGoogle(text) {
   try {
-    const keys = await getWbiKeys();
-    if (!keys.imgKey || !keys.subKey) return null;
-    const mixin = mixWbiKey(keys.imgKey, keys.subKey);
-    const wts = Math.floor(Date.now() / 1000);
-    const params = { keyword, order: "totalrank", page: String(page || 1), search_type: "video", wts: String(wts) };
-    const w_rid = signWbi(params, mixin);
-    const queryParts = Object.entries(params).map(([k,v]) => k+"="+encodeURIComponent(v)).join("&");
-    const url = `https://api.bilibili.com/x/web-interface/wbi/search?${queryParts}&w_rid=${w_rid}`;
-    const res = await fetch(url, {
-      headers: { "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64)", "Referer": "https://www.bilibili.com" },
-    });
-    return await res.json();
-  } catch (e) {
-    return null;
-  }
+    const url = "https://translate.googleapis.com/translate_a/single?client=gtx&sl=en&tl=zh-CN&dt=t&q=" + encodeURIComponent(text);
+    const res = await fetchWithProxy(url, { headers: { "User-Agent": "Mozilla/5.0" } });
+    const data = await res.json();
+    if (data?.[0]) {
+      return data[0].map(s => s[0]).join("");
+    }
+  } catch {}
+  return null;
 }
 
-// ======= HELPERS =======
+async function translateMyMemory(text) {
+  try {
+    const url = "https://api.mymemory.translated.net/get?q=" + encodeURIComponent(text) + "&langpair=en|zh-CN";
+    const res = await fetch(url, { signal: AbortSignal.timeout(10000) });
+    const data = await res.json();
+    const t = data?.responseData?.translatedText || "";
+    if (t && !t.includes("MYMEMORY WARNING") && !t.includes("QUOTA")) return t;
+  } catch {}
+  return null;
+}
+
+async function translateText(text) {
+  if (!text || text.length < 5) return text;
+  // Try Google via proxy first
+  const gResult = await translateGoogle(text);
+  if (gResult) return gResult;
+  // Fallback to MyMemory
+  const mResult = await translateMyMemory(text);
+  if (mResult) return mResult;
+  return text;
+}
+
+// ======= IMAGE EXTRACTION =======
 function extractImage(item) {
   if (item["media:content"]?.$?.url) return item["media:content"].$.url;
   if (item["media:content"]?.url) return item["media:content"].url;
@@ -145,6 +124,24 @@ function extractImage(item) {
   return "";
 }
 
+async function fetchOgImage(url) {
+  try {
+    const res = await fetchWithProxy(url, { headers: { "User-Agent": "Mozilla/5.0" } });
+    const html = await res.text();
+    // og:image
+    const og = html.match(/<meta[^>]+property=["']og:image["'][^>]+content=["']([^"']+)["']/i);
+    if (og) return og[1];
+    // twitter:image
+    const tw = html.match(/<meta[^>]+name=["']twitter:image["'][^>]+content=["']([^"']+)["']/i);
+    if (tw) return tw[1];
+    // first <img> with reasonable size
+    const img = html.match(/<img[^>]+src=["']([^"']+)["']/i);
+    if (img) return img[1];
+  } catch {}
+  return "";
+}
+
+// ======= HELPERS =======
 function matchModels(title, summary) {
   const text = ((title || "") + " " + (summary || "")).toLowerCase();
   const tags = new Set();
@@ -164,9 +161,7 @@ function calcHotScore(title, summary, sourceWeight, dateStr) {
   const sourceScore = sourceWeight * 10;
   const text = ((title || "") + " " + (summary || "")).toLowerCase();
   let topicScore = 0;
-  for (const t of HOT_TOPICS) {
-    if (text.includes(t.kw.toLowerCase())) topicScore += t.score;
-  }
+  for (const t of HOT_TOPICS) { if (text.includes(t.kw.toLowerCase())) topicScore += t.score; }
   topicScore = Math.min(topicScore, 25);
   let qualityScore = 0;
   const len = (title || "").length;
@@ -194,21 +189,6 @@ function normalizeTitle(title) {
 
 function delay(ms) { return new Promise((r) => setTimeout(r, ms)); }
 
-async function translateText(text) {
-  if (!text || text.length < 5) return text;
-  try {
-    const url = "https://api.mymemory.translated.net/get?q=" + encodeURIComponent(text) + "&langpair=en|zh-CN";
-    const res = await fetch(url);
-    const data = await res.json();
-    const translated = data.responseData?.translatedText || "";
-    // 检测配额错误，失败时保留原文
-    if (!translated || translated.includes("MYMEMORY WARNING") || translated.includes("QUOTA")) {
-      return text;
-    }
-    return translated;
-  } catch { return text; }
-}
-
 // ======= RSS FETCH =======
 async function fetchFeed(source) {
   try {
@@ -235,60 +215,64 @@ async function fetchFeed(source) {
   }
 }
 
-// ======= BILIBILI (popular-based, more pages, better AI filter) =======
+// ======= BILIBILI (热门榜 + AI精选过滤) =======
 async function fetchBilibili() {
-  console.log("  获取B站AI资讯视频…");
+  console.log("  获取B站AI相关视频（近一周热门）…");
   const allVideos = [];
   const seen = new Set();
 
-  // 多爬热门榜页面，AI筛选
-  for (let page = 1; page <= 5; page++) {
+  // 从热门榜爬取，用AI标签精准筛选
+  for (let page = 1; page <= 7; page++) {
     try {
       const url = `https://api.bilibili.com/x/web-interface/popular?ps=50&pn=${page}`;
       const res = await fetch(url, {
         headers: { "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64)", "Referer": "https://www.bilibili.com" },
+        signal: AbortSignal.timeout(15000),
       });
       const data = await res.json();
-      if (data.code === 0 && data.data?.list) {
-        for (const v of data.data.list) {
-          const title = (v.title || "");
-          const desc = (v.desc || "").slice(0, 200);
-          const text = (title + " " + desc).toLowerCase();
+      if (data.code !== 0 || !data.data?.list) continue;
 
-          // 更严格的AI相关性
-          const aiCore = ["ai", "人工智能", "大模型", "gpt", "openai", "deepseek", "chatgpt",
-            "机器学习", "深度学习", "智能体", "agent", "算力", "gpu", "英伟达", "nvidia",
-            "机器人", "自动驾驶", "芯片", "claude", "gemini", "llm", "神经网络",
-            "ai工具", "ai开发", "ai行业", "ai融资", "ai芯片", "模型训练", "ai编程",
-            "智能驾驶", "具身智能", "claude code"];
-          if (!aiCore.some(t => text.includes(t.toLowerCase()))) continue;
+      for (const v of data.data.list) {
+        if (seen.has(v.aid)) continue;
+        const title = (v.title || ""), desc = (v.desc || "").slice(0, 200);
+        const text = (title + " " + desc).toLowerCase();
 
-          // 排除非AI内容
-          const exclude = /漫剧|鬼畜|翻唱|恶仙|哆啦|瓜梦|搞笑|游戏实况|kpop|mv$|官方mv|饭拍|直拍|challenge|舞蹈版|应援|生日|节日快乐|妈妈.*快乐|瓜有引力/i;
-          if (exclude.test(text)) continue;
-          if (["搞笑","鬼畜","娱乐","音乐","舞蹈","生活","美食","时尚","动物"].includes(v.tname)) continue;
+        // 核心AI关键词（必须匹配至少一个）
+        const aiCore = ["ai", "人工智能", "大模型", "gpt", "openai", "deepseek", "chatgpt",
+          "机器学习", "深度学习", "智能体", "agent", "英伟达", "nvidia", "claude", "gemini",
+          "llm", "神经网络", "ai工具", "ai开发", "ai编程", "ai融资", "ai芯片",
+          "模型训练", "具身智能", "ai行业", "机器人.*ai", "自动驾驶", "智能驾驶"];
+        if (!aiCore.some(t => new RegExp(t, "i").test(text))) continue;
 
-          if (seen.has(v.aid)) continue;
-          seen.add(v.aid);
-          allVideos.push({
-            id: "hot_" + v.aid,
-            title,
-            desc: desc.slice(0, 120),
-            link: v.short_link_v2 || `https://www.bilibili.com/video/${v.bvid}`,
-            image: v.pic || "",
-            author: v.owner?.name || "",
-            views: v.stat?.view || 0,
-            platform: "B站",
-            type: "video",
-          });
-        }
+        // 排除非AI娱乐内容
+        const exclude = /漫剧|鬼畜|翻唱|恶仙|哆啦|瓜梦|游戏实况|kpop|饭拍|直拍|舞蹈版|应援|生日|节日|瓜有引力|奶龙|捧腹|手书|鸡煲|aespa|nmixx|dohoon|hueningkai/i;
+        if (exclude.test(text)) continue;
+        if (["搞笑","鬼畜","娱乐","音乐","舞蹈","生活","美食","时尚","动物","影视","综艺"].includes(v.tname)) continue;
+
+        // 检查时效性（最近7天）
+        const age = (Date.now()/1000) - (v.pubdate || 0);
+        if (age > 7 * 86400) continue;
+
+        seen.add(v.aid);
+        allVideos.push({
+          id: "hot_" + v.aid,
+          title,
+          desc: desc.slice(0, 120),
+          link: v.short_link_v2 || `https://www.bilibili.com/video/${v.bvid}`,
+          image: v.pic || "",
+          author: v.owner?.name || "",
+          views: v.stat?.view || 0,
+          platform: "B站",
+          type: "video",
+        });
       }
       await delay(200);
     } catch (e) {
-      console.error(`    B站热门第${page}页失败: ${e.message}`);
+      console.error(`    B站 p${page} 失败: ${e.message}`);
     }
   }
 
+  allVideos.sort((a, b) => b.views - a.views);
   console.log(`  [OK] B站: ${allVideos.length} 个视频`);
   return allVideos;
 }
@@ -298,26 +282,20 @@ async function fetchDouyin() {
   console.log("  尝试抖音…");
   const items = [];
   try {
-    // 尝试通过搜索热点获取
     const res = await fetch("https://www.douyin.com/aweme/v1/web/hot/search/list/?detail_list=1&count=15", {
-      headers: {
-        "User-Agent": "Mozilla/5.0 (iPhone; CPU iPhone OS 16_0 like Mac OS X)",
-        "Referer": "https://www.douyin.com",
-        "Cookie": "",
-      },
+      headers: { "User-Agent": "Mozilla/5.0 (iPhone; CPU iPhone OS 16_0 like Mac OS X)", "Referer": "https://www.douyin.com" },
+      signal: AbortSignal.timeout(15000),
     });
     const text = await res.text();
     if (text.startsWith("{")) {
       const data = JSON.parse(text);
-      const wordList = data?.data?.word_list || [];
-      for (const w of wordList) {
+      for (const w of data?.data?.word_list || []) {
         const title = w.word || "";
-        const text2 = title.toLowerCase();
-        if (["ai", "人工智能", "gpt", "大模型", "openai", "deepseek", "机器人", "芯片"].some(k => text2.includes(k))) {
+        if (["ai", "人工智能", "gpt", "大模型", "openai", "deepseek", "机器人", "芯片", "英伟达"].some(k => title.toLowerCase().includes(k))) {
           items.push({
             id: "dy_" + crypto.randomUUID(),
-            title: "抖音热搜: " + title,
-            desc: "热度: " + (w.hot_value || "N/A"),
+            title: "🔥 " + title,
+            desc: "抖音热搜 · 热度: " + (w.hot_value || "N/A"),
             link: `https://www.douyin.com/search/${encodeURIComponent(title)}`,
             image: "",
             author: "抖音热搜",
@@ -335,30 +313,31 @@ async function fetchDouyin() {
   return items;
 }
 
-// ======= X/TWITTER =======
+// ======= X =======
 async function fetchX() {
   console.log("  尝试X…");
   const items = [];
-  try {
-    // 通过 nitter RSS
-    const feed = await parser.parseURL("https://nitter.net/search/rss?q=AI+artificial+intelligence");
-    for (const item of (feed.items || []).slice(0, 15)) {
-      const title = item.title?.trim() || "";
-      if (!title) continue;
-      items.push({
-        id: "x_" + crypto.randomUUID(),
-        title,
-        desc: summarize(item.contentSnippet || item.content || ""),
-        link: item.link?.trim() || "",
-        image: "",
-        author: item.creator || item.author || "X",
-        views: 0,
-        platform: "X",
-        type: "post",
-      });
-    }
-  } catch (e) {
-    console.error("    X失败:", e.message);
+  // Try multiple nitter instances
+  const instances = ["https://nitter.net", "https://nitter.poast.org", "https://nitter.privacydev.net"];
+  for (const instance of instances) {
+    try {
+      const feed = await parser.parseURL(`${instance}/search/rss?q=AI+artificial+intelligence`);
+      for (const item of (feed.items || []).slice(0, 15)) {
+        if (!item.title) continue;
+        items.push({
+          id: "x_" + crypto.randomUUID(),
+          title: item.title,
+          desc: summarize(item.contentSnippet || item.content || ""),
+          link: item.link || "",
+          image: "",
+          author: item.creator || "X",
+          views: 0,
+          platform: "X",
+          type: "post",
+        });
+      }
+      if (items.length > 0) break; // got results, stop trying other instances
+    } catch {}
   }
   console.log(`  [OK] X: ${items.length} 条`);
   return items;
@@ -388,21 +367,33 @@ async function main() {
   }
 
   const filtered = all.filter((item) => isAIArticle(item.title, item.summary));
-  console.log(`\n过滤后剩 ${filtered.length} 篇`);
+  console.log(`\n过滤后 ${filtered.length} 篇`);
 
   filtered.sort((a, b) => new Date(b.date) - new Date(a.date));
   const latest = filtered.slice(0, 50);
 
   // 翻译
-  console.log("\n翻译中…");
+  console.log("\n翻译(Google via proxy)…");
   for (let i = 0; i < latest.length; i++) {
     if (latest[i].needsTranslate) {
       latest[i].title = await translateText(latest[i].title);
       latest[i].summary = await translateText(latest[i].summary);
       if (i % 5 === 0) console.log(`  翻译 [${i+1}/${latest.length}]…`);
+      await delay(300);
+    }
+  }
+
+  // 为没有图片的文章抓取 og:image
+  console.log("\n抓取文章图片…");
+  let imgFetched = 0;
+  for (const item of latest) {
+    if (!item.image && item.link) {
+      item.image = await fetchOgImage(item.link);
+      if (item.image) imgFetched++;
       await delay(200);
     }
   }
+  console.log(`  为 ${imgFetched} 篇文章补了图片`);
 
   // 热度 + 模型
   console.log("\n计算热度 & 模型标签…");
@@ -435,14 +426,12 @@ async function main() {
   const douyinVideos = await fetchDouyin();
   const xPosts = await fetchX();
 
-  const allContent = [...bilibiliVideos, ...douyinVideos, ...xPosts];
-
   const content = {
     updated: new Date().toISOString(),
-    bilibili: bilibiliVideos.sort((a, b) => b.views - a.views),
+    bilibili: bilibiliVideos,
     douyin: douyinVideos,
     x: xPosts,
-    all: allContent.sort((a, b) => b.views - a.views),
+    all: [...bilibiliVideos, ...douyinVideos, ...xPosts].sort((a, b) => b.views - a.views),
   };
   fs.writeFileSync(path.join(__dirname, "content.json"), JSON.stringify(content, null, 2), "utf-8");
   console.log(`\n内容: B站${bilibiliVideos.length} / 抖音${douyinVideos.length} / X${xPosts.length}`);
