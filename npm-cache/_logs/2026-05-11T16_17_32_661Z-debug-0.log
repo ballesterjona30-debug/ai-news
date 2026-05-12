@@ -1,0 +1,29 @@
+0 verbose cli C:\Program Files\nodejs\node.exe C:\Program Files\nodejs\node_modules\npm\bin\npm-cli.js
+1 info using npm@11.12.1
+2 info using node@v24.15.0
+3 silly config load:file:C:\Program Files\nodejs\node_modules\npm\npmrc
+4 silly config load:file:D:\Projects\ai-news\.npmrc
+5 silly config load:file:C:\Users\Lenovo\.npmrc
+6 silly config load:file:C:\Users\Lenovo\AppData\Roaming\npm\etc\npmrc
+7 verbose title npm init
+8 verbose argv "init" "--yes"
+9 verbose logfile logs-max:10 dir:D:\Projects\ai-news\npm-cache\_logs\2026-05-11T16_17_32_661Z-
+10 verbose logfile D:\Projects\ai-news\npm-cache\_logs\2026-05-11T16_17_32_661Z-debug-0.log
+11 silly logfile done cleaning log files
+12 silly package data {
+12 silly package data   name: 'ai-news',
+12 silly package data   version: '1.0.0',
+12 silly package data   description: '',
+12 silly package data   main: 'index.js',
+12 silly package data   scripts: { test: 'echo "Error: no test specified" && exit 1' },
+12 silly package data   keywords: [],
+12 silly package data   author: '',
+12 silly package data   license: 'ISC',
+12 silly package data   type: 'commonjs'
+12 silly package data }
+13 verbose cwd D:\Projects\ai-news
+14 verbose os Windows_NT 10.0.19045
+15 verbose node v24.15.0
+16 verbose npm  v11.12.1
+17 verbose exit 0
+18 info ok
