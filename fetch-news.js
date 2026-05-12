@@ -124,21 +124,32 @@ function extractImage(item) {
   return "";
 }
 
-async function fetchOgImage(url) {
+async function fetchArticleData(url) {
   try {
     const res = await fetchWithProxy(url, { headers: { "User-Agent": "Mozilla/5.0" } });
     const html = await res.text();
     // og:image
+    let image = "";
     const og = html.match(/<meta[^>]+property=["']og:image["'][^>]+content=["']([^"']+)["']/i);
-    if (og) return og[1];
-    // twitter:image
-    const tw = html.match(/<meta[^>]+name=["']twitter:image["'][^>]+content=["']([^"']+)["']/i);
-    if (tw) return tw[1];
-    // first <img> with reasonable size
-    const img = html.match(/<img[^>]+src=["']([^"']+)["']/i);
-    if (img) return img[1];
+    if (og) image = og[1];
+    else {
+      const tw = html.match(/<meta[^>]+name=["']twitter:image["'][^>]+content=["']([^"']+)["']/i);
+      if (tw) image = tw[1];
+      else {
+        const img = html.match(/<img[^>]+src=["']([^"']+)["']/i);
+        if (img) image = img[1];
+      }
+    }
+    // 提取正文文本用于模型匹配（去掉标签，取前2000字符）
+    const bodyText = html.replace(/<script[^>]*>[\s\S]*?<\/script>/gi, "")
+      .replace(/<style[^>]*>[\s\S]*?<\/style>/gi, "")
+      .replace(/<[^>]+>/g, " ")
+      .replace(/\s+/g, " ")
+      .trim()
+      .slice(0, 2000);
+    return { image, bodyText };
   } catch {}
-  return "";
+  return { image: "", bodyText: "" };
 }
 
 // ======= HELPERS =======
@@ -394,17 +405,31 @@ async function main() {
     item.models = [...combined];
   }
 
-  // 为没有图片的文章抓取 og:image
-  console.log("\n抓取文章图片…");
-  let imgFetched = 0;
+  // 抓取文章图片 + 正文（用于模型匹配）
+  console.log("\n抓取文章图片和正文…");
+  let imgFetched = 0, bodyFetched = 0;
   for (const item of latest) {
     if (!item.image && item.link) {
-      item.image = await fetchOgImage(item.link);
-      if (item.image) imgFetched++;
+      const { image, bodyText } = await fetchArticleData(item.link);
+      if (image) { item.image = image; imgFetched++; }
+      if (bodyText) { item._bodyText = bodyText; bodyFetched++; }
       await delay(200);
     }
   }
-  console.log(`  为 ${imgFetched} 篇文章补了图片`);
+  console.log(`  图片 ${imgFetched} / 正文 ${bodyFetched}`);
+
+  // 用正文补充模型匹配
+  console.log("\n模型标签补充(正文)…");
+  for (const item of latest) {
+    if (item._bodyText) {
+      const bodyModels = matchModels(item._bodyText, "");
+      if (bodyModels.length > 0) {
+        const combined = new Set([...(item.models || []), ...bodyModels]);
+        item.models = [...combined];
+      }
+    }
+    delete item._bodyText; // 不写进 JSON
+  }
 
   // 热度 + 模型
   console.log("\n计算热度…");

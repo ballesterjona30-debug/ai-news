@@ -1,5 +1,5 @@
 {
-  "updated": "2026-05-12T13:07:09.187Z",
+  "updated": "2026-05-12T13:35:10.685Z",
   "bilibili": [
     {
       "id": "hot_116559624278509",
@@ -8,7 +8,7 @@
       "link": "https://b23.tv/BV12M5K6wEdp",
       "image": "http://i0.hdslb.com/bfs/archive/b2d02635891d6b8e534ab21749b469cdcff720ef.jpg",
       "author": "Unitree宇树科技",
-      "views": 1443865,
+      "views": 1515623,
       "platform": "B站",
       "type": "video"
     },
@@ -19,7 +19,7 @@
       "link": "https://b23.tv/BV1Qo5j6uEQi",
       "image": "http://i0.hdslb.com/bfs/archive/13902b41b9d827f33c2b806627d02bd021351792.jpg",
       "author": "GenJi是真想教会你",
-      "views": 398262,
+      "views": 400029,
       "platform": "B站",
       "type": "video"
     },
@@ -30,7 +30,7 @@
       "link": "https://b23.tv/BV1xN546RENi",
       "image": "http://i1.hdslb.com/bfs/archive/e5365445686c17628e6bfe07ad6e26c7a1f14ead.jpg",
       "author": "李想",
-      "views": 253582,
+      "views": 256330,
       "platform": "B站",
       "type": "video"
     },
@@ -41,7 +41,7 @@
       "link": "https://b23.tv/BV1kX546QEjG",
       "image": "http://i0.hdslb.com/bfs/archive/ea066ef317e7400afb52f37e75a9544996e3157a.jpg",
       "author": "数字游牧人",
-      "views": 186585,
+      "views": 191115,
       "platform": "B站",
       "type": "video"
     },
@@ -52,31 +52,20 @@
       "link": "https://b23.tv/BV1YR5E6EE9o",
       "image": "http://i0.hdslb.com/bfs/archive/72e478e6353621d08b32d644a5e58378a68058e6.jpg",
       "author": "张小珺商业访谈录",
-      "views": 156076,
+      "views": 158071,
       "platform": "B站",
       "type": "video"
     }
   ],
   "douyin": [
     {
-      "id": "dy_1dfcd154-f926-44b0-bf3a-3a015486e41e",
+      "id": "dy_29bfa771-fddb-4c50-85bd-3030559778ad",
       "title": "🔥 把AI用到了最有意义的场合",
-      "desc": "抖音热搜 · 热度: 7653796",
+      "desc": "抖音热搜 · 热度: 7655124",
       "link": "https://www.douyin.com/search/%E6%8A%8AAI%E7%94%A8%E5%88%B0%E4%BA%86%E6%9C%80%E6%9C%89%E6%84%8F%E4%B9%89%E7%9A%84%E5%9C%BA%E5%90%88",
       "image": "",
       "author": "抖音热搜",
-      "views": 7653796,
-      "platform": "抖音",
-      "type": "video"
-    },
-    {
-      "id": "dy_3b6d97a1-37c4-41bf-9853-d8049af05ba1",
-      "title": "🔥 国产AI爱死机到底怎么做出来的",
-      "desc": "抖音热搜 · 热度: 7638900",
-      "link": "https://www.douyin.com/search/%E5%9B%BD%E4%BA%A7AI%E7%88%B1%E6%AD%BB%E6%9C%BA%E5%88%B0%E5%BA%95%E6%80%8E%E4%B9%88%E5%81%9A%E5%87%BA%E6%9D%A5%E7%9A%84",
-      "image": "",
-      "author": "抖音热搜",
-      "views": 7638900,
+      "views": 7655124,
       "platform": "抖音",
       "type": "video"
     }
@@ -84,24 +73,13 @@
   "x": [],
   "all": [
     {
-      "id": "dy_1dfcd154-f926-44b0-bf3a-3a015486e41e",
+      "id": "dy_29bfa771-fddb-4c50-85bd-3030559778ad",
       "title": "🔥 把AI用到了最有意义的场合",
-      "desc": "抖音热搜 · 热度: 7653796",
+      "desc": "抖音热搜 · 热度: 7655124",
       "link": "https://www.douyin.com/search/%E6%8A%8AAI%E7%94%A8%E5%88%B0%E4%BA%86%E6%9C%80%E6%9C%89%E6%84%8F%E4%B9%89%E7%9A%84%E5%9C%BA%E5%90%88",
       "image": "",
       "author": "抖音热搜",
-      "views": 7653796,
-      "platform": "抖音",
-      "type": "video"
-    },
-    {
-      "id": "dy_3b6d97a1-37c4-41bf-9853-d8049af05ba1",
-      "title": "🔥 国产AI爱死机到底怎么做出来的",
-      "desc": "抖音热搜 · 热度: 7638900",
-      "link": "https://www.douyin.com/search/%E5%9B%BD%E4%BA%A7AI%E7%88%B1%E6%AD%BB%E6%9C%BA%E5%88%B0%E5%BA%95%E6%80%8E%E4%B9%88%E5%81%9A%E5%87%BA%E6%9D%A5%E7%9A%84",
-      "image": "",
-      "author": "抖音热搜",
-      "views": 7638900,
+      "views": 7655124,
       "platform": "抖音",
       "type": "video"
     },
@@ -112,7 +90,7 @@
       "link": "https://b23.tv/BV12M5K6wEdp",
       "image": "http://i0.hdslb.com/bfs/archive/b2d02635891d6b8e534ab21749b469cdcff720ef.jpg",
       "author": "Unitree宇树科技",
-      "views": 1443865,
+      "views": 1515623,
       "platform": "B站",
       "type": "video"
     },
@@ -123,7 +101,7 @@
       "link": "https://b23.tv/BV1Qo5j6uEQi",
       "image": "http://i0.hdslb.com/bfs/archive/13902b41b9d827f33c2b806627d02bd021351792.jpg",
       "author": "GenJi是真想教会你",
-      "views": 398262,
+      "views": 400029,
       "platform": "B站",
       "type": "video"
     },
@@ -134,7 +112,7 @@
       "link": "https://b23.tv/BV1xN546RENi",
       "image": "http://i1.hdslb.com/bfs/archive/e5365445686c17628e6bfe07ad6e26c7a1f14ead.jpg",
       "author": "李想",
-      "views": 253582,
+      "views": 256330,
       "platform": "B站",
       "type": "video"
     },
@@ -145,7 +123,7 @@
       "link": "https://b23.tv/BV1kX546QEjG",
       "image": "http://i0.hdslb.com/bfs/archive/ea066ef317e7400afb52f37e75a9544996e3157a.jpg",
       "author": "数字游牧人",
-      "views": 186585,
+      "views": 191115,
       "platform": "B站",
       "type": "video"
     },
@@ -156,7 +134,7 @@
       "link": "https://b23.tv/BV1YR5E6EE9o",
       "image": "http://i0.hdslb.com/bfs/archive/72e478e6353621d08b32d644a5e58378a68058e6.jpg",
       "author": "张小珺商业访谈录",
-      "views": 156076,
+      "views": 158071,
       "platform": "B站",
       "type": "video"
     }

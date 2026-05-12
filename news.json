@@ -1,5 +1,5 @@
 {
-  "updated": "2026-05-12T13:06:18.931Z",
+  "updated": "2026-05-12T13:34:21.479Z",
   "count": 33,
   "items": [
     {
@@ -18,7 +18,7 @@
       "link": "https://techcrunch.com/2026/05/12/vapi-hits-500m-valuation-as-amazon-ring-chose-its-ai-platform-over-40-rivals/",
       "source": "TechCrunch",
       "date": "Tue, 12 May 2026 11:30:00 +0000",
-      "hotScore": 69,
+      "hotScore": 68,
       "models": [],
       "image": "https://techcrunch.com/wp-content/uploads/2026/05/vapi-founders-jordan-dearsley-nikhil-gupta.jpg?resize=1200,800"
     },
@@ -29,7 +29,11 @@
       "source": "量子位",
       "date": "Tue, 12 May 2026 09:35:29 +0000",
       "hotScore": 71,
-      "models": [],
+      "models": [
+        "GPT",
+        "Gemini",
+        "商汤日日新"
+      ],
       "image": "https://www.qbitai.com/wp-content/uploads/imgs/qbitai-logo-1.png"
     },
     {
@@ -38,8 +42,14 @@
       "link": "https://www.qbitai.com/2026/05/416540.html",
       "source": "量子位",
       "date": "Tue, 12 May 2026 08:03:52 +0000",
-      "hotScore": 71,
-      "models": [],
+      "hotScore": 70,
+      "models": [
+        "Claude",
+        "Grok",
+        "Mistral",
+        "Perplexity",
+        "Cohere"
+      ],
       "image": "https://www.qbitai.com/wp-content/uploads/imgs/qbitai-logo-1.png"
     },
     {
@@ -49,7 +59,12 @@
       "source": "量子位",
       "date": "Tue, 12 May 2026 06:06:38 +0000",
       "hotScore": 65,
-      "models": [],
+      "models": [
+        "MiniMax",
+        "智谱GLM",
+        "Sora",
+        "Runway"
+      ],
       "image": "https://www.qbitai.com/wp-content/uploads/imgs/qbitai-logo-1.png"
     },
     {
@@ -69,7 +84,10 @@
       "source": "量子位",
       "date": "Tue, 12 May 2026 04:02:50 +0000",
       "hotScore": 66,
-      "models": [],
+      "models": [
+        "Claude",
+        "Cursor"
+      ],
       "image": "https://www.qbitai.com/wp-content/uploads/imgs/qbitai-logo-1.png"
     },
     {
@@ -98,8 +116,10 @@
       "link": "https://www.technologyreview.com/2026/05/11/1137090/three-things-in-ai-to-watch-according-to-a-nobel-winning-economist/",
       "source": "MIT科技评论",
       "date": "Mon, 11 May 2026 17:35:12 +0000",
-      "hotScore": 49,
-      "models": [],
+      "hotScore": 48,
+      "models": [
+        "文心一言"
+      ],
       "image": "https://wp.technologyreview.com/wp-content/uploads/2026/05/260507_algo2.jpg?resize=1200,600"
     },
     {
@@ -148,7 +168,7 @@
       "link": "https://www.technologyreview.com/2026/05/11/1137031/the-download-hantavirus-outbreak-musk-altman-trial/",
       "source": "MIT科技评论",
       "date": "Mon, 11 May 2026 12:10:00 +0000",
-      "hotScore": 49,
+      "hotScore": 48,
       "models": [],
       "image": "https://wp.technologyreview.com/wp-content/uploads/2023/10/ND23-space-01b.jpg?w=3000"
     },
@@ -159,7 +179,10 @@
       "source": "量子位",
       "date": "Mon, 11 May 2026 10:18:49 +0000",
       "hotScore": 53,
-      "models": [],
+      "models": [
+        "智谱GLM",
+        "昆仑万维"
+      ],
       "image": "https://www.qbitai.com/wp-content/uploads/imgs/qbitai-logo-1.png"
     },
     {
@@ -179,7 +202,9 @@
       "source": "量子位",
       "date": "Mon, 11 May 2026 07:57:03 +0000",
       "hotScore": 52,
-      "models": [],
+      "models": [
+        "商汤日日新"
+      ],
       "image": "https://www.qbitai.com/wp-content/uploads/imgs/qbitai-logo-1.png"
     },
     {
@@ -233,8 +258,10 @@
       "link": "https://techcrunch.com/2026/05/09/artificial-intelligence-definition-glossary-hallucinations-guide-to-common-ai-terms/",
       "source": "TechCrunch",
       "date": "Sat, 09 May 2026 21:45:00 +0000",
-      "hotScore": 31,
-      "models": [],
+      "hotScore": 30,
+      "models": [
+        "Gemini"
+      ],
       "image": "https://techcrunch.com/wp-content/uploads/2025/03/GettyImages-ai-generated-eb728837-4a65-4ce4-b814-abd0c140d20c.jpg?w=1024"
     },
     {
@@ -243,7 +270,7 @@
       "link": "https://techcrunch.com/2026/05/09/nvidia-has-already-committed-40b-to-equity-ai-deals-this-year/",
       "source": "TechCrunch",
       "date": "Sat, 09 May 2026 14:43:30 +0000",
-      "hotScore": 32,
+      "hotScore": 31,
       "models": [],
       "image": "https://techcrunch.com/wp-content/uploads/2026/03/GettyImages-2266475966.jpg?w=1024"
     },
@@ -254,7 +281,9 @@
       "source": "MIT科技评论",
       "date": "Fri, 08 May 2026 23:59:19 +0000",
       "hotScore": 31,
-      "models": [],
+      "models": [
+        "Grok"
+      ],
       "image": "https://wp.technologyreview.com/wp-content/uploads/2026/05/260508_OpenAIcase.jpg?resize=1200,600"
     },
     {
@@ -263,7 +292,7 @@
       "link": "https://techcrunch.com/2026/05/08/laid-off-oracle-workers-tried-to-negotiate-better-severance-oracle-said-no/",
       "source": "TechCrunch",
       "date": "Fri, 08 May 2026 22:59:05 +0000",
-      "hotScore": 26,
+      "hotScore": 25,
       "models": [],
       "image": "https://techcrunch.com/wp-content/uploads/2022/06/GettyImages-528022874.jpg?w=1024"
     },
@@ -295,7 +324,8 @@
       "date": "Fri, 08 May 2026 15:46:17 +0000",
       "hotScore": 36,
       "models": [
-        "Claude"
+        "Claude",
+        "Grok"
       ],
       "image": "https://techcrunch.com/wp-content/uploads/2025/08/Claude-Chrome-Ext_email-hero-hero.png?w=1200"
     },
@@ -326,7 +356,9 @@
       "source": "TechCrunch",
       "date": "Thu, 07 May 2026 22:24:50 +0000",
       "hotScore": 31,
-      "models": [],
+      "models": [
+        "GPT"
+      ],
       "image": "https://techcrunch.com/wp-content/uploads/2025/01/GettyImages-2170386424.jpg?w=1024"
     },
     {
@@ -348,7 +380,11 @@
       "source": "量子位",
       "date": "Tue, 12 May 2026 09:35:29 +0000",
       "hotScore": 71,
-      "models": [],
+      "models": [
+        "GPT",
+        "Gemini",
+        "商汤日日新"
+      ],
       "image": "https://www.qbitai.com/wp-content/uploads/imgs/qbitai-logo-1.png"
     },
     {
@@ -357,8 +393,14 @@
       "link": "https://www.qbitai.com/2026/05/416540.html",
       "source": "量子位",
       "date": "Tue, 12 May 2026 08:03:52 +0000",
-      "hotScore": 71,
-      "models": [],
+      "hotScore": 70,
+      "models": [
+        "Claude",
+        "Grok",
+        "Mistral",
+        "Perplexity",
+        "Cohere"
+      ],
       "image": "https://www.qbitai.com/wp-content/uploads/imgs/qbitai-logo-1.png"
     },
     {
@@ -367,7 +409,7 @@
       "link": "https://techcrunch.com/2026/05/12/vapi-hits-500m-valuation-as-amazon-ring-chose-its-ai-platform-over-40-rivals/",
       "source": "TechCrunch",
       "date": "Tue, 12 May 2026 11:30:00 +0000",
-      "hotScore": 69,
+      "hotScore": 68,
       "models": [],
       "image": "https://techcrunch.com/wp-content/uploads/2026/05/vapi-founders-jordan-dearsley-nikhil-gupta.jpg?resize=1200,800"
     },
@@ -378,7 +420,10 @@
       "source": "量子位",
       "date": "Tue, 12 May 2026 04:02:50 +0000",
       "hotScore": 66,
-      "models": [],
+      "models": [
+        "Claude",
+        "Cursor"
+      ],
       "image": "https://www.qbitai.com/wp-content/uploads/imgs/qbitai-logo-1.png"
     },
     {
@@ -388,7 +433,12 @@
       "source": "量子位",
       "date": "Tue, 12 May 2026 06:06:38 +0000",
       "hotScore": 65,
-      "models": [],
+      "models": [
+        "MiniMax",
+        "智谱GLM",
+        "Sora",
+        "Runway"
+      ],
       "image": "https://www.qbitai.com/wp-content/uploads/imgs/qbitai-logo-1.png"
     },
     {
@@ -447,19 +497,11 @@
       "link": "https://www.technologyreview.com/2026/05/11/1137090/three-things-in-ai-to-watch-according-to-a-nobel-winning-economist/",
       "source": "MIT科技评论",
       "date": "Mon, 11 May 2026 17:35:12 +0000",
-      "hotScore": 49,
-      "models": [],
+      "hotScore": 48,
+      "models": [
+        "文心一言"
+      ],
       "image": "https://wp.technologyreview.com/wp-content/uploads/2026/05/260507_algo2.jpg?resize=1200,600"
-    },
-    {
-      "title": "Fostering breakthrough AI innovation through customer-back engineering",
-      "summary": "Despite years of digitization, organizations capture less than one-third of the value expected from digital investments, according to McKinsey research. That’s because most big companies begin with…",
-      "link": "https://www.technologyreview.com/2026/05/11/1136967/fostering-breakthrough-ai-innovation-through-customer-back-engineering/",
-      "source": "MIT科技评论",
-      "date": "Mon, 11 May 2026 13:33:06 +0000",
-      "hotScore": 45,
-      "models": [],
-      "image": "https://wp.technologyreview.com/wp-content/uploads/2026/05/Capital-One-iStock-2208464815.jpg?w=1943"
     }
   ],
   "weekly": [
@@ -470,7 +512,11 @@
       "source": "量子位",
       "date": "Tue, 12 May 2026 09:35:29 +0000",
       "hotScore": 71,
-      "models": [],
+      "models": [
+        "GPT",
+        "Gemini",
+        "商汤日日新"
+      ],
       "image": "https://www.qbitai.com/wp-content/uploads/imgs/qbitai-logo-1.png"
     },
     {
@@ -479,8 +525,14 @@
       "link": "https://www.qbitai.com/2026/05/416540.html",
       "source": "量子位",
       "date": "Tue, 12 May 2026 08:03:52 +0000",
-      "hotScore": 71,
-      "models": [],
+      "hotScore": 70,
+      "models": [
+        "Claude",
+        "Grok",
+        "Mistral",
+        "Perplexity",
+        "Cohere"
+      ],
       "image": "https://www.qbitai.com/wp-content/uploads/imgs/qbitai-logo-1.png"
     },
     {
@@ -489,7 +541,7 @@
       "link": "https://techcrunch.com/2026/05/12/vapi-hits-500m-valuation-as-amazon-ring-chose-its-ai-platform-over-40-rivals/",
       "source": "TechCrunch",
       "date": "Tue, 12 May 2026 11:30:00 +0000",
-      "hotScore": 69,
+      "hotScore": 68,
       "models": [],
       "image": "https://techcrunch.com/wp-content/uploads/2026/05/vapi-founders-jordan-dearsley-nikhil-gupta.jpg?resize=1200,800"
     },
@@ -500,7 +552,10 @@
       "source": "量子位",
       "date": "Tue, 12 May 2026 04:02:50 +0000",
       "hotScore": 66,
-      "models": [],
+      "models": [
+        "Claude",
+        "Cursor"
+      ],
       "image": "https://www.qbitai.com/wp-content/uploads/imgs/qbitai-logo-1.png"
     },
     {
@@ -510,7 +565,12 @@
       "source": "量子位",
       "date": "Tue, 12 May 2026 06:06:38 +0000",
       "hotScore": 65,
-      "models": [],
+      "models": [
+        "MiniMax",
+        "智谱GLM",
+        "Sora",
+        "Runway"
+      ],
       "image": "https://www.qbitai.com/wp-content/uploads/imgs/qbitai-logo-1.png"
     },
     {
@@ -570,7 +630,10 @@
       "source": "量子位",
       "date": "Mon, 11 May 2026 10:18:49 +0000",
       "hotScore": 53,
-      "models": [],
+      "models": [
+        "智谱GLM",
+        "昆仑万维"
+      ],
       "image": "https://www.qbitai.com/wp-content/uploads/imgs/qbitai-logo-1.png"
     },
     {
@@ -580,28 +643,10 @@
       "source": "量子位",
       "date": "Mon, 11 May 2026 07:57:03 +0000",
       "hotScore": 52,
-      "models": [],
+      "models": [
+        "商汤日日新"
+      ],
       "image": "https://www.qbitai.com/wp-content/uploads/imgs/qbitai-logo-1.png"
-    },
-    {
-      "title": "Three things in AI to watch, according to a Nobel-winning economist",
-      "summary": "This story originally appeared in The Algorithm, our weekly newsletter on AI. To get stories like this in your inbox first, sign up here. A few months before he was awarded the Nobel Prize in…",
-      "link": "https://www.technologyreview.com/2026/05/11/1137090/three-things-in-ai-to-watch-according-to-a-nobel-winning-economist/",
-      "source": "MIT科技评论",
-      "date": "Mon, 11 May 2026 17:35:12 +0000",
-      "hotScore": 49,
-      "models": [],
-      "image": "https://wp.technologyreview.com/wp-content/uploads/2026/05/260507_algo2.jpg?resize=1200,600"
-    },
-    {
-      "title": "The Download: the hantavirus outbreak and Musk v. Altman week 2",
-      "summary": "This is today’s edition of The Download, our weekday newsletter that provides a daily dose of what’s going on in the world of technology. Here’s what you need to know about the cruise ship hantavirus…",
-      "link": "https://www.technologyreview.com/2026/05/11/1137031/the-download-hantavirus-outbreak-musk-altman-trial/",
-      "source": "MIT科技评论",
-      "date": "Mon, 11 May 2026 12:10:00 +0000",
-      "hotScore": 49,
-      "models": [],
-      "image": "https://wp.technologyreview.com/wp-content/uploads/2023/10/ND23-space-01b.jpg?w=3000"
     },
     {
       "title": "硅谷刷屏的AI护城河新论：代码能抄，产品能抄，但有一样东西，谁都抄不走",
@@ -614,6 +659,18 @@
       "image": "https://www.qbitai.com/wp-content/uploads/imgs/qbitai-logo-1.png"
     },
     {
+      "title": "Three things in AI to watch, according to a Nobel-winning economist",
+      "summary": "This story originally appeared in The Algorithm, our weekly newsletter on AI. To get stories like this in your inbox first, sign up here. A few months before he was awarded the Nobel Prize in…",
+      "link": "https://www.technologyreview.com/2026/05/11/1137090/three-things-in-ai-to-watch-according-to-a-nobel-winning-economist/",
+      "source": "MIT科技评论",
+      "date": "Mon, 11 May 2026 17:35:12 +0000",
+      "hotScore": 48,
+      "models": [
+        "文心一言"
+      ],
+      "image": "https://wp.technologyreview.com/wp-content/uploads/2026/05/260507_algo2.jpg?resize=1200,600"
+    },
+    {
       "title": "Implementing advanced AI technologies in finance",
       "summary": "In finance departments that have long been defined by precision and control, AI has arrived less as a neatly managed upgrade than as a quiet insurgency. Employees are already using it while…",
       "link": "https://www.technologyreview.com/2026/05/11/1136786/implementing-advanced-ai-technologies-in-finance/",
@@ -622,6 +679,16 @@
       "hotScore": 48,
       "models": [],
       "image": "https://wp.technologyreview.com/wp-content/uploads/2026/05/NetSuite-social-card.png"
+    },
+    {
+      "title": "The Download: the hantavirus outbreak and Musk v. Altman week 2",
+      "summary": "This is today’s edition of The Download, our weekday newsletter that provides a daily dose of what’s going on in the world of technology. Here’s what you need to know about the cruise ship hantavirus…",
+      "link": "https://www.technologyreview.com/2026/05/11/1137031/the-download-hantavirus-outbreak-musk-altman-trial/",
+      "source": "MIT科技评论",
+      "date": "Mon, 11 May 2026 12:10:00 +0000",
+      "hotScore": 48,
+      "models": [],
+      "image": "https://wp.technologyreview.com/wp-content/uploads/2023/10/ND23-space-01b.jpg?w=3000"
     },
     {
       "title": "There aren’t enough rockets for space data centers — Cowboy Space raised $275M to build them",
@@ -686,7 +753,8 @@
       "date": "Fri, 08 May 2026 15:46:17 +0000",
       "hotScore": 36,
       "models": [
-        "Claude"
+        "Claude",
+        "Grok"
       ],
       "image": "https://techcrunch.com/wp-content/uploads/2025/08/Claude-Chrome-Ext_email-hero-hero.png?w=1200"
     },
@@ -706,19 +774,9 @@
       "link": "https://techcrunch.com/2026/05/09/nvidia-has-already-committed-40b-to-equity-ai-deals-this-year/",
       "source": "TechCrunch",
       "date": "Sat, 09 May 2026 14:43:30 +0000",
-      "hotScore": 32,
-      "models": [],
-      "image": "https://techcrunch.com/wp-content/uploads/2026/03/GettyImages-2266475966.jpg?w=1024"
-    },
-    {
-      "title": "So you’ve heard these AI terms and nodded along; let’s fix that",
-      "summary": "The rise of AI has brought an avalanche of new terms and slang. Here is a glossary with definitions of some of the most important words and phrases you might encounter.",
-      "link": "https://techcrunch.com/2026/05/09/artificial-intelligence-definition-glossary-hallucinations-guide-to-common-ai-terms/",
-      "source": "TechCrunch",
-      "date": "Sat, 09 May 2026 21:45:00 +0000",
       "hotScore": 31,
       "models": [],
-      "image": "https://techcrunch.com/wp-content/uploads/2025/03/GettyImages-ai-generated-eb728837-4a65-4ce4-b814-abd0c140d20c.jpg?w=1024"
+      "image": "https://techcrunch.com/wp-content/uploads/2026/03/GettyImages-2266475966.jpg?w=1024"
     },
     {
       "title": "Musk v. Altman week 2: OpenAI fires back, and Shivon Zilis reveals that Musk tried to poach Sam Altman",
@@ -727,7 +785,9 @@
       "source": "MIT科技评论",
       "date": "Fri, 08 May 2026 23:59:19 +0000",
       "hotScore": 31,
-      "models": [],
+      "models": [
+        "Grok"
+      ],
       "image": "https://wp.technologyreview.com/wp-content/uploads/2026/05/260508_OpenAIcase.jpg?resize=1200,600"
     },
     {
@@ -737,8 +797,22 @@
       "source": "TechCrunch",
       "date": "Thu, 07 May 2026 22:24:50 +0000",
       "hotScore": 31,
-      "models": [],
+      "models": [
+        "GPT"
+      ],
       "image": "https://techcrunch.com/wp-content/uploads/2025/01/GettyImages-2170386424.jpg?w=1024"
+    },
+    {
+      "title": "So you’ve heard these AI terms and nodded along; let’s fix that",
+      "summary": "The rise of AI has brought an avalanche of new terms and slang. Here is a glossary with definitions of some of the most important words and phrases you might encounter.",
+      "link": "https://techcrunch.com/2026/05/09/artificial-intelligence-definition-glossary-hallucinations-guide-to-common-ai-terms/",
+      "source": "TechCrunch",
+      "date": "Sat, 09 May 2026 21:45:00 +0000",
+      "hotScore": 30,
+      "models": [
+        "Gemini"
+      ],
+      "image": "https://techcrunch.com/wp-content/uploads/2025/03/GettyImages-ai-generated-eb728837-4a65-4ce4-b814-abd0c140d20c.jpg?w=1024"
     },
     {
       "title": "Laid-off Oracle workers tried to negotiate better severance. Oracle said no.",
@@ -746,7 +820,7 @@
       "link": "https://techcrunch.com/2026/05/08/laid-off-oracle-workers-tried-to-negotiate-better-severance-oracle-said-no/",
       "source": "TechCrunch",
       "date": "Fri, 08 May 2026 22:59:05 +0000",
-      "hotScore": 26,
+      "hotScore": 25,
       "models": [],
       "image": "https://techcrunch.com/wp-content/uploads/2022/06/GettyImages-528022874.jpg?w=1024"
     },
@@ -803,6 +877,101 @@
   ],
   "models": [
     {
+      "title": "360发布OpenClaw生态安全报告：AI智能体风险进入自动化审计阶段",
+      "summary": "累计发现23个独立安全漏洞",
+      "link": "https://www.qbitai.com/2026/05/416582.html",
+      "source": "量子位",
+      "date": "Tue, 12 May 2026 09:35:29 +0000",
+      "hotScore": 71,
+      "models": [
+        "GPT",
+        "Gemini",
+        "商汤日日新"
+      ],
+      "image": "https://www.qbitai.com/wp-content/uploads/imgs/qbitai-logo-1.png"
+    },
+    {
+      "title": "AI第一金主黄仁勋：日均花掉20亿",
+      "summary": "“AI御三家”都投了",
+      "link": "https://www.qbitai.com/2026/05/416540.html",
+      "source": "量子位",
+      "date": "Tue, 12 May 2026 08:03:52 +0000",
+      "hotScore": 70,
+      "models": [
+        "Claude",
+        "Grok",
+        "Mistral",
+        "Perplexity",
+        "Cohere"
+      ],
+      "image": "https://www.qbitai.com/wp-content/uploads/imgs/qbitai-logo-1.png"
+    },
+    {
+      "title": "OpenClaw低调更新重磅版本，龙虾长手长脚了",
+      "summary": "让AI agent看到屏幕，也能操作鼠标键盘",
+      "link": "https://www.qbitai.com/2026/05/416034.html",
+      "source": "量子位",
+      "date": "Tue, 12 May 2026 04:02:50 +0000",
+      "hotScore": 66,
+      "models": [
+        "Claude",
+        "Cursor"
+      ],
+      "image": "https://www.qbitai.com/wp-content/uploads/imgs/qbitai-logo-1.png"
+    },
+    {
+      "title": "估值200亿美元！可灵AI被曝剥离快手单独融资",
+      "summary": "快手，可能要亲手拆出第二家“快手”了。",
+      "link": "https://www.qbitai.com/2026/05/416056.html",
+      "source": "量子位",
+      "date": "Tue, 12 May 2026 06:06:38 +0000",
+      "hotScore": 65,
+      "models": [
+        "MiniMax",
+        "智谱GLM",
+        "Sora",
+        "Runway"
+      ],
+      "image": "https://www.qbitai.com/wp-content/uploads/imgs/qbitai-logo-1.png"
+    },
+    {
+      "title": "做AI漫剧的、搞Agent的、投硅谷的，5.20这些赛道顶流碰头了｜最新嘉宾阵容",
+      "summary": "5月20日，马上AI起来！",
+      "link": "https://www.qbitai.com/2026/05/415263.html",
+      "source": "量子位",
+      "date": "Mon, 11 May 2026 10:18:49 +0000",
+      "hotScore": 53,
+      "models": [
+        "智谱GLM",
+        "昆仑万维"
+      ],
+      "image": "https://www.qbitai.com/wp-content/uploads/imgs/qbitai-logo-1.png"
+    },
+    {
+      "title": "像素绽放PixelBloom 完成C轮融资：做全球AI视觉表达平台，更做能交方案的AI办公Agent",
+      "summary": "办公软件的终局是交方案",
+      "link": "https://www.qbitai.com/2026/05/415810.html",
+      "source": "量子位",
+      "date": "Mon, 11 May 2026 07:57:03 +0000",
+      "hotScore": 52,
+      "models": [
+        "商汤日日新"
+      ],
+      "image": "https://www.qbitai.com/wp-content/uploads/imgs/qbitai-logo-1.png"
+    },
+    {
+      "title": "Three things in AI to watch, according to a Nobel-winning economist",
+      "summary": "This story originally appeared in The Algorithm, our weekly newsletter on AI. To get stories like this in your inbox first, sign up here. A few months before he was awarded the Nobel Prize in…",
+      "link": "https://www.technologyreview.com/2026/05/11/1137090/three-things-in-ai-to-watch-according-to-a-nobel-winning-economist/",
+      "source": "MIT科技评论",
+      "date": "Mon, 11 May 2026 17:35:12 +0000",
+      "hotScore": 48,
+      "models": [
+        "文心一言"
+      ],
+      "image": "https://wp.technologyreview.com/wp-content/uploads/2026/05/260507_algo2.jpg?resize=1200,600"
+    },
+    {
       "title": "We’re feeling cynical about xAI’s big deal with Anthropic",
       "summary": "On the latest episode of the Equity podcast, we discussed what xAI's deal with Anthropic might mean for parent company SpaceX.",
       "link": "https://techcrunch.com/2026/05/10/were-feeling-cynical-about-xais-big-deal-with-anthropic/",
@@ -835,9 +1004,46 @@
       "date": "Fri, 08 May 2026 15:46:17 +0000",
       "hotScore": 36,
       "models": [
-        "Claude"
+        "Claude",
+        "Grok"
       ],
       "image": "https://techcrunch.com/wp-content/uploads/2025/08/Claude-Chrome-Ext_email-hero-hero.png?w=1200"
+    },
+    {
+      "title": "Musk v. Altman week 2: OpenAI fires back, and Shivon Zilis reveals that Musk tried to poach Sam Altman",
+      "summary": "In the second week of the landmark trial between Elon Musk and OpenAI, Musk’s motivations for bringing the suit were under scrutiny. Last week, Musk took the stand, alleging that OpenAI CEO Sam…",
+      "link": "https://www.technologyreview.com/2026/05/08/1137008/musk-v-altman-week-2-openai-fires-back-and-shivon-zilis-reveals-that-musk-tried-to-poach-sam-altman/",
+      "source": "MIT科技评论",
+      "date": "Fri, 08 May 2026 23:59:19 +0000",
+      "hotScore": 31,
+      "models": [
+        "Grok"
+      ],
+      "image": "https://wp.technologyreview.com/wp-content/uploads/2026/05/260508_OpenAIcase.jpg?resize=1200,600"
+    },
+    {
+      "title": "OpenAI launches new voice intelligence features in its API",
+      "summary": "The new features could be handy for customer service systems, but OpenAI says they have applications that work across a variety of other fields, including education and creator platforms.",
+      "link": "https://techcrunch.com/2026/05/07/openai-launches-new-voice-intelligence-features-in-its-api/",
+      "source": "TechCrunch",
+      "date": "Thu, 07 May 2026 22:24:50 +0000",
+      "hotScore": 31,
+      "models": [
+        "GPT"
+      ],
+      "image": "https://techcrunch.com/wp-content/uploads/2025/01/GettyImages-2170386424.jpg?w=1024"
+    },
+    {
+      "title": "So you’ve heard these AI terms and nodded along; let’s fix that",
+      "summary": "The rise of AI has brought an avalanche of new terms and slang. Here is a glossary with definitions of some of the most important words and phrases you might encounter.",
+      "link": "https://techcrunch.com/2026/05/09/artificial-intelligence-definition-glossary-hallucinations-guide-to-common-ai-terms/",
+      "source": "TechCrunch",
+      "date": "Sat, 09 May 2026 21:45:00 +0000",
+      "hotScore": 30,
+      "models": [
+        "Gemini"
+      ],
+      "image": "https://techcrunch.com/wp-content/uploads/2025/03/GettyImages-ai-generated-eb728837-4a65-4ce4-b814-abd0c140d20c.jpg?w=1024"
     }
   ]
 }
