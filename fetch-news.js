@@ -26,7 +26,30 @@ const AI_KEYWORDS = [
   "openai", "谷歌", "微软", "meta", "英伟达", "算力", "芯片",
 ];
 
-// 热门话题额外加分关键词
+// 模型关键词：匹配到的文章会被打标签
+const MODEL_KEYWORDS = [
+  { kw: "gpt", tag: "GPT" }, { kw: "chatgpt", tag: "ChatGPT" },
+  { kw: "claude", tag: "Claude" }, { kw: "anthropic", tag: "Claude" },
+  { kw: "gemini", tag: "Gemini" }, { kw: "google deepmind", tag: "Gemini" },
+  { kw: "deepseek", tag: "DeepSeek" }, { kw: "深度求索", tag: "DeepSeek" },
+  { kw: "minimax", tag: "MiniMax" }, { kw: "海螺ai", tag: "MiniMax" }, { kw: "minimo", tag: "MiniMax" },
+  { kw: "qwen", tag: "Qwen" }, { kw: "通义千问", tag: "Qwen" },
+  { kw: "llama", tag: "Llama" }, { kw: "meta ai", tag: "Llama" },
+  { kw: "mistral", tag: "Mistral" },
+  { kw: "grok", tag: "Grok" }, { kw: "xai", tag: "Grok" },
+  { kw: "kimi", tag: "Kimi" }, { kw: "月之暗面", tag: "Kimi" },
+  { kw: "doubao", tag: "豆包" },
+  { kw: "文心一言", tag: "文心一言" }, { kw: "ernie", tag: "文心一言" },
+  { kw: "midjourney", tag: "Midjourney" },
+  { kw: "stable diffusion", tag: "SD" }, { kw: "sora", tag: "Sora" },
+  { kw: "perplexity", tag: "Perplexity" },
+  { kw: "nous", tag: "Nous" },
+  { kw: "cursor", tag: "Cursor" },
+  { kw: "copilot", tag: "Copilot" }, { kw: "github copilot", tag: "Copilot" },
+  { kw: "cowork", tag: "Cowork" },
+];
+
+// 热门话题额外加分
 const HOT_TOPICS = [
   { kw: "openai", score: 5 }, { kw: "chatgpt", score: 5 }, { kw: "gpt-5", score: 5 },
   { kw: "nvidia", score: 4 }, { kw: "黄仁勋", score: 4 }, { kw: "英伟达", score: 4 },
@@ -40,33 +63,34 @@ const HOT_TOPICS = [
   { kw: "大模型", score: 3 }, { kw: "deepseek", score: 4 },
 ];
 
+function matchModels(title, summary) {
+  const text = ((title || "") + " " + (summary || "")).toLowerCase();
+  const tags = new Set();
+  for (const m of MODEL_KEYWORDS) {
+    if (text.includes(m.kw.toLowerCase())) tags.add(m.tag);
+  }
+  return [...tags];
+}
+
 function calcHotScore(title, summary, sourceWeight, dateStr) {
   const now = Date.now();
   const age = now - new Date(dateStr).getTime();
   const hours = age / (1000 * 60 * 60);
 
-  // 时效分：24小时内满分，超过衰减，超过7天归零
   let recencyScore = 0;
-  if (hours <= 24) {
-    recencyScore = 50 - (hours / 24) * 20; // 50~30
-  } else if (hours <= 72) {
-    recencyScore = 30 - ((hours - 24) / 48) * 20; // 30~10
-  } else if (hours <= 168) {
-    recencyScore = 10 - ((hours - 72) / 96) * 10; // 10~0
-  }
+  if (hours <= 24) recencyScore = 50 - (hours / 24) * 20;
+  else if (hours <= 72) recencyScore = 30 - ((hours - 24) / 48) * 20;
+  else if (hours <= 168) recencyScore = 10 - ((hours - 72) / 96) * 10;
 
-  // 来源权重分
   const sourceScore = sourceWeight * 10;
 
-  // 热门话题加分
   const text = ((title || "") + " " + (summary || "")).toLowerCase();
   let topicScore = 0;
   for (const t of HOT_TOPICS) {
     if (text.includes(t.kw.toLowerCase())) topicScore += t.score;
   }
-  topicScore = Math.min(topicScore, 25); // 上限25
+  topicScore = Math.min(topicScore, 25);
 
-  // 标题质量分
   let qualityScore = 0;
   const len = (title || "").length;
   if (len >= 15 && len <= 60) qualityScore = 8;
@@ -116,10 +140,8 @@ async function fetchFeed(source) {
       const title = item.title?.trim() || "";
       const summary = summarize(item.contentSnippet || item.content || item.summary);
       if (!title) continue;
-
       items.push({
-        title,
-        summary,
+        title, summary,
         link: item.link?.trim() || "",
         source: source.name,
         weight: source.weight,
@@ -139,9 +161,12 @@ function delay(ms) {
   return new Promise((r) => setTimeout(r, ms));
 }
 
+function stripItem(item) {
+  return { title: item.title, summary: item.summary, link: item.link, source: item.source, date: item.date, hotScore: item.hotScore, models: item.models || [] };
+}
+
 async function main() {
   console.log("抓取 AI 新闻中…\n");
-
   const promises = SOURCES.map((s) => fetchFeed(s));
   const results = await Promise.all(promises);
   let all = results.flat();
@@ -150,10 +175,7 @@ async function main() {
   const deduped = [];
   for (const item of all) {
     const key = normalizeTitle(item.title).slice(0, 40);
-    if (!seen.has(key)) {
-      seen.add(key);
-      deduped.push(item);
-    }
+    if (!seen.has(key)) { seen.add(key); deduped.push(item); }
   }
 
   const filtered = deduped.filter((item) => isAIArticle(item.title, item.summary));
@@ -169,37 +191,34 @@ async function main() {
       console.log(`  翻译 [${i + 1}/${latest.length}] ${item.title.slice(0, 40)}…`);
       item.title = await translateText(item.title);
       item.summary = await translateText(item.summary);
-      await delay(500);
+      await delay(200);
     }
   }
 
-  // 计算热度分
-  console.log("\n计算热度…");
+  // 计算热度 + 模型标签
+  console.log("\n计算热度 & 模型标签…");
   for (const item of latest) {
     item.hotScore = calcHotScore(item.title, item.summary, item.weight || 1, item.date);
+    item.models = matchModels(item.title, item.summary);
   }
 
   const now = Date.now();
   const dailyItems = latest.filter((item) => now - new Date(item.date).getTime() < 24 * 60 * 60 * 1000);
   const weeklyItems = latest.filter((item) => now - new Date(item.date).getTime() < 7 * 24 * 60 * 60 * 1000);
+  const modelItems = latest.filter((item) => item.models.length > 0);
 
   const out = {
     updated: new Date().toISOString(),
     count: latest.length,
-    items: latest.map(({ title, summary, link, source, date, hotScore }) => ({
-      title, summary, link, source, date, hotScore,
-    })),
-    daily: dailyItems.sort((a, b) => b.hotScore - a.hotScore).map(({ title, summary, link, source, date, hotScore }) => ({
-      title, summary, link, source, date, hotScore,
-    })),
-    weekly: weeklyItems.sort((a, b) => b.hotScore - a.hotScore).map(({ title, summary, link, source, date, hotScore }) => ({
-      title, summary, link, source, date, hotScore,
-    })),
+    items: latest.map(stripItem),
+    daily: dailyItems.sort((a, b) => b.hotScore - a.hotScore).map(stripItem),
+    weekly: weeklyItems.sort((a, b) => b.hotScore - a.hotScore).map(stripItem),
+    models: modelItems.sort((a, b) => b.hotScore - a.hotScore).map(stripItem),
   };
 
   const outPath = path.join(__dirname, "news.json");
   fs.writeFileSync(outPath, JSON.stringify(out, null, 2), "utf-8");
-  console.log(`\n完成！${out.count} 条资讯 (日榜 ${out.daily.length} / 周榜 ${out.weekly.length}) 已保存`);
+  console.log(`\n完成！${out.count} 条 (日榜 ${out.daily.length} / 周榜 ${out.weekly.length} / 模型 ${out.models.length})`);
 }
 
 main().catch((err) => {

@@ -1,14 +1,69 @@
 {
-  "updated": "2026-05-11T17:35:26.597Z",
-  "count": 41,
+  "updated": "2026-05-12T08:00:18.773Z",
+  "count": 43,
   "items": [
     {
+      "title": "估值200亿美元！可灵AI被曝剥离快手单独融资",
+      "summary": "快手，可能要亲手拆出第二家“快手”了。",
+      "link": "https://www.qbitai.com/2026/05/416056.html",
+      "source": "量子位",
+      "date": "Tue, 12 May 2026 06:06:38 +0000",
+      "hotScore": 69,
+      "models": []
+    },
+    {
+      "title": "Thinking Machines希望构建一个在说话时真正倾听的人工智能",
+      "summary": "现在，你曾经使用过的每一个人工智能模型都以同样的方式工作。你说话，它听。它回应，你倾听。思考机器试图通过构建一个处理您的输入的模型来改变这一点……",
+      "link": "https://techcrunch.com/2026/05/11/thinking-machines-wants-to-build-an-ai-that-actually-listens-while-it-talks/",
+      "source": "TechCrunch",
+      "date": "Tue, 12 May 2026 04:52:35 +0000",
+      "hotScore": 67,
+      "models": []
+    },
+    {
+      "title": "OpenClaw低调更新重磅版本，龙虾长手长脚了",
+      "summary": "让AI agent看到屏幕，也能操作鼠标键盘",
+      "link": "https://www.qbitai.com/2026/05/416034.html",
+      "source": "量子位",
+      "date": "Tue, 12 May 2026 04:02:50 +0000",
+      "hotScore": 71,
+      "models": []
+    },
+    {
+      "title": "驾驶人工智能拉力赛， Robinhood准备第二次零售企业IPO",
+      "summary": "Robinhood为其第二个风险基金保密备案，这次是针对成长和早期创业公司。",
+      "link": "https://techcrunch.com/2026/05/11/riding-an-ai-rally-robinhood-preps-second-retail-venture-ipo/",
+      "source": "TechCrunch",
+      "date": "Tue, 12 May 2026 00:09:01 +0000",
+      "hotScore": 63,
+      "models": []
+    },
+    {
+      "title": "通用汽车刚刚解雇了数百名IT员工，聘请那些拥有更强人工智能技能的人",
+      "summary": "一些职位侧重于人工智能原生开发、数据工程和分析、基于云的工程、代理和模型开发以及提示工程和新的人工智能工作流程。",
+      "link": "https://techcrunch.com/2026/05/11/gm-just-laid-off-hundreds-of-it-workers-to-hire-those-with-stronger-ai-skills/",
+      "source": "TechCrunch",
+      "date": "Mon, 11 May 2026 23:04:10 +0000",
+      "hotScore": 63,
+      "models": []
+    },
+    {
+      "title": "根据一位诺贝尔经济学奖获得者的说法，人工智能中有三件事值得关注",
+      "summary": "这个故事最初出现在我们的人工智能每周通讯《算法》上。要先在收件箱中获取此类故事，请在此处注册。在他被授予诺贝尔奖的几个月前……",
+      "link": "https://www.technologyreview.com/2026/05/11/1137090/three-things-in-ai-to-watch-according-to-a-nobel-winning-economist/",
+      "source": "MIT科技评论",
+      "date": "Mon, 11 May 2026 17:35:12 +0000",
+      "hotScore": 56,
+      "models": []
+    },
+    {
       "title": "Digg再次尝试，这次是作为AI新闻聚合器",
-      "summary": "Digg （再次）返回作为阅读人工智能新闻的另一个地方。",
+      "summary": "在给测试人员的电子邮件中，该公司表示，该网站的目标是“跟踪空间中最具影响力的声音” ，并展示实际上值得“关注”的新闻。",
       "link": "https://techcrunch.com/2026/05/11/digg-tries-again-this-time-as-an-ai-news-aggregator/",
       "source": "TechCrunch",
       "date": "Mon, 11 May 2026 17:02:35 +0000",
-      "hotScore": 70
+      "hotScore": 58,
+      "models": []
     },
     {
       "title": "通过客户支持工程促进突破性人工智能创新",
@@ -16,7 +71,8 @@
       "link": "https://www.technologyreview.com/2026/05/11/1136967/fostering-breakthrough-ai-innovation-through-customer-back-engineering/",
       "source": "MIT科技评论",
       "date": "Mon, 11 May 2026 13:33:06 +0000",
-      "hotScore": 65
+      "hotScore": 53,
+      "models": []
     },
     {
       "title": "太空数据中心没有足够的火箭— Cowboy Space筹集了2.75亿美元建造它们",
@@ -24,7 +80,8 @@
       "link": "https://techcrunch.com/2026/05/11/there-arent-enough-rockets-for-space-data-centers-cowboy-space-raised-275-million-to-build-them/",
       "source": "TechCrunch",
       "date": "Mon, 11 May 2026 13:00:00 +0000",
-      "hotScore": 66
+      "hotScore": 54,
+      "models": []
     },
     {
       "title": "在金融领域实施先进的人工智能技术",
@@ -32,7 +89,8 @@
       "link": "https://www.technologyreview.com/2026/05/11/1136786/implementing-advanced-ai-technologies-in-finance/",
       "source": "MIT科技评论",
       "date": "Mon, 11 May 2026 13:00:00 +0000",
-      "hotScore": 64
+      "hotScore": 52,
+      "models": []
     },
     {
       "title": "下载：汉坦病毒爆发和马斯克诉奥特曼案第2周",
@@ -40,7 +98,8 @@
       "link": "https://www.technologyreview.com/2026/05/11/1137031/the-download-hantavirus-outbreak-musk-altman-trial/",
       "source": "MIT科技评论",
       "date": "Mon, 11 May 2026 12:10:00 +0000",
-      "hotScore": 67
+      "hotScore": 55,
+      "models": []
     },
     {
       "title": "做AI漫剧的、搞Agent的、投硅谷的，5.20这些赛道顶流碰头了｜最新嘉宾阵容",
@@ -48,7 +107,8 @@
       "link": "https://www.qbitai.com/2026/05/415263.html",
       "source": "量子位",
       "date": "Mon, 11 May 2026 10:18:49 +0000",
-      "hotScore": 68
+      "hotScore": 56,
+      "models": []
     },
     {
       "title": "硅谷刷屏的AI护城河新论：代码能抄，产品能抄，但有一样东西，谁都抄不走",
@@ -56,7 +116,8 @@
       "link": "https://www.qbitai.com/2026/05/415842.html",
       "source": "量子位",
       "date": "Mon, 11 May 2026 08:31:05 +0000",
-      "hotScore": 63
+      "hotScore": 51,
+      "models": []
     },
     {
       "title": "像素绽放PixelBloom 完成C轮融资：做全球AI视觉表达平台，更做能交方案的AI办公Agent",
@@ -64,7 +125,8 @@
       "link": "https://www.qbitai.com/2026/05/415810.html",
       "source": "量子位",
       "date": "Mon, 11 May 2026 07:57:03 +0000",
-      "hotScore": 66
+      "hotScore": 54,
+      "models": []
     },
     {
       "title": "OpenAI砸200亿美元买单，英伟达挑战者冲刺350亿美元估值IPO",
@@ -72,7 +134,8 @@
       "link": "https://www.qbitai.com/2026/05/415714.html",
       "source": "量子位",
       "date": "Mon, 11 May 2026 07:37:05 +0000",
-      "hotScore": 72
+      "hotScore": 60,
+      "models": []
     },
     {
       "title": "黄仁勋喊话毕业生：AI不会取代你，但善用AI的人会",
@@ -80,7 +143,8 @@
       "link": "https://www.qbitai.com/2026/05/415403.html",
       "source": "量子位",
       "date": "Mon, 11 May 2026 06:32:05 +0000",
-      "hotScore": 66
+      "hotScore": 54,
+      "models": []
     },
     {
       "title": "数学专业，危！菲尔兹奖得主亲测ChatGPT 5.5 Pro，17分钟出论文级成果",
@@ -88,7 +152,11 @@
       "link": "https://www.qbitai.com/2026/05/415186.html",
       "source": "量子位",
       "date": "Mon, 11 May 2026 05:14:35 +0000",
-      "hotScore": 66
+      "hotScore": 55,
+      "models": [
+        "GPT",
+        "ChatGPT"
+      ]
     },
     {
       "title": "具身大模型R1时刻：LIBERO终结者，99.9%背后的物理推理新范式",
@@ -96,7 +164,8 @@
       "link": "https://www.qbitai.com/2026/05/415065.html",
       "source": "量子位",
       "date": "Mon, 11 May 2026 01:51:36 +0000",
-      "hotScore": 64
+      "hotScore": 54,
+      "models": []
     },
     {
       "title": "为未来充满低语的办公室做好准备",
@@ -104,7 +173,8 @@
       "link": "https://techcrunch.com/2026/05/10/get-ready-for-the-whisper-filled-office-of-the-future/",
       "source": "TechCrunch",
       "date": "Sun, 10 May 2026 21:15:30 +0000",
-      "hotScore": 53
+      "hotScore": 46,
+      "models": []
     },
     {
       "title": "Anthropic说，对人工智能的“邪恶”描绘是克劳德试图勒索的原因",
@@ -112,7 +182,10 @@
       "link": "https://techcrunch.com/2026/05/10/anthropic-says-evil-portrayals-of-ai-were-responsible-for-claudes-blackmail-attempts/",
       "source": "TechCrunch",
       "date": "Sun, 10 May 2026 20:40:41 +0000",
-      "hotScore": 56
+      "hotScore": 48,
+      "models": [
+        "Claude"
+      ]
     },
     {
       "title": "浙大推出让AI会「导演」的角色扮演框架！四通道消息沉浸式交互",
@@ -120,7 +193,8 @@
       "link": "https://www.qbitai.com/2026/05/415048.html",
       "source": "量子位",
       "date": "Sun, 10 May 2026 16:26:14 +0000",
-      "hotScore": 51
+      "hotScore": 45,
+      "models": []
     },
     {
       "title": "我们对xAI与Anthropic的重大交易感到愤世嫉俗",
@@ -128,23 +202,20 @@
       "link": "https://techcrunch.com/2026/05/10/were-feeling-cynical-about-xais-big-deal-with-anthropic/",
       "source": "TechCrunch",
       "date": "Sun, 10 May 2026 15:34:25 +0000",
-      "hotScore": 55
+      "hotScore": 49,
+      "models": [
+        "Claude",
+        "Grok"
+      ]
     },
     {
-      "title": "浙大校友用AI突破32年拉姆齐数下界",
-      "summary": "拉姆齐数R(3,17) 下界从92提升至93",
-      "link": "https://www.qbitai.com/2026/05/415031.html",
-      "source": "量子位",
-      "date": "Sun, 10 May 2026 04:01:40 +0000",
-      "hotScore": 45
-    },
-    {
-      "title": "语音人工智能在印度很难。无论如何， Wispr Flow都在押注它。",
+      "title": "印度的语音人工智能很难—无论如何， Wispr Flow都在押注它",
       "summary": "Wispr Flow表示，在Hinglish推出后，印度的增长速度加快，尽管语音人工智能产品仍面临挑战。",
       "link": "https://techcrunch.com/2026/05/09/voice-ai-in-india-is-hard-wispr-flow-is-betting-on-it-anyway/",
       "source": "TechCrunch",
       "date": "Sun, 10 May 2026 02:00:00 +0000",
-      "hotScore": 44
+      "hotScore": 37,
+      "models": []
     },
     {
       "title": "所以你已经听过这些人工智能术语并点了点头；让我们来解决这个问题",
@@ -152,7 +223,8 @@
       "link": "https://techcrunch.com/2026/05/09/artificial-intelligence-definition-glossary-hallucinations-guide-to-common-ai-terms/",
       "source": "TechCrunch",
       "date": "Sat, 09 May 2026 21:45:00 +0000",
-      "hotScore": 42
+      "hotScore": 36,
+      "models": []
     },
     {
       "title": "英伟达今年已承诺向股权AI交易投入400 $",
@@ -160,7 +232,8 @@
       "link": "https://techcrunch.com/2026/05/09/nvidia-has-already-committed-40b-to-equity-ai-deals-this-year/",
       "source": "TechCrunch",
       "date": "Sat, 09 May 2026 14:43:30 +0000",
-      "hotScore": 43
+      "hotScore": 37,
+      "models": []
     },
     {
       "title": "马斯克诉奥尔特曼案第2周： OpenAI回击， Shivon Zilis透露马斯克试图挖走山姆·奥尔特曼",
@@ -168,7 +241,8 @@
       "link": "https://www.technologyreview.com/2026/05/08/1137008/musk-v-altman-week-2-openai-fires-back-and-shivon-zilis-reveals-that-musk-tried-to-poach-sam-altman/",
       "source": "MIT科技评论",
       "date": "Fri, 08 May 2026 23:59:19 +0000",
-      "hotScore": 44
+      "hotScore": 40,
+      "models": []
     },
     {
       "title": "被解雇的甲骨文员工试图通过谈判获得更好的遣散费。甲骨文拒绝了。",
@@ -176,7 +250,8 @@
       "link": "https://techcrunch.com/2026/05/08/laid-off-oracle-workers-tried-to-negotiate-better-severance-oracle-said-no/",
       "source": "TechCrunch",
       "date": "Fri, 08 May 2026 22:59:05 +0000",
-      "hotScore": 32
+      "hotScore": 29,
+      "models": []
     },
     {
       "title": "Cloudflare表示，人工智能使1100个工作岗位过时，尽管收入创下历史新高",
@@ -184,7 +259,8 @@
       "link": "https://techcrunch.com/2026/05/08/cloudflare-says-ai-made-1100-jobs-obsolete-even-as-revenue-hit-a-record-high/",
       "source": "TechCrunch",
       "date": "Fri, 08 May 2026 18:33:21 +0000",
-      "hotScore": 30
+      "hotScore": 29,
+      "models": []
     },
     {
       "title": "以下是您需要了解的关于邮轮汉坦病毒爆发的信息",
@@ -192,7 +268,8 @@
       "link": "https://www.technologyreview.com/2026/05/08/1136988/heres-what-you-need-to-know-about-the-cruise-ship-hantavirus-outbreak/",
       "source": "MIT科技评论",
       "date": "Fri, 08 May 2026 16:19:40 +0000",
-      "hotScore": 28
+      "hotScore": 26,
+      "models": []
     },
     {
       "title": "“人民航空公司”与企业AI淘金热",
@@ -200,7 +277,10 @@
       "link": "https://techcrunch.com/podcast/the-peoples-airline-and-the-enterprise-ai-gold-rush/",
       "source": "TechCrunch",
       "date": "Fri, 08 May 2026 15:46:17 +0000",
-      "hotScore": 38
+      "hotScore": 36,
+      "models": [
+        "Claude"
+      ]
     },
     {
       "title": "下载：人工智能不适和婴儿制作技术",
@@ -208,7 +288,8 @@
       "link": "https://www.technologyreview.com/2026/05/08/1136985/the-download-ai-malaise-babymaking-ivf-tech/",
       "source": "MIT科技评论",
       "date": "Fri, 08 May 2026 12:10:00 +0000",
-      "hotScore": 27
+      "hotScore": 26,
+      "models": []
     },
     {
       "title": "传真机是美国医疗保健的瓶颈， VC开始注意到",
@@ -216,7 +297,8 @@
       "link": "https://techcrunch.com/2026/05/07/the-back-office-problem-that-explains-why-specialists-never-call-you-back/",
       "source": "TechCrunch",
       "date": "Fri, 08 May 2026 04:42:29 +0000",
-      "hotScore": 29
+      "hotScore": 27,
+      "models": []
     },
     {
       "title": "OpenAI在其API中推出新的语音智能功能",
@@ -224,7 +306,8 @@
       "link": "https://techcrunch.com/2026/05/07/openai-launches-new-voice-intelligence-features-in-its-api/",
       "source": "TechCrunch",
       "date": "Thu, 07 May 2026 22:24:50 +0000",
-      "hotScore": 33
+      "hotScore": 32,
+      "models": []
     },
     {
       "title": "Voi创始人的新人工智能初创公司Pit已成为斯德哥尔摩最新的后起之秀",
@@ -232,7 +315,8 @@
       "link": "https://techcrunch.com/2026/05/07/voi-founders-new-ai-startup-pit-has-become-the-latest-rising-star-out-of-stockholm/",
       "source": "TechCrunch",
       "date": "Thu, 07 May 2026 21:02:11 +0000",
-      "hotScore": 28
+      "hotScore": 26,
+      "models": []
     },
     {
       "title": "OpenAI为可能的自我伤害案件引入了新的「信任联系人」保障措施",
@@ -240,31 +324,11 @@
       "link": "https://techcrunch.com/2026/05/07/openai-introduces-new-trusted-contact-safeguard-for-cases-of-possible-self-harm/",
       "source": "TechCrunch",
       "date": "Thu, 07 May 2026 20:20:20 +0000",
-      "hotScore": 38
-    },
-    {
-      "title": "Perplexity的个人电脑现在可供Mac上的所有人使用",
-      "summary": "Perplexity的个人电脑将AI代理引入您的Mac ，现在向所有人开放。",
-      "link": "https://techcrunch.com/2026/05/07/perplexitys-personal-computer-is-now-available-everyone-on-mac/",
-      "source": "TechCrunch",
-      "date": "Thu, 07 May 2026 19:57:59 +0000",
-      "hotScore": 28
-    },
-    {
-      "title": "伊隆·马斯克（ Elon Musk ）的诉讼将OpenAI的安全记录置于显微镜下",
-      "summary": "埃隆·马斯克（ Elon Musk ）解散OpenAI的法律努力可能取决于其营利性子公司如何加强或减损前沿实验室的创始使命，即确保人类受益于......",
-      "link": "https://techcrunch.com/2026/05/07/elon-musks-lawsuit-is-putting-openais-safety-record-under-the-microscope/",
-      "source": "TechCrunch",
-      "date": "Thu, 07 May 2026 19:21:21 +0000",
-      "hotScore": 41
-    },
-    {
-      "title": "首席执行官说， Bumble正在摆脱滑动",
-      "summary": "根据惠特尼·沃尔夫·赫德（ Whitney Wolfe Herd ）过去对Bumble新方向的评论，该公司预计将倾向于人工智能--Bumble甚至正在开发一种名为Bee的人工智能约会助手，首席执行官已经做了……",
-      "link": "https://techcrunch.com/2026/05/07/bumble-is-getting-rid-of-the-swipe-ceo-says/",
-      "source": "TechCrunch",
-      "date": "Thu, 07 May 2026 19:06:17 +0000",
-      "hotScore": 28
+      "hotScore": 36,
+      "models": [
+        "GPT",
+        "ChatGPT"
+      ]
     },
     {
       "title": "下载：技术重塑试管婴儿和阳台太阳能的崛起",
@@ -272,7 +336,8 @@
       "link": "https://www.technologyreview.com/2026/05/07/1136956/the-download-ivf-tech-balcony-solar/",
       "source": "MIT科技评论",
       "date": "Thu, 07 May 2026 12:10:00 +0000",
-      "hotScore": 25
+      "hotScore": 23,
+      "models": []
     },
     {
       "title": "Railway获得1亿美元$ ，通过AI原生云基础设施挑战AWS",
@@ -280,7 +345,8 @@
       "link": "https://venturebeat.com/infrastructure/railway-secures-usd100-million-to-challenge-aws-with-ai-native-cloud",
       "source": "VentureBeat",
       "date": "Thu, 22 Jan 2026 14:00:00 GMT",
-      "hotScore": 17
+      "hotScore": 17,
+      "models": []
     },
     {
       "title": "Claude Code每月的费用高达$ 200。Goose免费做同样的事情。",
@@ -288,7 +354,10 @@
       "link": "https://venturebeat.com/infrastructure/claude-code-costs-up-to-usd200-a-month-goose-does-the-same-thing-for-free",
       "source": "VentureBeat",
       "date": "Mon, 19 Jan 2026 14:00:00 GMT",
-      "hotScore": 23
+      "hotScore": 23,
+      "models": [
+        "Claude"
+      ]
     },
     {
       "title": "Listen Labs在病毒式广告牌招聘噱头后筹集了6900万$ ，以扩大人工智能客户访谈规模",
@@ -296,7 +365,8 @@
       "link": "https://venturebeat.com/technology/listen-labs-raises-usd69m-after-viral-billboard-hiring-stunt-to-scale-ai",
       "source": "VentureBeat",
       "date": "Fri, 16 Jan 2026 14:01:00 GMT",
-      "hotScore": 17
+      "hotScore": 17,
+      "models": []
     },
     {
       "title": "Salesforce推出新的Slackbot AI代理，在工作场所AI中与微软和谷歌作战",
@@ -304,7 +374,8 @@
       "link": "https://venturebeat.com/technology/salesforce-rolls-out-new-slackbot-ai-agent-as-it-battles-microsoft-and",
       "source": "VentureBeat",
       "date": "Tue, 13 Jan 2026 13:00:00 GMT",
-      "hotScore": 20
+      "hotScore": 20,
+      "models": []
     },
     {
       "title": "Anthropic推出Cowork ，这是Claude Desktop代理，可在您的文件中工作—无需编码",
@@ -312,7 +383,11 @@
       "link": "https://venturebeat.com/technology/anthropic-launches-cowork-a-claude-desktop-agent-that-works-in-your-files-no",
       "source": "VentureBeat",
       "date": "Mon, 12 Jan 2026 11:30:00 GMT",
-      "hotScore": 23
+      "hotScore": 23,
+      "models": [
+        "Claude",
+        "Cowork"
+      ]
     },
     {
       "title": "Nous Research的NousCoder-14B是一个直接登陆Claude Code时刻的开源编码模型",
@@ -320,7 +395,11 @@
       "link": "https://venturebeat.com/technology/nous-researchs-nouscoder-14b-is-an-open-source-coding-model-landing-right-in",
       "source": "VentureBeat",
       "date": "Wed, 07 Jan 2026 20:00:00 GMT",
-      "hotScore": 20
+      "hotScore": 20,
+      "models": [
+        "Claude",
+        "Nous"
+      ]
     },
     {
       "title": "Claude Code的创建者刚刚透露了他的工作流程，开发人员正在失去理智",
@@ -328,25 +407,75 @@
       "link": "https://venturebeat.com/technology/the-creator-of-claude-code-just-revealed-his-workflow-and-developers-are",
       "source": "VentureBeat",
       "date": "Mon, 05 Jan 2026 07:45:00 GMT",
-      "hotScore": 20
+      "hotScore": 20,
+      "models": [
+        "Claude"
+      ]
     }
   ],
   "daily": [
     {
-      "title": "OpenAI砸200亿美元买单，英伟达挑战者冲刺350亿美元估值IPO",
-      "summary": "Cerebras预计本周公布定价",
-      "link": "https://www.qbitai.com/2026/05/415714.html",
+      "title": "OpenClaw低调更新重磅版本，龙虾长手长脚了",
+      "summary": "让AI agent看到屏幕，也能操作鼠标键盘",
+      "link": "https://www.qbitai.com/2026/05/416034.html",
       "source": "量子位",
-      "date": "Mon, 11 May 2026 07:37:05 +0000",
-      "hotScore": 72
+      "date": "Tue, 12 May 2026 04:02:50 +0000",
+      "hotScore": 71,
+      "models": []
+    },
+    {
+      "title": "估值200亿美元！可灵AI被曝剥离快手单独融资",
+      "summary": "快手，可能要亲手拆出第二家“快手”了。",
+      "link": "https://www.qbitai.com/2026/05/416056.html",
+      "source": "量子位",
+      "date": "Tue, 12 May 2026 06:06:38 +0000",
+      "hotScore": 69,
+      "models": []
+    },
+    {
+      "title": "Thinking Machines希望构建一个在说话时真正倾听的人工智能",
+      "summary": "现在，你曾经使用过的每一个人工智能模型都以同样的方式工作。你说话，它听。它回应，你倾听。思考机器试图通过构建一个处理您的输入的模型来改变这一点……",
+      "link": "https://techcrunch.com/2026/05/11/thinking-machines-wants-to-build-an-ai-that-actually-listens-while-it-talks/",
+      "source": "TechCrunch",
+      "date": "Tue, 12 May 2026 04:52:35 +0000",
+      "hotScore": 67,
+      "models": []
+    },
+    {
+      "title": "驾驶人工智能拉力赛， Robinhood准备第二次零售企业IPO",
+      "summary": "Robinhood为其第二个风险基金保密备案，这次是针对成长和早期创业公司。",
+      "link": "https://techcrunch.com/2026/05/11/riding-an-ai-rally-robinhood-preps-second-retail-venture-ipo/",
+      "source": "TechCrunch",
+      "date": "Tue, 12 May 2026 00:09:01 +0000",
+      "hotScore": 63,
+      "models": []
+    },
+    {
+      "title": "通用汽车刚刚解雇了数百名IT员工，聘请那些拥有更强人工智能技能的人",
+      "summary": "一些职位侧重于人工智能原生开发、数据工程和分析、基于云的工程、代理和模型开发以及提示工程和新的人工智能工作流程。",
+      "link": "https://techcrunch.com/2026/05/11/gm-just-laid-off-hundreds-of-it-workers-to-hire-those-with-stronger-ai-skills/",
+      "source": "TechCrunch",
+      "date": "Mon, 11 May 2026 23:04:10 +0000",
+      "hotScore": 63,
+      "models": []
     },
     {
       "title": "Digg再次尝试，这次是作为AI新闻聚合器",
-      "summary": "Digg （再次）返回作为阅读人工智能新闻的另一个地方。",
+      "summary": "在给测试人员的电子邮件中，该公司表示，该网站的目标是“跟踪空间中最具影响力的声音” ，并展示实际上值得“关注”的新闻。",
       "link": "https://techcrunch.com/2026/05/11/digg-tries-again-this-time-as-an-ai-news-aggregator/",
       "source": "TechCrunch",
       "date": "Mon, 11 May 2026 17:02:35 +0000",
-      "hotScore": 70
+      "hotScore": 58,
+      "models": []
+    },
+    {
+      "title": "根据一位诺贝尔经济学奖获得者的说法，人工智能中有三件事值得关注",
+      "summary": "这个故事最初出现在我们的人工智能每周通讯《算法》上。要先在收件箱中获取此类故事，请在此处注册。在他被授予诺贝尔奖的几个月前……",
+      "link": "https://www.technologyreview.com/2026/05/11/1137090/three-things-in-ai-to-watch-according-to-a-nobel-winning-economist/",
+      "source": "MIT科技评论",
+      "date": "Mon, 11 May 2026 17:35:12 +0000",
+      "hotScore": 56,
+      "models": []
     },
     {
       "title": "做AI漫剧的、搞Agent的、投硅谷的，5.20这些赛道顶流碰头了｜最新嘉宾阵容",
@@ -354,7 +483,8 @@
       "link": "https://www.qbitai.com/2026/05/415263.html",
       "source": "量子位",
       "date": "Mon, 11 May 2026 10:18:49 +0000",
-      "hotScore": 68
+      "hotScore": 56,
+      "models": []
     },
     {
       "title": "下载：汉坦病毒爆发和马斯克诉奥特曼案第2周",
@@ -362,7 +492,8 @@
       "link": "https://www.technologyreview.com/2026/05/11/1137031/the-download-hantavirus-outbreak-musk-altman-trial/",
       "source": "MIT科技评论",
       "date": "Mon, 11 May 2026 12:10:00 +0000",
-      "hotScore": 67
+      "hotScore": 55,
+      "models": []
     },
     {
       "title": "太空数据中心没有足够的火箭— Cowboy Space筹集了2.75亿美元建造它们",
@@ -370,31 +501,8 @@
       "link": "https://techcrunch.com/2026/05/11/there-arent-enough-rockets-for-space-data-centers-cowboy-space-raised-275-million-to-build-them/",
       "source": "TechCrunch",
       "date": "Mon, 11 May 2026 13:00:00 +0000",
-      "hotScore": 66
-    },
-    {
-      "title": "像素绽放PixelBloom 完成C轮融资：做全球AI视觉表达平台，更做能交方案的AI办公Agent",
-      "summary": "办公软件的终局是交方案",
-      "link": "https://www.qbitai.com/2026/05/415810.html",
-      "source": "量子位",
-      "date": "Mon, 11 May 2026 07:57:03 +0000",
-      "hotScore": 66
-    },
-    {
-      "title": "黄仁勋喊话毕业生：AI不会取代你，但善用AI的人会",
-      "summary": "自曝创业至暗时刻，飞日本求世嘉CEO救命",
-      "link": "https://www.qbitai.com/2026/05/415403.html",
-      "source": "量子位",
-      "date": "Mon, 11 May 2026 06:32:05 +0000",
-      "hotScore": 66
-    },
-    {
-      "title": "数学专业，危！菲尔兹奖得主亲测ChatGPT 5.5 Pro，17分钟出论文级成果",
-      "summary": "陶哲轩：但「消化」属于人类",
-      "link": "https://www.qbitai.com/2026/05/415186.html",
-      "source": "量子位",
-      "date": "Mon, 11 May 2026 05:14:35 +0000",
-      "hotScore": 66
+      "hotScore": 54,
+      "models": []
     },
     {
       "title": "通过客户支持工程促进突破性人工智能创新",
@@ -402,7 +510,8 @@
       "link": "https://www.technologyreview.com/2026/05/11/1136967/fostering-breakthrough-ai-innovation-through-customer-back-engineering/",
       "source": "MIT科技评论",
       "date": "Mon, 11 May 2026 13:33:06 +0000",
-      "hotScore": 65
+      "hotScore": 53,
+      "models": []
     },
     {
       "title": "在金融领域实施先进的人工智能技术",
@@ -410,15 +519,8 @@
       "link": "https://www.technologyreview.com/2026/05/11/1136786/implementing-advanced-ai-technologies-in-finance/",
       "source": "MIT科技评论",
       "date": "Mon, 11 May 2026 13:00:00 +0000",
-      "hotScore": 64
-    },
-    {
-      "title": "具身大模型R1时刻：LIBERO终结者，99.9%背后的物理推理新范式",
-      "summary": "真正学会了在隐空间里进行“物理思考”",
-      "link": "https://www.qbitai.com/2026/05/415065.html",
-      "source": "量子位",
-      "date": "Mon, 11 May 2026 01:51:36 +0000",
-      "hotScore": 64
+      "hotScore": 52,
+      "models": []
     },
     {
       "title": "硅谷刷屏的AI护城河新论：代码能抄，产品能抄，但有一样东西，谁都抄不走",
@@ -426,41 +528,82 @@
       "link": "https://www.qbitai.com/2026/05/415842.html",
       "source": "量子位",
       "date": "Mon, 11 May 2026 08:31:05 +0000",
-      "hotScore": 63
-    },
-    {
-      "title": "Anthropic说，对人工智能的“邪恶”描绘是克劳德试图勒索的原因",
-      "summary": "根据Anthropic的说法，对人工智能的虚构描绘可以对人工智能模型产生真正的影响。",
-      "link": "https://techcrunch.com/2026/05/10/anthropic-says-evil-portrayals-of-ai-were-responsible-for-claudes-blackmail-attempts/",
-      "source": "TechCrunch",
-      "date": "Sun, 10 May 2026 20:40:41 +0000",
-      "hotScore": 56
-    },
-    {
-      "title": "为未来充满低语的办公室做好准备",
-      "summary": "如果我们花越来越多的时间与电脑交谈，工作设置将如何变化？",
-      "link": "https://techcrunch.com/2026/05/10/get-ready-for-the-whisper-filled-office-of-the-future/",
-      "source": "TechCrunch",
-      "date": "Sun, 10 May 2026 21:15:30 +0000",
-      "hotScore": 53
+      "hotScore": 51,
+      "models": []
     }
   ],
   "weekly": [
     {
+      "title": "OpenClaw低调更新重磅版本，龙虾长手长脚了",
+      "summary": "让AI agent看到屏幕，也能操作鼠标键盘",
+      "link": "https://www.qbitai.com/2026/05/416034.html",
+      "source": "量子位",
+      "date": "Tue, 12 May 2026 04:02:50 +0000",
+      "hotScore": 71,
+      "models": []
+    },
+    {
+      "title": "估值200亿美元！可灵AI被曝剥离快手单独融资",
+      "summary": "快手，可能要亲手拆出第二家“快手”了。",
+      "link": "https://www.qbitai.com/2026/05/416056.html",
+      "source": "量子位",
+      "date": "Tue, 12 May 2026 06:06:38 +0000",
+      "hotScore": 69,
+      "models": []
+    },
+    {
+      "title": "Thinking Machines希望构建一个在说话时真正倾听的人工智能",
+      "summary": "现在，你曾经使用过的每一个人工智能模型都以同样的方式工作。你说话，它听。它回应，你倾听。思考机器试图通过构建一个处理您的输入的模型来改变这一点……",
+      "link": "https://techcrunch.com/2026/05/11/thinking-machines-wants-to-build-an-ai-that-actually-listens-while-it-talks/",
+      "source": "TechCrunch",
+      "date": "Tue, 12 May 2026 04:52:35 +0000",
+      "hotScore": 67,
+      "models": []
+    },
+    {
+      "title": "驾驶人工智能拉力赛， Robinhood准备第二次零售企业IPO",
+      "summary": "Robinhood为其第二个风险基金保密备案，这次是针对成长和早期创业公司。",
+      "link": "https://techcrunch.com/2026/05/11/riding-an-ai-rally-robinhood-preps-second-retail-venture-ipo/",
+      "source": "TechCrunch",
+      "date": "Tue, 12 May 2026 00:09:01 +0000",
+      "hotScore": 63,
+      "models": []
+    },
+    {
+      "title": "通用汽车刚刚解雇了数百名IT员工，聘请那些拥有更强人工智能技能的人",
+      "summary": "一些职位侧重于人工智能原生开发、数据工程和分析、基于云的工程、代理和模型开发以及提示工程和新的人工智能工作流程。",
+      "link": "https://techcrunch.com/2026/05/11/gm-just-laid-off-hundreds-of-it-workers-to-hire-those-with-stronger-ai-skills/",
+      "source": "TechCrunch",
+      "date": "Mon, 11 May 2026 23:04:10 +0000",
+      "hotScore": 63,
+      "models": []
+    },
+    {
       "title": "OpenAI砸200亿美元买单，英伟达挑战者冲刺350亿美元估值IPO",
       "summary": "Cerebras预计本周公布定价",
       "link": "https://www.qbitai.com/2026/05/415714.html",
       "source": "量子位",
       "date": "Mon, 11 May 2026 07:37:05 +0000",
-      "hotScore": 72
+      "hotScore": 60,
+      "models": []
     },
     {
       "title": "Digg再次尝试，这次是作为AI新闻聚合器",
-      "summary": "Digg （再次）返回作为阅读人工智能新闻的另一个地方。",
+      "summary": "在给测试人员的电子邮件中，该公司表示，该网站的目标是“跟踪空间中最具影响力的声音” ，并展示实际上值得“关注”的新闻。",
       "link": "https://techcrunch.com/2026/05/11/digg-tries-again-this-time-as-an-ai-news-aggregator/",
       "source": "TechCrunch",
       "date": "Mon, 11 May 2026 17:02:35 +0000",
-      "hotScore": 70
+      "hotScore": 58,
+      "models": []
+    },
+    {
+      "title": "根据一位诺贝尔经济学奖获得者的说法，人工智能中有三件事值得关注",
+      "summary": "这个故事最初出现在我们的人工智能每周通讯《算法》上。要先在收件箱中获取此类故事，请在此处注册。在他被授予诺贝尔奖的几个月前……",
+      "link": "https://www.technologyreview.com/2026/05/11/1137090/three-things-in-ai-to-watch-according-to-a-nobel-winning-economist/",
+      "source": "MIT科技评论",
+      "date": "Mon, 11 May 2026 17:35:12 +0000",
+      "hotScore": 56,
+      "models": []
     },
     {
       "title": "做AI漫剧的、搞Agent的、投硅谷的，5.20这些赛道顶流碰头了｜最新嘉宾阵容",
@@ -468,7 +611,8 @@
       "link": "https://www.qbitai.com/2026/05/415263.html",
       "source": "量子位",
       "date": "Mon, 11 May 2026 10:18:49 +0000",
-      "hotScore": 68
+      "hotScore": 56,
+      "models": []
     },
     {
       "title": "下载：汉坦病毒爆发和马斯克诉奥特曼案第2周",
@@ -476,31 +620,8 @@
       "link": "https://www.technologyreview.com/2026/05/11/1137031/the-download-hantavirus-outbreak-musk-altman-trial/",
       "source": "MIT科技评论",
       "date": "Mon, 11 May 2026 12:10:00 +0000",
-      "hotScore": 67
-    },
-    {
-      "title": "太空数据中心没有足够的火箭— Cowboy Space筹集了2.75亿美元建造它们",
-      "summary": "显然，对人工智能计算的贪得无厌的需求让数据中心企业家把目光投向了明星。有一个关键问题：没有足够的火箭将数据中心放在地球周围的轨道上，而且……",
-      "link": "https://techcrunch.com/2026/05/11/there-arent-enough-rockets-for-space-data-centers-cowboy-space-raised-275-million-to-build-them/",
-      "source": "TechCrunch",
-      "date": "Mon, 11 May 2026 13:00:00 +0000",
-      "hotScore": 66
-    },
-    {
-      "title": "像素绽放PixelBloom 完成C轮融资：做全球AI视觉表达平台，更做能交方案的AI办公Agent",
-      "summary": "办公软件的终局是交方案",
-      "link": "https://www.qbitai.com/2026/05/415810.html",
-      "source": "量子位",
-      "date": "Mon, 11 May 2026 07:57:03 +0000",
-      "hotScore": 66
-    },
-    {
-      "title": "黄仁勋喊话毕业生：AI不会取代你，但善用AI的人会",
-      "summary": "自曝创业至暗时刻，飞日本求世嘉CEO救命",
-      "link": "https://www.qbitai.com/2026/05/415403.html",
-      "source": "量子位",
-      "date": "Mon, 11 May 2026 06:32:05 +0000",
-      "hotScore": 66
+      "hotScore": 55,
+      "models": []
     },
     {
       "title": "数学专业，危！菲尔兹奖得主亲测ChatGPT 5.5 Pro，17分钟出论文级成果",
@@ -508,23 +629,38 @@
       "link": "https://www.qbitai.com/2026/05/415186.html",
       "source": "量子位",
       "date": "Mon, 11 May 2026 05:14:35 +0000",
-      "hotScore": 66
+      "hotScore": 55,
+      "models": [
+        "GPT",
+        "ChatGPT"
+      ]
     },
     {
-      "title": "通过客户支持工程促进突破性人工智能创新",
-      "summary": "根据麦肯锡的研究，尽管经过多年的数字化，组织从数字投资中获得的价值还不到预期的三分之一。这是因为大多数大公司都是从……开始的",
-      "link": "https://www.technologyreview.com/2026/05/11/1136967/fostering-breakthrough-ai-innovation-through-customer-back-engineering/",
-      "source": "MIT科技评论",
-      "date": "Mon, 11 May 2026 13:33:06 +0000",
-      "hotScore": 65
-    },
-    {
-      "title": "在金融领域实施先进的人工智能技术",
-      "summary": "在长期以来被精确和控制定义的财务部门中，人工智能与其说是一次整齐管理的升级，不如说是一次安静的叛乱。员工已经在使用它，而……",
-      "link": "https://www.technologyreview.com/2026/05/11/1136786/implementing-advanced-ai-technologies-in-finance/",
-      "source": "MIT科技评论",
+      "title": "太空数据中心没有足够的火箭— Cowboy Space筹集了2.75亿美元建造它们",
+      "summary": "显然，对人工智能计算的贪得无厌的需求让数据中心企业家把目光投向了明星。有一个关键问题：没有足够的火箭将数据中心放在地球周围的轨道上，而且……",
+      "link": "https://techcrunch.com/2026/05/11/there-arent-enough-rockets-for-space-data-centers-cowboy-space-raised-275-million-to-build-them/",
+      "source": "TechCrunch",
       "date": "Mon, 11 May 2026 13:00:00 +0000",
-      "hotScore": 64
+      "hotScore": 54,
+      "models": []
+    },
+    {
+      "title": "像素绽放PixelBloom 完成C轮融资：做全球AI视觉表达平台，更做能交方案的AI办公Agent",
+      "summary": "办公软件的终局是交方案",
+      "link": "https://www.qbitai.com/2026/05/415810.html",
+      "source": "量子位",
+      "date": "Mon, 11 May 2026 07:57:03 +0000",
+      "hotScore": 54,
+      "models": []
+    },
+    {
+      "title": "黄仁勋喊话毕业生：AI不会取代你，但善用AI的人会",
+      "summary": "自曝创业至暗时刻，飞日本求世嘉CEO救命",
+      "link": "https://www.qbitai.com/2026/05/415403.html",
+      "source": "量子位",
+      "date": "Mon, 11 May 2026 06:32:05 +0000",
+      "hotScore": 54,
+      "models": []
     },
     {
       "title": "具身大模型R1时刻：LIBERO终结者，99.9%背后的物理推理新范式",
@@ -532,7 +668,26 @@
       "link": "https://www.qbitai.com/2026/05/415065.html",
       "source": "量子位",
       "date": "Mon, 11 May 2026 01:51:36 +0000",
-      "hotScore": 64
+      "hotScore": 54,
+      "models": []
+    },
+    {
+      "title": "通过客户支持工程促进突破性人工智能创新",
+      "summary": "根据麦肯锡的研究，尽管经过多年的数字化，组织从数字投资中获得的价值还不到预期的三分之一。这是因为大多数大公司都是从……开始的",
+      "link": "https://www.technologyreview.com/2026/05/11/1136967/fostering-breakthrough-ai-innovation-through-customer-back-engineering/",
+      "source": "MIT科技评论",
+      "date": "Mon, 11 May 2026 13:33:06 +0000",
+      "hotScore": 53,
+      "models": []
+    },
+    {
+      "title": "在金融领域实施先进的人工智能技术",
+      "summary": "在长期以来被精确和控制定义的财务部门中，人工智能与其说是一次整齐管理的升级，不如说是一次安静的叛乱。员工已经在使用它，而……",
+      "link": "https://www.technologyreview.com/2026/05/11/1136786/implementing-advanced-ai-technologies-in-finance/",
+      "source": "MIT科技评论",
+      "date": "Mon, 11 May 2026 13:00:00 +0000",
+      "hotScore": 52,
+      "models": []
     },
     {
       "title": "硅谷刷屏的AI护城河新论：代码能抄，产品能抄，但有一样东西，谁都抄不走",
@@ -540,15 +695,8 @@
       "link": "https://www.qbitai.com/2026/05/415842.html",
       "source": "量子位",
       "date": "Mon, 11 May 2026 08:31:05 +0000",
-      "hotScore": 63
-    },
-    {
-      "title": "Anthropic说，对人工智能的“邪恶”描绘是克劳德试图勒索的原因",
-      "summary": "根据Anthropic的说法，对人工智能的虚构描绘可以对人工智能模型产生真正的影响。",
-      "link": "https://techcrunch.com/2026/05/10/anthropic-says-evil-portrayals-of-ai-were-responsible-for-claudes-blackmail-attempts/",
-      "source": "TechCrunch",
-      "date": "Sun, 10 May 2026 20:40:41 +0000",
-      "hotScore": 56
+      "hotScore": 51,
+      "models": []
     },
     {
       "title": "我们对xAI与Anthropic的重大交易感到愤世嫉俗",
@@ -556,7 +704,22 @@
       "link": "https://techcrunch.com/2026/05/10/were-feeling-cynical-about-xais-big-deal-with-anthropic/",
       "source": "TechCrunch",
       "date": "Sun, 10 May 2026 15:34:25 +0000",
-      "hotScore": 55
+      "hotScore": 49,
+      "models": [
+        "Claude",
+        "Grok"
+      ]
+    },
+    {
+      "title": "Anthropic说，对人工智能的“邪恶”描绘是克劳德试图勒索的原因",
+      "summary": "根据Anthropic的说法，对人工智能的虚构描绘可以对人工智能模型产生真正的影响。",
+      "link": "https://techcrunch.com/2026/05/10/anthropic-says-evil-portrayals-of-ai-were-responsible-for-claudes-blackmail-attempts/",
+      "source": "TechCrunch",
+      "date": "Sun, 10 May 2026 20:40:41 +0000",
+      "hotScore": 48,
+      "models": [
+        "Claude"
+      ]
     },
     {
       "title": "为未来充满低语的办公室做好准备",
@@ -564,7 +727,8 @@
       "link": "https://techcrunch.com/2026/05/10/get-ready-for-the-whisper-filled-office-of-the-future/",
       "source": "TechCrunch",
       "date": "Sun, 10 May 2026 21:15:30 +0000",
-      "hotScore": 53
+      "hotScore": 46,
+      "models": []
     },
     {
       "title": "浙大推出让AI会「导演」的角色扮演框架！四通道消息沉浸式交互",
@@ -572,23 +736,8 @@
       "link": "https://www.qbitai.com/2026/05/415048.html",
       "source": "量子位",
       "date": "Sun, 10 May 2026 16:26:14 +0000",
-      "hotScore": 51
-    },
-    {
-      "title": "浙大校友用AI突破32年拉姆齐数下界",
-      "summary": "拉姆齐数R(3,17) 下界从92提升至93",
-      "link": "https://www.qbitai.com/2026/05/415031.html",
-      "source": "量子位",
-      "date": "Sun, 10 May 2026 04:01:40 +0000",
-      "hotScore": 45
-    },
-    {
-      "title": "语音人工智能在印度很难。无论如何， Wispr Flow都在押注它。",
-      "summary": "Wispr Flow表示，在Hinglish推出后，印度的增长速度加快，尽管语音人工智能产品仍面临挑战。",
-      "link": "https://techcrunch.com/2026/05/09/voice-ai-in-india-is-hard-wispr-flow-is-betting-on-it-anyway/",
-      "source": "TechCrunch",
-      "date": "Sun, 10 May 2026 02:00:00 +0000",
-      "hotScore": 44
+      "hotScore": 45,
+      "models": []
     },
     {
       "title": "马斯克诉奥尔特曼案第2周： OpenAI回击， Shivon Zilis透露马斯克试图挖走山姆·奥尔特曼",
@@ -596,7 +745,17 @@
       "link": "https://www.technologyreview.com/2026/05/08/1137008/musk-v-altman-week-2-openai-fires-back-and-shivon-zilis-reveals-that-musk-tried-to-poach-sam-altman/",
       "source": "MIT科技评论",
       "date": "Fri, 08 May 2026 23:59:19 +0000",
-      "hotScore": 44
+      "hotScore": 40,
+      "models": []
+    },
+    {
+      "title": "印度的语音人工智能很难—无论如何， Wispr Flow都在押注它",
+      "summary": "Wispr Flow表示，在Hinglish推出后，印度的增长速度加快，尽管语音人工智能产品仍面临挑战。",
+      "link": "https://techcrunch.com/2026/05/09/voice-ai-in-india-is-hard-wispr-flow-is-betting-on-it-anyway/",
+      "source": "TechCrunch",
+      "date": "Sun, 10 May 2026 02:00:00 +0000",
+      "hotScore": 37,
+      "models": []
     },
     {
       "title": "英伟达今年已承诺向股权AI交易投入400 $",
@@ -604,7 +763,8 @@
       "link": "https://techcrunch.com/2026/05/09/nvidia-has-already-committed-40b-to-equity-ai-deals-this-year/",
       "source": "TechCrunch",
       "date": "Sat, 09 May 2026 14:43:30 +0000",
-      "hotScore": 43
+      "hotScore": 37,
+      "models": []
     },
     {
       "title": "所以你已经听过这些人工智能术语并点了点头；让我们来解决这个问题",
@@ -612,15 +772,8 @@
       "link": "https://techcrunch.com/2026/05/09/artificial-intelligence-definition-glossary-hallucinations-guide-to-common-ai-terms/",
       "source": "TechCrunch",
       "date": "Sat, 09 May 2026 21:45:00 +0000",
-      "hotScore": 42
-    },
-    {
-      "title": "伊隆·马斯克（ Elon Musk ）的诉讼将OpenAI的安全记录置于显微镜下",
-      "summary": "埃隆·马斯克（ Elon Musk ）解散OpenAI的法律努力可能取决于其营利性子公司如何加强或减损前沿实验室的创始使命，即确保人类受益于......",
-      "link": "https://techcrunch.com/2026/05/07/elon-musks-lawsuit-is-putting-openais-safety-record-under-the-microscope/",
-      "source": "TechCrunch",
-      "date": "Thu, 07 May 2026 19:21:21 +0000",
-      "hotScore": 41
+      "hotScore": 36,
+      "models": []
     },
     {
       "title": "“人民航空公司”与企业AI淘金热",
@@ -628,7 +781,10 @@
       "link": "https://techcrunch.com/podcast/the-peoples-airline-and-the-enterprise-ai-gold-rush/",
       "source": "TechCrunch",
       "date": "Fri, 08 May 2026 15:46:17 +0000",
-      "hotScore": 38
+      "hotScore": 36,
+      "models": [
+        "Claude"
+      ]
     },
     {
       "title": "OpenAI为可能的自我伤害案件引入了新的「信任联系人」保障措施",
@@ -636,7 +792,11 @@
       "link": "https://techcrunch.com/2026/05/07/openai-introduces-new-trusted-contact-safeguard-for-cases-of-possible-self-harm/",
       "source": "TechCrunch",
       "date": "Thu, 07 May 2026 20:20:20 +0000",
-      "hotScore": 38
+      "hotScore": 36,
+      "models": [
+        "GPT",
+        "ChatGPT"
+      ]
     },
     {
       "title": "OpenAI在其API中推出新的语音智能功能",
@@ -644,7 +804,8 @@
       "link": "https://techcrunch.com/2026/05/07/openai-launches-new-voice-intelligence-features-in-its-api/",
       "source": "TechCrunch",
       "date": "Thu, 07 May 2026 22:24:50 +0000",
-      "hotScore": 33
+      "hotScore": 32,
+      "models": []
     },
     {
       "title": "被解雇的甲骨文员工试图通过谈判获得更好的遣散费。甲骨文拒绝了。",
@@ -652,7 +813,8 @@
       "link": "https://techcrunch.com/2026/05/08/laid-off-oracle-workers-tried-to-negotiate-better-severance-oracle-said-no/",
       "source": "TechCrunch",
       "date": "Fri, 08 May 2026 22:59:05 +0000",
-      "hotScore": 32
+      "hotScore": 29,
+      "models": []
     },
     {
       "title": "Cloudflare表示，人工智能使1100个工作岗位过时，尽管收入创下历史新高",
@@ -660,7 +822,8 @@
       "link": "https://techcrunch.com/2026/05/08/cloudflare-says-ai-made-1100-jobs-obsolete-even-as-revenue-hit-a-record-high/",
       "source": "TechCrunch",
       "date": "Fri, 08 May 2026 18:33:21 +0000",
-      "hotScore": 30
+      "hotScore": 29,
+      "models": []
     },
     {
       "title": "传真机是美国医疗保健的瓶颈， VC开始注意到",
@@ -668,7 +831,8 @@
       "link": "https://techcrunch.com/2026/05/07/the-back-office-problem-that-explains-why-specialists-never-call-you-back/",
       "source": "TechCrunch",
       "date": "Fri, 08 May 2026 04:42:29 +0000",
-      "hotScore": 29
+      "hotScore": 27,
+      "models": []
     },
     {
       "title": "以下是您需要了解的关于邮轮汉坦病毒爆发的信息",
@@ -676,31 +840,8 @@
       "link": "https://www.technologyreview.com/2026/05/08/1136988/heres-what-you-need-to-know-about-the-cruise-ship-hantavirus-outbreak/",
       "source": "MIT科技评论",
       "date": "Fri, 08 May 2026 16:19:40 +0000",
-      "hotScore": 28
-    },
-    {
-      "title": "Voi创始人的新人工智能初创公司Pit已成为斯德哥尔摩最新的后起之秀",
-      "summary": "人工智能初创公司Pit由欧洲滑板车巨头Voi的联合创始人领导，并得到a16z的支持，该公司正在领导这家初创公司的1600万美元种子轮融资。",
-      "link": "https://techcrunch.com/2026/05/07/voi-founders-new-ai-startup-pit-has-become-the-latest-rising-star-out-of-stockholm/",
-      "source": "TechCrunch",
-      "date": "Thu, 07 May 2026 21:02:11 +0000",
-      "hotScore": 28
-    },
-    {
-      "title": "Perplexity的个人电脑现在可供Mac上的所有人使用",
-      "summary": "Perplexity的个人电脑将AI代理引入您的Mac ，现在向所有人开放。",
-      "link": "https://techcrunch.com/2026/05/07/perplexitys-personal-computer-is-now-available-everyone-on-mac/",
-      "source": "TechCrunch",
-      "date": "Thu, 07 May 2026 19:57:59 +0000",
-      "hotScore": 28
-    },
-    {
-      "title": "首席执行官说， Bumble正在摆脱滑动",
-      "summary": "根据惠特尼·沃尔夫·赫德（ Whitney Wolfe Herd ）过去对Bumble新方向的评论，该公司预计将倾向于人工智能--Bumble甚至正在开发一种名为Bee的人工智能约会助手，首席执行官已经做了……",
-      "link": "https://techcrunch.com/2026/05/07/bumble-is-getting-rid-of-the-swipe-ceo-says/",
-      "source": "TechCrunch",
-      "date": "Thu, 07 May 2026 19:06:17 +0000",
-      "hotScore": 28
+      "hotScore": 26,
+      "models": []
     },
     {
       "title": "下载：人工智能不适和婴儿制作技术",
@@ -708,7 +849,17 @@
       "link": "https://www.technologyreview.com/2026/05/08/1136985/the-download-ai-malaise-babymaking-ivf-tech/",
       "source": "MIT科技评论",
       "date": "Fri, 08 May 2026 12:10:00 +0000",
-      "hotScore": 27
+      "hotScore": 26,
+      "models": []
+    },
+    {
+      "title": "Voi创始人的新人工智能初创公司Pit已成为斯德哥尔摩最新的后起之秀",
+      "summary": "人工智能初创公司Pit由欧洲滑板车巨头Voi的联合创始人领导，并得到a16z的支持，该公司正在领导这家初创公司的1600万美元种子轮融资。",
+      "link": "https://techcrunch.com/2026/05/07/voi-founders-new-ai-startup-pit-has-become-the-latest-rising-star-out-of-stockholm/",
+      "source": "TechCrunch",
+      "date": "Thu, 07 May 2026 21:02:11 +0000",
+      "hotScore": 26,
+      "models": []
     },
     {
       "title": "下载：技术重塑试管婴儿和阳台太阳能的崛起",
@@ -716,7 +867,114 @@
       "link": "https://www.technologyreview.com/2026/05/07/1136956/the-download-ivf-tech-balcony-solar/",
       "source": "MIT科技评论",
       "date": "Thu, 07 May 2026 12:10:00 +0000",
-      "hotScore": 25
+      "hotScore": 23,
+      "models": []
+    }
+  ],
+  "models": [
+    {
+      "title": "数学专业，危！菲尔兹奖得主亲测ChatGPT 5.5 Pro，17分钟出论文级成果",
+      "summary": "陶哲轩：但「消化」属于人类",
+      "link": "https://www.qbitai.com/2026/05/415186.html",
+      "source": "量子位",
+      "date": "Mon, 11 May 2026 05:14:35 +0000",
+      "hotScore": 55,
+      "models": [
+        "GPT",
+        "ChatGPT"
+      ]
+    },
+    {
+      "title": "我们对xAI与Anthropic的重大交易感到愤世嫉俗",
+      "summary": "在Equity播客的最新一集中，我们讨论了xAI与Anthropic的交易对母公司SpaceX可能意味着什么。",
+      "link": "https://techcrunch.com/2026/05/10/were-feeling-cynical-about-xais-big-deal-with-anthropic/",
+      "source": "TechCrunch",
+      "date": "Sun, 10 May 2026 15:34:25 +0000",
+      "hotScore": 49,
+      "models": [
+        "Claude",
+        "Grok"
+      ]
+    },
+    {
+      "title": "Anthropic说，对人工智能的“邪恶”描绘是克劳德试图勒索的原因",
+      "summary": "根据Anthropic的说法，对人工智能的虚构描绘可以对人工智能模型产生真正的影响。",
+      "link": "https://techcrunch.com/2026/05/10/anthropic-says-evil-portrayals-of-ai-were-responsible-for-claudes-blackmail-attempts/",
+      "source": "TechCrunch",
+      "date": "Sun, 10 May 2026 20:40:41 +0000",
+      "hotScore": 48,
+      "models": [
+        "Claude"
+      ]
+    },
+    {
+      "title": "“人民航空公司”与企业AI淘金热",
+      "summary": "每个人都想要一块企业AI馅饼，本周，我们看到了一系列公司正在采取行动。来自Anthropic和OpenAI宣布面向企业AI的新合资企业……",
+      "link": "https://techcrunch.com/podcast/the-peoples-airline-and-the-enterprise-ai-gold-rush/",
+      "source": "TechCrunch",
+      "date": "Fri, 08 May 2026 15:46:17 +0000",
+      "hotScore": 36,
+      "models": [
+        "Claude"
+      ]
+    },
+    {
+      "title": "OpenAI为可能的自我伤害案件引入了新的「信任联系人」保障措施",
+      "summary": "该公司正在加大努力，在谈话可能变成自我伤害的情况下保护ChatGPT用户。",
+      "link": "https://techcrunch.com/2026/05/07/openai-introduces-new-trusted-contact-safeguard-for-cases-of-possible-self-harm/",
+      "source": "TechCrunch",
+      "date": "Thu, 07 May 2026 20:20:20 +0000",
+      "hotScore": 36,
+      "models": [
+        "GPT",
+        "ChatGPT"
+      ]
+    },
+    {
+      "title": "Claude Code每月的费用高达$ 200。Goose免费做同样的事情。",
+      "summary": "人工智能编码革命带来了一个问题：成本高昂。Claude Code是Anthropic的基于终端的AI代理，可以自主编写、调试和部署代码，它已经捕获了……",
+      "link": "https://venturebeat.com/infrastructure/claude-code-costs-up-to-usd200-a-month-goose-does-the-same-thing-for-free",
+      "source": "VentureBeat",
+      "date": "Mon, 19 Jan 2026 14:00:00 GMT",
+      "hotScore": 23,
+      "models": [
+        "Claude"
+      ]
+    },
+    {
+      "title": "Anthropic推出Cowork ，这是Claude Desktop代理，可在您的文件中工作—无需编码",
+      "summary": "Anthropic周一发布了Cowork ，这是一项新的人工智能代理功能，将其非常成功的Claude Code工具的功能扩展到非技术用户—据公司内部人士称，该团队......",
+      "link": "https://venturebeat.com/technology/anthropic-launches-cowork-a-claude-desktop-agent-that-works-in-your-files-no",
+      "source": "VentureBeat",
+      "date": "Mon, 12 Jan 2026 11:30:00 GMT",
+      "hotScore": 23,
+      "models": [
+        "Claude",
+        "Cowork"
+      ]
+    },
+    {
+      "title": "Nous Research的NousCoder-14B是一个直接登陆Claude Code时刻的开源编码模型",
+      "summary": "由加密风险投资公司Paradigm支持的开源人工智能初创公司Nous Research周一发布了一种新的竞争性编程模型，该模型与几家公司相匹配或超过几家公司。",
+      "link": "https://venturebeat.com/technology/nous-researchs-nouscoder-14b-is-an-open-source-coding-model-landing-right-in",
+      "source": "VentureBeat",
+      "date": "Wed, 07 Jan 2026 20:00:00 GMT",
+      "hotScore": 20,
+      "models": [
+        "Claude",
+        "Nous"
+      ]
+    },
+    {
+      "title": "Claude Code的创建者刚刚透露了他的工作流程，开发人员正在失去理智",
+      "summary": "当世界上最先进的编码代理的创造者说话时，硅谷不仅仅是倾听—它需要记笔记。在过去的一周里，工程界一直在剖析X上的一条线索……",
+      "link": "https://venturebeat.com/technology/the-creator-of-claude-code-just-revealed-his-workflow-and-developers-are",
+      "source": "VentureBeat",
+      "date": "Mon, 05 Jan 2026 07:45:00 GMT",
+      "hotScore": 20,
+      "models": [
+        "Claude"
+      ]
     }
   ]
 }
