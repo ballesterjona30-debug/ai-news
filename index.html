@@ -21,45 +21,42 @@
       background: rgba(245,245,247,0.88);
       backdrop-filter: saturate(180%) blur(20px);
       border-bottom: 1px solid var(--border);
-      padding: 10px 16px;
+      padding: 8px 12px;
     }
     .header-top {
-      display: flex; align-items: center; justify-content: space-between; margin-bottom: 10px;
+      display: flex; align-items: center; justify-content: space-between; margin-bottom: 8px;
     }
-    .header-top h1 { font-size: 20px; font-weight: 700; letter-spacing: -0.3px; }
-    .header-actions { display: flex; gap: 8px; align-items: center; }
-    .header-actions .updated { font-size: 11px; color: var(--text-2); }
+    .header-top h1 { font-size: 18px; font-weight: 700; }
+    .header-actions { display: flex; gap: 6px; align-items: center; }
+    .header-actions .updated { font-size: 10px; color: var(--text-2); }
     .btn-icon {
-      background: none; border: none; font-size: 18px; cursor: pointer;
-      width: 34px; height: 34px; border-radius: 50%; display: flex;
-      align-items: center; justify-content: center; transition: background 0.15s;
+      background: none; border: none; font-size: 16px; cursor: pointer;
+      width: 30px; height: 30px; border-radius: 50%; display: flex;
+      align-items: center; justify-content: center;
     }
     .btn-icon:active { background: #e5e5e7; }
     .fav-badge {
       position: absolute; top: -2px; right: -2px;
-      background: #ff3b30; color: #fff; font-size: 10px;
-      min-width: 16px; height: 16px; border-radius: 8px;
+      background: #ff3b30; color: #fff; font-size: 9px;
+      min-width: 14px; height: 14px; border-radius: 7px;
       display: flex; align-items: center; justify-content: center; font-weight: 600;
     }
 
     .main-tabs {
-      display: flex; border-bottom: 1px solid var(--border); padding: 0 6px;
-      background: rgba(245,245,247,0.5);
+      display: flex; border-bottom: 1px solid var(--border); padding: 0 2px;
     }
     .main-tab {
-      padding: 10px 6px 8px; text-align: center; font-size: 13px; font-weight: 500;
+      padding: 8px 4px 6px; text-align: center; font-size: 12px; font-weight: 500;
       color: var(--text-2); cursor: pointer;
       border-bottom: 2px solid transparent; transition: all 0.15s;
       background: none; border-top: none; border-left: none; border-right: none;
       flex: 1;
     }
-    .main-tab.active {
-      color: var(--accent); border-bottom-color: var(--accent); font-weight: 600;
-    }
+    .main-tab.active { color: var(--accent); border-bottom-color: var(--accent); font-weight: 600; }
 
-    .sub-tabs { display: flex; padding: 10px 16px; gap: 8px; }
+    .sub-tabs { display: flex; padding: 8px 12px; gap: 6px; }
     .sub-tab {
-      padding: 6px 16px; border-radius: 20px; font-size: 13px; font-weight: 500;
+      padding: 5px 14px; border-radius: 16px; font-size: 12px; font-weight: 500;
       border: 1px solid var(--border); background: var(--card-bg); color: var(--text-2);
       cursor: pointer; transition: all 0.15s;
     }
@@ -70,74 +67,107 @@
 
     .news-list {
       max-width: 680px; margin: 0 auto;
-      padding: 8px 16px 80px; display: flex; flex-direction: column; gap: 10px;
+      padding: 6px 12px 80px; display: flex; flex-direction: column; gap: 8px;
     }
 
+    /* Card with image */
     .card {
-      background: var(--card-bg); border-radius: 14px; padding: 16px;
-      border: 1px solid var(--border);
+      background: var(--card-bg); border-radius: 12px; border: 1px solid var(--border);
       transition: transform 0.1s; position: relative;
+      overflow: hidden;
     }
     .card:active { transform: scale(0.985); }
-    @media (min-width: 680px) {
-      .card:hover { box-shadow: 0 4px 16px rgba(0,0,0,0.06); }
+    @media (min-width: 680px) { .card:hover { box-shadow: 0 4px 16px rgba(0,0,0,0.06); } }
+
+    .card-inner {
+      display: flex; align-items: stretch; gap: 0;
     }
-    .card-top { display: flex; align-items: flex-start; gap: 10px; }
-    .card-body { flex: 1; min-width: 0; }
+    .card-img {
+      width: 100px; min-width: 100px; min-height: 80px;
+      background: #e5e5e7; object-fit: cover;
+    }
+    .card-img-placeholder {
+      width: 100px; min-width: 100px; min-height: 80px;
+      background: linear-gradient(135deg, #e8f2fd, #dbeafe);
+      display: flex; align-items: center; justify-content: center;
+      font-size: 28px; color: #94a3b8;
+    }
+    .card-body {
+      flex: 1; min-width: 0; padding: 10px 12px;
+      display: flex; flex-direction: column; justify-content: center;
+    }
     .card-meta {
-      display: flex; align-items: center; gap: 6px; margin-bottom: 8px; flex-wrap: wrap;
+      display: flex; align-items: center; gap: 6px; margin-bottom: 4px; flex-wrap: wrap;
     }
     .card-source {
-      font-size: 11px; font-weight: 600; color: var(--accent);
-      background: #e8f2fd; padding: 2px 8px; border-radius: 4px; white-space: nowrap;
+      font-size: 10px; font-weight: 600; color: var(--accent);
+      background: #e8f2fd; padding: 1px 6px; border-radius: 3px; white-space: nowrap;
     }
-    .card-date { font-size: 11px; color: var(--text-2); }
+    .card-date { font-size: 10px; color: var(--text-2); }
     .card-hot {
-      font-size: 11px; font-weight: 700; padding: 2px 6px; border-radius: 4px;
+      font-size: 10px; font-weight: 700; padding: 1px 5px; border-radius: 3px;
     }
     .card-hot.high { background: #fff3e0; color: #e65100; }
     .card-hot.mid { background: #fff8e1; color: #f9a825; }
+
     .card-title {
-      font-size: 16px; font-weight: 600; line-height: 1.5; margin-bottom: 8px;
-      display: -webkit-box; -webkit-line-clamp: 4; -webkit-box-orient: vertical; overflow: hidden;
+      font-size: 14px; font-weight: 600; line-height: 1.4; margin-bottom: 3px;
+      display: -webkit-box; -webkit-line-clamp: 3; -webkit-box-orient: vertical; overflow: hidden;
     }
     .card-summary {
-      font-size: 14px; line-height: 1.6; color: var(--text-2);
-      display: -webkit-box; -webkit-line-clamp: 4; -webkit-box-orient: vertical; overflow: hidden;
+      font-size: 12px; line-height: 1.5; color: var(--text-2);
+      display: -webkit-box; -webkit-line-clamp: 3; -webkit-box-orient: vertical; overflow: hidden;
     }
-    .card-model-tags { display: flex; gap: 4px; flex-wrap: wrap; margin-top: 8px; }
+    .card-model-tags { display: flex; gap: 3px; flex-wrap: wrap; margin-top: 4px; }
     .card-model-tag {
-      font-size: 10px; font-weight: 600; padding: 2px 8px; border-radius: 10px;
+      font-size: 9px; font-weight: 600; padding: 1px 6px; border-radius: 8px;
       background: #e8f5e9; color: #2e7d32;
     }
+    .card-views {
+      font-size: 10px; color: var(--text-2); margin-top: 3px;
+    }
+
     .card-fav {
-      flex-shrink: 0; width: 32px; height: 32px; border-radius: 50%;
-      border: none; background: #f5f5f7; font-size: 18px; cursor: pointer;
+      position: absolute; top: 6px; right: 6px;
+      width: 28px; height: 28px; border-radius: 50%;
+      border: none; background: rgba(255,255,255,0.9); font-size: 15px; cursor: pointer;
       display: flex; align-items: center; justify-content: center;
-      transition: transform 0.15s;
+      z-index: 2; box-shadow: 0 1px 3px rgba(0,0,0,0.1);
     }
     .card-fav:active { transform: scale(1.3); }
     .card-fav.faved { background: #fff3e0; }
 
+    /* Video card */
+    .video-card .card-img { width: 120px; min-width: 120px; min-height: 80px; }
+    .video-platform {
+      font-size: 9px; font-weight: 600; padding: 1px 6px; border-radius: 3px;
+      background: #fce4ec; color: #c62828; white-space: nowrap;
+    }
+    .video-platform.bilibili { background: #e3f2fd; color: #1565c0; }
+    .video-views { font-size: 10px; color: var(--text-2); }
+    .video-author { font-size: 10px; color: var(--text-2); }
+
     .rank-num {
-      width: 24px; height: 24px; border-radius: 6px;
+      position: absolute; top: 6px; left: 6px; z-index: 2;
+      width: 22px; height: 22px; border-radius: 5px;
       display: flex; align-items: center; justify-content: center;
-      font-size: 13px; font-weight: 700; flex-shrink: 0;
+      font-size: 12px; font-weight: 700;
+      box-shadow: 0 1px 3px rgba(0,0,0,0.15);
     }
     .rank-num.top1 { background: #ff3b30; color: #fff; }
     .rank-num.top2 { background: #ff6d3b; color: #fff; }
     .rank-num.top3 { background: #ff9500; color: #fff; }
-    .rank-num.normal { background: #e5e5e7; color: #999; }
+    .rank-num.normal { background: rgba(0,0,0,0.5); color: #fff; }
 
-    .loading, .empty { text-align: center; padding: 80px 20px; color: var(--text-2); font-size: 14px; }
+    .loading, .empty { text-align: center; padding: 60px 20px; color: var(--text-2); font-size: 13px; }
     .spinner {
-      width: 28px; height: 28px; border: 3px solid var(--border);
+      width: 24px; height: 24px; border: 3px solid var(--border);
       border-top-color: var(--accent); border-radius: 50%;
-      animation: spin 0.7s linear infinite; margin: 0 auto 10px;
+      animation: spin 0.7s linear infinite; margin: 0 auto 8px;
     }
     @keyframes spin { to { transform: rotate(360deg); } }
 
-    /* favorites panel */
+    /* Favorites */
     .overlay {
       position: fixed; inset: 0; background: rgba(0,0,0,0.4);
       z-index: 50; display: none; opacity: 0; transition: opacity 0.2s;
@@ -146,44 +176,35 @@
     .fav-panel {
       position: fixed; right: 0; top: 0; bottom: 0; width: 90%; max-width: 400px;
       background: #fff; z-index: 60; transform: translateX(100%);
-      transition: transform 0.25s ease; display: flex; flex-direction: column;
+      transition: transform 0.25s; display: flex; flex-direction: column;
       box-shadow: -4px 0 20px rgba(0,0,0,0.1);
     }
     .fav-panel.show { transform: translateX(0); }
     .fav-panel-header {
-      padding: 14px 16px; border-bottom: 1px solid var(--border);
+      padding: 12px 14px; border-bottom: 1px solid var(--border);
       display: flex; align-items: center; justify-content: space-between;
     }
-    .fav-panel-header h3 { font-size: 17px; }
-    .fav-panel-header button {
-      background: none; border: none; font-size: 22px; cursor: pointer; color: var(--text-2);
-    }
-    .fav-panel-list { flex: 1; overflow-y: auto; padding: 12px 16px; display: flex; flex-direction: column; gap: 8px; }
-    .fav-empty { text-align: center; padding: 60px 20px; color: var(--text-2); font-size: 14px; }
-    .fav-item {
-      display: flex; align-items: flex-start; gap: 10px;
-      padding: 12px; background: #f9f9fa; border-radius: 12px;
-    }
+    .fav-panel-header h3 { font-size: 16px; }
+    .fav-panel-header button { background: none; border: none; font-size: 20px; cursor: pointer; color: var(--text-2); }
+    .fav-panel-list { flex: 1; overflow-y: auto; padding: 10px 14px; display: flex; flex-direction: column; gap: 6px; }
+    .fav-empty { text-align: center; padding: 50px 20px; color: var(--text-2); font-size: 13px; }
+    .fav-item { display: flex; align-items: flex-start; gap: 8px; padding: 10px; background: #f9f9fa; border-radius: 10px; }
     .fav-item-body { flex: 1; min-width: 0; }
-    .fav-item-title {
-      font-size: 14px; font-weight: 600; line-height: 1.4; margin-bottom: 4px;
-      display: -webkit-box; -webkit-line-clamp: 1; -webkit-box-orient: vertical; overflow: hidden;
-    }
-    .fav-item-source { font-size: 11px; color: var(--accent); }
+    .fav-item-title { font-size: 13px; font-weight: 600; line-height: 1.3; display: -webkit-box; -webkit-line-clamp: 1; -webkit-box-orient: vertical; overflow: hidden; }
+    .fav-item-source { font-size: 10px; color: var(--accent); }
     .fav-item-del {
-      flex-shrink: 0; width: 28px; height: 28px; border-radius: 50%;
-      border: none; background: #ffe5e5; color: #ff3b30; font-size: 14px; cursor: pointer;
+      flex-shrink: 0; width: 24px; height: 24px; border-radius: 50%;
+      border: none; background: #ffe5e5; color: #ff3b30; font-size: 12px; cursor: pointer;
     }
 
     .refresh-btn {
       background: var(--accent); color: #fff; border: none;
-      padding: 7px 16px; border-radius: 18px; font-size: 13px; font-weight: 500; cursor: pointer;
+      padding: 6px 14px; border-radius: 16px; font-size: 12px; font-weight: 500; cursor: pointer;
     }
-    .refresh-btn:active { opacity: 0.7; }
     .toast {
       position: fixed; top: 50px; left: 50%; transform: translateX(-50%);
-      background: #1d1d1f; color: #fff; padding: 8px 20px;
-      border-radius: 20px; font-size: 13px; z-index: 70;
+      background: #1d1d1f; color: #fff; padding: 6px 16px;
+      border-radius: 16px; font-size: 12px; z-index: 70;
       pointer-events: none; opacity: 0; transition: opacity 0.3s;
     }
     .toast.show { opacity: 1; }
@@ -195,22 +216,22 @@
       <h1>AI 资讯速递</h1>
       <div class="header-actions">
         <span class="updated" id="updateTime">加载中…</span>
-        <button class="refresh-btn" onclick="loadAll()">刷新</button>
-        <button class="btn-icon" style="position:relative" onclick="openFav()" title="收藏夹">
-          ⭐<span class="fav-badge" id="favBadge" style="display:none">0</span>
-        </button>
+        <button class="refresh-btn" onclick="loadAll(true)">刷新</button>
+        <button class="btn-icon" style="position:relative" onclick="openFav()">⭐<span class="fav-badge" id="favBadge" style="display:none">0</span></button>
       </div>
     </div>
     <div class="main-tabs">
       <button class="main-tab active" data-tab="recommend" onclick="switchMain('recommend')">📰 推荐</button>
-      <button class="main-tab" data-tab="ranking" onclick="switchMain('ranking')">🔥 排行榜</button>
-      <button class="main-tab" data-tab="models" onclick="switchMain('models')">🤖 模型动态</button>
+      <button class="main-tab" data-tab="ranking" onclick="switchMain('ranking')">🔥 排行</button>
+      <button class="main-tab" data-tab="models" onclick="switchMain('models')">🤖 模型</button>
+      <button class="main-tab" data-tab="content" onclick="switchMain('content')">📱 内容</button>
     </div>
   </header>
 
   <div class="toast" id="toast"></div>
 
   <div class="content active" id="content-recommend"><div class="news-list" id="recommendList"></div></div>
+
   <div class="content" id="content-ranking">
     <div class="sub-tabs">
       <button class="sub-tab active" data-sub="daily" onclick="switchSub('daily')">今日热搜</button>
@@ -218,20 +239,28 @@
     </div>
     <div class="news-list" id="rankingList"></div>
   </div>
+
   <div class="content" id="content-models"><div class="news-list" id="modelsList"></div></div>
+
+  <div class="content" id="content-content">
+    <div class="sub-tabs">
+      <button class="sub-tab active" data-csub="bilibili" onclick="switchCSub('bilibili')">B站</button>
+      <button class="sub-tab" data-csub="douyin" onclick="switchCSub('douyin')">抖音</button>
+      <button class="sub-tab" data-csub="x" onclick="switchCSub('x')">X</button>
+    </div>
+    <div class="news-list" id="contentList"></div>
+  </div>
 
   <div class="overlay" id="overlay" onclick="closeFav()"></div>
   <div class="fav-panel" id="favPanel">
-    <div class="fav-panel-header">
-      <h3>⭐ 我的收藏</h3>
-      <button onclick="closeFav()">✕</button>
-    </div>
+    <div class="fav-panel-header"><h3>⭐ 我的收藏</h3><button onclick="closeFav()">✕</button></div>
     <div class="fav-panel-list" id="favList"></div>
   </div>
 
   <script>
-    let newsData = null, mainTab = "recommend", subTab = "daily";
-    const FAV_KEY = "ai-news-favorites";
+    let newsData = null, contentData = null;
+    let mainTab = "recommend", subTab = "daily", cSub = "bilibili";
+    const FAV_KEY = "ai-news-favs";
 
     function getFavs() { try { return JSON.parse(localStorage.getItem(FAV_KEY) || "[]"); } catch { return []; } }
     function saveFavs(f) { localStorage.setItem(FAV_KEY, JSON.stringify(f)); }
@@ -243,7 +272,8 @@
 
     function findItemByLink(link) {
       if (!newsData) return null;
-      return (newsData.items || []).concat(newsData.daily || [], newsData.weekly || [], newsData.models || []).find(i => i.link === link);
+      const all = (newsData.items || []).concat(newsData.daily || [], newsData.weekly || [], newsData.models || []);
+      return all.find(i => i.link === link);
     }
     function toggleFavByLink(linkEncoded) {
       const link = decodeURIComponent(linkEncoded);
@@ -254,130 +284,138 @@
       if (idx > -1) favs.splice(idx, 1);
       else favs.push({ title: item.title, link: item.link, source: item.source, date: item.date });
       saveFavs(favs); updateFavBadge(); renderCurrent();
-      showToast(isFaved(link) ? "已收藏 ⭐" : "已取消收藏");
+      showToast(isFaved(link) ? "已收藏 ⭐" : "已取消");
     }
 
-    function hotLabel(score) {
-      if (score >= 60) return '<span class="card-hot high">🔥 ' + score + '</span>';
-      if (score >= 35) return '<span class="card-hot mid">🔥 ' + score + '</span>';
+    function hotLabel(s) {
+      if (s >= 60) return '<span class="card-hot high">🔥'+s+'</span>';
+      if (s >= 35) return '<span class="card-hot mid">🔥'+s+'</span>';
       return '';
     }
     function modelTags(models) {
-      if (!models || models.length === 0) return '';
-      return '<div class="card-model-tags">' + models.map(m => '<span class="card-model-tag">' + esc(m) + '</span>').join("") + '</div>';
+      if (!models || !models.length) return '';
+      return '<div class="card-model-tags">'+models.map(m=>'<span class="card-model-tag">'+esc(m)+'</span>').join('')+'</div>';
+    }
+
+    function imgOrPlaceholder(src) {
+      if (src) return '<img class="card-img" src="'+esc(src)+'" alt="" loading="lazy" onerror="this.style.display=\'none\';this.nextElementSibling.style.display=\'flex\'">' +
+        '<div class="card-img-placeholder" style="display:none">📰</div>';
+      return '<div class="card-img-placeholder">📰</div>';
     }
 
     function makeCard(item, idx) {
       const faved = isFaved(item.link);
-      const linkEncoded = encodeURIComponent(item.link);
+      const le = encodeURIComponent(item.link);
       const scoreHtml = item.hotScore != null ? hotLabel(item.hotScore) : '';
-      const idxHtml = idx != null ? '<span class="rank-num ' + (idx < 3 ? 'top' + (idx+1) : 'normal') + '">' + (idx+1) + '</span>' : '';
+      const idxHtml = idx != null ? '<span class="rank-num '+(idx<3?'top'+(idx+1):'normal')+'">'+(idx+1)+'</span>' : '';
       const tagsHtml = modelTags(item.models);
-      return `<div class="card" data-link="${esc(item.link)}">
-          <div class="card-top">
-            ${idxHtml}
-            <div class="card-body">
-              <div class="card-meta">
-                <span class="card-source">${esc(item.source)}</span>
-                <span class="card-date">${timeAgo(item.date)}</span>
-                ${scoreHtml}
-              </div>
-              <a href="${esc(item.link)}" target="_blank" rel="noopener" style="color:inherit;text-decoration:none">
-                <div class="card-title">${esc(item.title)}</div>
-                ${item.summary ? '<div class="card-summary">' + esc(item.summary) + '</div>' : ''}
-              </a>
-              ${tagsHtml}
+      return `<div class="card">
+        <div class="card-inner">
+          ${imgOrPlaceholder(item.image)}
+          <div class="card-body">
+            <div class="card-meta">
+              <span class="card-source">${esc(item.source)}</span>
+              <span class="card-date">${timeAgo(item.date)}</span>
+              ${scoreHtml}
             </div>
-            <button class="card-fav ${faved ? 'faved' : ''}" onclick="event.stopPropagation();toggleFavByLink('${linkEncoded}')">${faved ? '★' : '☆'}</button>
+            <a href="${esc(item.link)}" target="_blank" rel="noopener" style="color:inherit;text-decoration:none">
+              <div class="card-title">${esc(item.title)}</div>
+              ${item.summary?'<div class="card-summary">'+esc(item.summary)+'</div>':''}
+            </a>
+            ${tagsHtml}
           </div>
-        </div>`;
+        </div>
+        ${idxHtml}
+        <button class="card-fav ${faved?'faved':''}" onclick="event.stopPropagation();toggleFavByLink('${le}')">${faved?'★':'☆'}</button>
+      </div>`;
+    }
+
+    function makeVideoCard(v) {
+      const vn = v.views >= 10000 ? (v.views/10000).toFixed(1)+'万' : v.views;
+      const platformClass = v.platform === 'B站' ? 'bilibili' : '';
+      return `<div class="card video-card">
+        <div class="card-inner">
+          ${imgOrPlaceholder(v.image)}
+          <div class="card-body">
+            <div class="card-meta">
+              <span class="video-platform ${platformClass}">${esc(v.platform)}</span>
+              <span class="video-author">${esc(v.author||'')}</span>
+              <span class="video-views">▶ ${vn} 播放</span>
+            </div>
+            <a href="${esc(v.link)}" target="_blank" rel="noopener" style="color:inherit;text-decoration:none">
+              <div class="card-title">${esc(v.title)}</div>
+              ${v.desc?'<div class="card-summary">'+esc(v.desc)+'</div>':''}
+            </a>
+          </div>
+        </div>
+      </div>`;
     }
 
     function renderList(el, items, showRank) {
-      if (!items || items.length === 0) { el.innerHTML = '<div class="empty">暂无内容</div>'; return; }
-      el.innerHTML = items.map((item, i) => makeCard(item, showRank ? i : null)).join("");
+      if (!items || !items.length) { el.innerHTML = '<div class="empty">暂无内容</div>'; return; }
+      el.innerHTML = items.map((item,i) => makeCard(item, showRank ? i : null)).join("");
+    }
+    function renderContentList(el, items) {
+      if (!items || !items.length) { el.innerHTML = '<div class="empty">暂无内容，数据源可能暂不可用</div>'; return; }
+      el.innerHTML = items.map(makeVideoCard).join("");
     }
 
     function renderCurrent() {
-      if (!newsData) return;
-      if (mainTab === "recommend") renderList(document.getElementById("recommendList"), newsData.items, false);
+      if (mainTab === "recommend") renderList(document.getElementById("recommendList"), newsData?.items, false);
       else if (mainTab === "ranking") {
-        const data = subTab === "daily" ? newsData.daily : newsData.weekly;
+        const data = subTab === "daily" ? newsData?.daily : newsData?.weekly;
         renderList(document.getElementById("rankingList"), data, true);
-      } else if (mainTab === "models") {
-        renderList(document.getElementById("modelsList"), newsData.models, false);
-      }
+      } else if (mainTab === "models") renderList(document.getElementById("modelsList"), newsData?.models, false);
+      else if (mainTab === "content") renderContent();
+    }
+    function renderContent() {
+      if (!contentData) { document.getElementById("contentList").innerHTML = '<div class="empty">加载中…</div>'; return; }
+      const data = cSub === "bilibili" ? contentData.bilibili : cSub === "douyin" ? contentData.douyin : contentData.x;
+      renderContentList(document.getElementById("contentList"), data);
     }
 
     async function loadAll(refresh) {
-      const ids = { recommend: "recommendList", ranking: "rankingList", models: "modelsList" };
-      document.getElementById(ids[mainTab]).innerHTML = '<div class="loading"><div class="spinner"></div>加载中…</div>';
+      const ids = { recommend:"recommendList", ranking:"rankingList", models:"modelsList", content:"contentList" };
+      const el = document.getElementById(ids[mainTab]||"recommendList");
+      el.innerHTML = '<div class="loading"><div class="spinner"></div>加载中…</div>';
       try {
-        const res = await fetch('news.json?t=' + Date.now());
-        if (!res.ok) throw new Error("HTTP " + res.status);
-        newsData = await res.json();
-        document.getElementById("updateTime").textContent = "更新于 " + formatDate(newsData.updated);
+        const [nr, cr] = await Promise.all([
+          fetch('news.json?t='+Date.now()).then(r=>r.json()),
+          fetch('content.json?t='+Date.now()).then(r=>r.json()).catch(()=>null)
+        ]);
+        newsData = nr; contentData = cr;
+        document.getElementById("updateTime").textContent = "更新于 "+formatDate(nr.updated);
         renderCurrent(); updateFavBadge();
         if (refresh) showToast("已刷新 ✓");
-      } catch (e) {
-        document.getElementById(ids[mainTab]).innerHTML = '<div class="empty">加载失败，请重试</div>';
+      } catch(e) {
+        el.innerHTML = '<div class="empty">加载失败，请重试</div>';
         console.error(e);
       }
     }
 
     function switchMain(tab) {
       mainTab = tab;
-      document.querySelectorAll(".main-tab").forEach(t => t.classList.toggle("active", t.dataset.tab === tab));
-      document.getElementById("content-recommend").classList.toggle("active", tab === "recommend");
-      document.getElementById("content-ranking").classList.toggle("active", tab === "ranking");
-      document.getElementById("content-models").classList.toggle("active", tab === "models");
+      document.querySelectorAll(".main-tab").forEach(t=>t.classList.toggle("active",t.dataset.tab===tab));
+      document.querySelectorAll(".content").forEach(c=>c.classList.remove("active"));
+      document.getElementById("content-"+tab).classList.add("active");
       renderCurrent();
     }
-    function switchSub(tab) {
-      subTab = tab;
-      document.querySelectorAll(".sub-tab").forEach(t => t.classList.toggle("active", t.dataset.sub === tab));
-      renderCurrent();
-    }
+    function switchSub(tab) { subTab=tab; document.querySelectorAll("#content-ranking .sub-tab").forEach(t=>t.classList.toggle("active",t.dataset.sub===tab)); renderCurrent(); }
+    function switchCSub(tab) { cSub=tab; document.querySelectorAll("#content-content .sub-tab").forEach(t=>t.classList.toggle("active",t.dataset.csub===tab)); renderCurrent(); }
 
     function openFav() { document.getElementById("overlay").classList.add("show"); document.getElementById("favPanel").classList.add("show"); renderFavPanel(); }
     function closeFav() { document.getElementById("overlay").classList.remove("show"); document.getElementById("favPanel").classList.remove("show"); }
     function renderFavPanel() {
-      const favs = getFavs(), el = document.getElementById("favList");
-      if (favs.length === 0) { el.innerHTML = '<div class="fav-empty">还没有收藏<br>点击新闻右侧的 ☆ 即可收藏</div>'; return; }
-      el.innerHTML = favs.map(f => `
-        <div class="fav-item">
-          <div class="fav-item-body">
-            <a href="${esc(f.link)}" target="_blank" rel="noopener" style="color:inherit;text-decoration:none">
-              <div class="fav-item-title">${esc(f.title)}</div>
-            </a>
-            <span class="fav-item-source">${esc(f.source)}</span>
-          </div>
-          <button class="fav-item-del" onclick="event.stopPropagation();removeFavByEncoded('${encodeURIComponent(f.link)}')">✕</button>
-        </div>
-      `).join("");
+      const favs=getFavs(), el=document.getElementById("favList");
+      if(!favs.length){ el.innerHTML='<div class="fav-empty">还没有收藏<br>点 ⭐ 按钮即可收藏</div>'; return; }
+      el.innerHTML=favs.map(f=>`<div class="fav-item"><div class="fav-item-body"><a href="${esc(f.link)}" target="_blank" style="color:inherit;text-decoration:none"><div class="fav-item-title">${esc(f.title)}</div></a><span class="fav-item-source">${esc(f.source)}</span></div><button class="fav-item-del" onclick="event.stopPropagation();removeFavByEncoded('${encodeURIComponent(f.link)}')">✕</button></div>`).join("");
     }
-    function removeFavByEncoded(linkEncoded) {
-      const link = decodeURIComponent(linkEncoded);
-      let favs = getFavs(); favs = favs.filter(f => f.link !== link);
-      saveFavs(favs); updateFavBadge(); renderFavPanel(); renderCurrent(); showToast("已移除");
-    }
+    function removeFavByEncoded(le){ const l=decodeURIComponent(le); let f=getFavs(); f=f.filter(x=>x.link!==l); saveFavs(f); updateFavBadge(); renderFavPanel(); renderCurrent(); showToast("已移除"); }
 
-    function esc(s) { const m = {"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}; return String(s).replace(/[&<>"']/g, c => m[c]); }
-    function timeAgo(iso) {
-      const diff = Date.now() - new Date(iso).getTime();
-      const min = Math.floor(diff / 60000);
-      if (min < 1) return "刚刚"; if (min < 60) return min + " 分钟前";
-      const hr = Math.floor(min / 60); if (hr < 24) return hr + " 小时前";
-      return Math.floor(hr / 24) + " 天前";
-    }
-    function formatDate(iso) {
-      const d = new Date(iso);
-      return (d.getMonth()+1) + "月" + d.getDate() + "日 " + String(d.getHours()).padStart(2,"0") + ":" + String(d.getMinutes()).padStart(2,"0");
-    }
-    function showToast(msg) {
-      const t = document.getElementById("toast"); t.textContent = msg; t.classList.add("show");
-      setTimeout(() => t.classList.remove("show"), 2000);
-    }
+    function esc(s){ const m={"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}; return String(s).replace(/[&<>"']/g,c=>m[c]); }
+    function timeAgo(iso){ const d=Date.now()-new Date(iso).getTime(),min=Math.floor(d/60000); if(min<1)return"刚刚"; if(min<60)return min+" 分钟前"; const hr=Math.floor(min/60); if(hr<24)return hr+" 小时前"; return Math.floor(hr/24)+" 天前"; }
+    function formatDate(iso){ const d=new Date(iso); return (d.getMonth()+1)+"月"+d.getDate()+"日 "+String(d.getHours()).padStart(2,"0")+":"+String(d.getMinutes()).padStart(2,"0"); }
+    function showToast(msg){ const t=document.getElementById("toast");t.textContent=msg;t.classList.add("show");setTimeout(()=>t.classList.remove("show"),2000); }
 
     loadAll();
   </script>
