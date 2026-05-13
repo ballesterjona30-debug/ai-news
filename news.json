@@ -1,134 +1,47 @@
 {
-  "updated": "2026-05-12T16:44:46.079Z",
+  "updated": "2026-05-13T16:43:18.117Z",
   "count": 34,
   "items": [
     {
-      "title": "Threads 测试了与 Grok 类似的 Meta AI 集成",
-      "summary": "该功能旨在帮助人们在对话中获取有关趋势和突发新闻的实时背景，并接收建议。",
-      "link": "https://techcrunch.com/2026/05/12/threads-tests-a-meta-ai-integration-that-works-similarly-to-grok/",
+      "title": "Origin Lab募集了8M美元帮助电子游戏公司将数据出售给世界模范建设者",
+      "summary": "Origin Lab将作为一个市场,AI实验室可以购买高质量的特许数据,视频游戏公司可以出售.",
+      "link": "https://techcrunch.com/2026/05/13/origin-lab-raises-8m-to-help-video-game-companies-sell-data-to-world-model-builders/",
       "source": "TechCrunch",
-      "date": "Tue, 12 May 2026 16:34:36 +0000",
+      "date": "Wed, 13 May 2026 16:22:01 +0000",
       "hotScore": 70,
-      "models": [
-        "Llama",
-        "Grok"
-      ],
-      "image": "https://techcrunch.com/wp-content/uploads/2026/02/threads-finger-GettyImages-2232887912.jpg?w=1024"
-    },
-    {
-      "title": "世界模型：目前人工智能中最重要的 10 件事",
-      "summary": "世界模型最近被列入了我们目前人工智能领域最重要的 10 件事清单。观看执行编辑 Niall Firth 解释为什么人工智能这一新兴领域受到如此多的关注。加入麻省理工学院技术...",
-      "link": "https://www.technologyreview.com/2026/05/12/1137134/world-models-10-things-that-matter-in-ai-right-now/",
-      "source": "MIT科技评论",
-      "date": "Tue, 12 May 2026 16:22:15 +0000",
-      "hotScore": 68,
       "models": [],
-      "image": "https://wp.technologyreview.com/wp-content/uploads/2024/01/Mat-Honan-1.png"
+      "image": "https://techcrunch.com/wp-content/uploads/2026/05/Origin-Lab-Co-Founders.jpg?resize=1156,1200"
     },
     {
-      "title": "原来Ilya还有70亿美元OpenAI股权",
-      "summary": "世纪庭审实锤OpenAI「造富神话」",
-      "link": "https://www.qbitai.com/2026/05/416597.html",
-      "source": "量子位",
-      "date": "Tue, 12 May 2026 13:55:01 +0000",
-      "hotScore": 74,
-      "models": [
-        "GPT",
-        "ChatGPT"
-      ],
-      "image": "https://www.qbitai.com/wp-content/uploads/imgs/qbitai-logo-1.png"
-    },
-    {
-      "title": "Dessn 为其以生产为中心的设计工具筹集了 600 万美元",
-      "summary": "一家名为 Dessn 的新初创公司筹集了 600 万美元，用于构建直接与生产代码库配合使用的人工智能设计工具。",
-      "link": "https://techcrunch.com/2026/05/12/dessn-raises-6m-for-its-production-focused-design-tool/",
+      "title": "一种新型的客户:小企业主",
+      "summary": "对于创始人和投资者来说,Anthropic的新提供信号是AI平台战争正在扩张下市,用户收购的下一个主要战场不是\"财富500\";这是",
+      "link": "https://techcrunch.com/2026/05/13/anthropic-courts-a-new-kind-of-customer-small-business-owners/",
       "source": "TechCrunch",
-      "date": "Tue, 12 May 2026 13:00:00 +0000",
+      "date": "Wed, 13 May 2026 16:00:00 +0000",
       "hotScore": 67,
-      "models": [],
-      "image": "https://techcrunch.com/wp-content/uploads/2026/05/Screenshot-2026-05-01-at-6.45.13-PM.jpeg?resize=1200,560"
-    },
-    {
-      "title": "下载：人工智能领域的诺贝尔奖获得者以及解决一切问题的案例",
-      "summary": "这是今天的《下载》版本，这是我们的工作日时事通讯，每天提供技术世界中正在发生的事情。一位诺贝尔奖获得者表示，人工智能领域值得关注的三件事……",
-      "link": "https://www.technologyreview.com/2026/05/12/1137103/the-download-nobel-winner-ai-maintenance-of-everything/",
-      "source": "MIT科技评论",
-      "date": "Tue, 12 May 2026 12:10:00 +0000",
-      "hotScore": 64,
-      "models": [],
-      "image": "https://wp.technologyreview.com/wp-content/uploads/2026/05/SoundofDataFinal1f-V-edited.jpeg"
-    },
-    {
-      "title": "AI 语音初创公司 Vapi 在击败 40 多个竞争对手的 Amazon Ring 后估值达到 5 亿美元",
-      "summary": "Vapi 表示，自 2025 年初以来，随着公司将客户支持和销售电话转移给人工智能代理，其企业业务增长了 10 倍。",
-      "link": "https://techcrunch.com/2026/05/12/vapi-hits-500m-valuation-as-amazon-ring-chose-its-ai-platform-over-40-rivals/",
-      "source": "TechCrunch",
-      "date": "Tue, 12 May 2026 11:30:00 +0000",
-      "hotScore": 66,
-      "models": [],
-      "image": "https://techcrunch.com/wp-content/uploads/2026/05/vapi-founders-jordan-dearsley-nikhil-gupta.jpg?resize=1200,800"
-    },
-    {
-      "title": "360发布OpenClaw生态安全报告：AI智能体风险进入自动化审计阶段",
-      "summary": "累计发现23个独立安全漏洞",
-      "link": "https://www.qbitai.com/2026/05/416582.html",
-      "source": "量子位",
-      "date": "Tue, 12 May 2026 09:35:29 +0000",
-      "hotScore": 68,
-      "models": [
-        "智谱GLM",
-        "商汤日日新"
-      ],
-      "image": "https://www.qbitai.com/wp-content/uploads/imgs/qbitai-logo-1.png"
-    },
-    {
-      "title": "AI第一金主黄仁勋：日均花掉20亿",
-      "summary": "“AI御三家”都投了",
-      "link": "https://www.qbitai.com/2026/05/416540.html",
-      "source": "量子位",
-      "date": "Tue, 12 May 2026 08:03:52 +0000",
-      "hotScore": 68,
       "models": [
         "Claude",
-        "Grok",
-        "Mistral",
-        "Perplexity",
-        "Cohere"
+        "Cowork"
       ],
-      "image": "https://www.qbitai.com/wp-content/uploads/imgs/qbitai-logo-1.png"
+      "image": "https://techcrunch.com/wp-content/uploads/2026/03/Dario-Amodei-Anthropic-1.jpg?w=1024"
     },
     {
-      "title": "估值200亿美元！可灵AI被曝剥离快手单独融资",
-      "summary": "快手，可能要亲手拆出第二家“快手”了。",
-      "link": "https://www.qbitai.com/2026/05/416056.html",
-      "source": "量子位",
-      "date": "Tue, 12 May 2026 06:06:38 +0000",
-      "hotScore": 62,
-      "models": [
-        "MiniMax",
-        "智谱GLM",
-        "Sora",
-        "Runway"
-      ],
-      "image": "https://www.qbitai.com/wp-content/uploads/imgs/qbitai-logo-1.png"
-    },
-    {
-      "title": "Thinking Machines 希望构建一个能够在说话时真正倾听的人工智能",
-      "summary": "目前，您使用过的每个人工智能模型都以相同的方式工作。你说话，它听。它会回应，你听着。 Thinking Machines 正试图通过构建一个处理你的输入的模型来改变这一现状……",
-      "link": "https://techcrunch.com/2026/05/11/thinking-machines-wants-to-build-an-ai-that-actually-listens-while-it-talks/",
+      "title": "Amazon推出搜索栏的AI购物助理,由Alexa+提供动力",
+      "summary": "Alexa for Schopping是亚马逊搜索栏中一个新的个性化AI购物助理,取代其Rufus助理.",
+      "link": "https://techcrunch.com/2026/05/13/amazon-launches-an-ai-shopping-assistant-for-the-search-bar-powered-by-alexa/",
       "source": "TechCrunch",
-      "date": "Tue, 12 May 2026 04:52:35 +0000",
-      "hotScore": 60,
+      "date": "Wed, 13 May 2026 14:59:32 +0000",
+      "hotScore": 69,
       "models": [],
-      "image": "https://techcrunch.com/wp-content/uploads/2026/05/GettyImages-2271655163.jpg?resize=1200,879"
+      "image": "https://techcrunch.com/wp-content/uploads/2026/05/Alexa-for-Shopping-Chat-Window.jpg?w=1200"
     },
     {
-      "title": "OpenClaw低调更新重磅版本，龙虾长手长脚了",
-      "summary": "让AI agent看到屏幕，也能操作鼠标键盘",
-      "link": "https://www.qbitai.com/2026/05/416034.html",
+      "title": "8岁小学生idea直接变应用，秒哒3.0刚刚把AI应用门槛打没了",
+      "summary": "甚至可以直接在手机上做APP",
+      "link": "https://www.qbitai.com/2026/05/417366.html",
       "source": "量子位",
-      "date": "Tue, 12 May 2026 04:02:50 +0000",
-      "hotScore": 63,
+      "date": "Wed, 13 May 2026 14:04:42 +0000",
+      "hotScore": 69,
       "models": [
         "Claude",
         "Cursor"
@@ -136,180 +49,343 @@
       "image": "https://www.qbitai.com/wp-content/uploads/imgs/qbitai-logo-1.png"
     },
     {
-      "title": "Robinhood 乘着人工智能的浪潮准备第二次零售企业 IPO",
-      "summary": "Robinhood 秘密提交了第二个风险基金的申请，这次的目标是成长型企业和早期初创企业。",
-      "link": "https://techcrunch.com/2026/05/11/riding-an-ai-rally-robinhood-preps-second-retail-venture-ipo/",
+      "title": "WhatsApp adds an incognito mode in Meta AI chats",
+      "summary": "Meta说,这些无法识别的对话没有保存,一旦关闭聊天,消息将默认消失.",
+      "link": "https://techcrunch.com/2026/05/13/whatsapp-adds-an-incognito-mode-in-meta-ai-chats/",
       "source": "TechCrunch",
-      "date": "Tue, 12 May 2026 00:09:01 +0000",
+      "date": "Wed, 13 May 2026 14:00:00 +0000",
+      "hotScore": 68,
+      "models": [
+        "Llama"
+      ],
+      "image": "https://techcrunch.com/wp-content/uploads/2026/05/Incognito-chat-with-Meta-AI_Image.jpeg?resize=1200,673"
+    },
+    {
+      "title": "Anthropic now has more business customers than OpenAI, according to Ramp data",
+      "summary": "Anthropic首次拥有比OpenAI更多的商业客户.",
+      "link": "https://techcrunch.com/2026/05/13/anthropic-now-has-more-business-customers-than-openai-according-to-ramp-data/",
+      "source": "TechCrunch",
+      "date": "Wed, 13 May 2026 14:00:00 +0000",
+      "hotScore": 73,
+      "models": [
+        "Claude"
+      ],
+      "image": "https://techcrunch.com/wp-content/uploads/2026/02/modi-openai-anthropic-2261854815.jpg?resize=1200,800"
+    },
+    {
+      "title": "Poppy 饰演一个主动的AI助手 帮助组织你的数字生活",
+      "summary": "Poppy is an AI-powered app that connects your calendar, email, messages, and other services to surface reminders, suggestions, and tasks based on what’s happening in your life.",
+      "link": "https://techcrunch.com/2026/05/13/poppy-debuts-a-proactive-ai-assistant-to-help-organize-your-digital-life/",
+      "source": "TechCrunch",
+      "date": "Wed, 13 May 2026 13:27:09 +0000",
+      "hotScore": 67,
+      "models": [],
+      "image": "https://techcrunch.com/wp-content/uploads/2026/05/poppy-header.jpeg?resize=1200,727"
+    },
+    {
+      "title": "适应目标与AutoScientist,一个帮助模型自我训练的AI工具",
+      "summary": "适应器新的自动科学家工具旨在让模型通过常规微调的自动化方法快速适应特定能力.",
+      "link": "https://techcrunch.com/2026/05/13/adaption-aims-big-with-autoscientist-an-ai-tool-that-helps-models-train-themselves/",
+      "source": "TechCrunch",
+      "date": "Wed, 13 May 2026 12:11:33 +0000",
+      "hotScore": 66,
+      "models": [
+        "Cohere"
+      ],
+      "image": "https://techcrunch.com/wp-content/uploads/2025/03/Sara-Hooker_headshot.jpg?resize=900,1200"
+    },
+    {
+      "title": "下载:在轨道上制造毒品和美国航天局的核动力航天器",
+      "summary": "This is today’s edition of The Download, our weekday newsletter that provides a daily dose of what’s going on in the world of technology. A plan to make drugs in orbit is going commercial A startup…",
+      "link": "https://www.technologyreview.com/2026/05/13/1137176/the-download-drugs-in-orbit-nasa-nuclear-spacecraft/",
+      "source": "MIT科技评论",
+      "date": "Wed, 13 May 2026 12:10:00 +0000",
+      "hotScore": 64,
+      "models": [],
+      "image": "https://wp.technologyreview.com/wp-content/uploads/2024/06/Comp-13YS.jpg?w=2400"
+    },
+    {
+      "title": "林俊旸果然创业了！一个“Qwen负责人”头衔值135亿",
+      "summary": "对于一家还没发产品的中国AI初创公司而言，这一估值，几乎没有先例。但相比林俊旸之前同台竞速的硅谷同行，不算贵。",
+      "link": "https://www.qbitai.com/2026/05/416963.html",
+      "source": "量子位",
+      "date": "Wed, 13 May 2026 08:44:16 +0000",
+      "hotScore": 64,
+      "models": [
+        "Qwen",
+        "GPT",
+        "ChatGPT",
+        "Claude",
+        "DeepSeek"
+      ],
+      "image": "https://www.qbitai.com/wp-content/uploads/imgs/qbitai-logo-1.png"
+    },
+    {
+      "title": "苹果画的饼谷歌率先搞定！Gemini全面进驻全家桶，连鼠标都AI上了",
+      "summary": "谷歌把Gemini塞进了Android",
+      "link": "https://www.qbitai.com/2026/05/416870.html",
+      "source": "量子位",
+      "date": "Wed, 13 May 2026 08:29:20 +0000",
+      "hotScore": 70,
+      "models": [
+        "Gemini"
+      ],
+      "image": "https://www.qbitai.com/wp-content/uploads/imgs/qbitai-logo-1.png"
+    },
+    {
+      "title": "AI拿婚外情写勒索邮件，查一年告诉我科幻小说教坏的",
+      "summary": "Anthropic新研究实锤了",
+      "link": "https://www.qbitai.com/2026/05/416831.html",
+      "source": "量子位",
+      "date": "Wed, 13 May 2026 05:40:53 +0000",
+      "hotScore": 65,
+      "models": [
+        "Claude",
+        "Grok"
+      ],
+      "image": "https://www.qbitai.com/wp-content/uploads/imgs/qbitai-logo-1.png"
+    },
+    {
+      "title": "AI步入“自我进化”时代，李彦宏首提AI时代度量衡“DAA”｜Create2026百度AI开发者⼤会速览",
+      "summary": "李彦宏提出“AI时代进化论”",
+      "link": "https://www.qbitai.com/2026/05/416762.html",
+      "source": "量子位",
+      "date": "Wed, 13 May 2026 04:43:31 +0000",
+      "hotScore": 61,
+      "models": [
+        "Claude"
+      ],
+      "image": "https://www.qbitai.com/wp-content/uploads/imgs/qbitai-logo-1.png"
+    },
+    {
+      "title": "Auto Research时代，47个没有标准答案的任务成了Agent能力必测榜",
+      "summary": "正式进入“迭代优化”时代",
+      "link": "https://www.qbitai.com/2026/05/416754.html",
+      "source": "量子位",
+      "date": "Wed, 13 May 2026 04:08:58 +0000",
+      "hotScore": 64,
+      "models": [
+        "GPT"
+      ],
+      "image": "https://www.qbitai.com/wp-content/uploads/imgs/qbitai-logo-1.png"
+    },
+    {
+      "title": "奥特曼趁马斯克出差爆猛料：他曾想让子女继承OpenAI",
+      "summary": "奥特曼曝这老些瓜",
+      "link": "https://www.qbitai.com/2026/05/416739.html",
+      "source": "量子位",
+      "date": "Wed, 13 May 2026 03:38:46 +0000",
+      "hotScore": 69,
+      "models": [],
+      "image": "https://www.qbitai.com/wp-content/uploads/imgs/qbitai-logo-1.png"
+    },
+    {
+      "title": "爱思唯尔把Meta告了：拿Sci-Hub盗版论文训练大模型",
+      "summary": "多方原告组团上阵",
+      "link": "https://www.qbitai.com/2026/05/416576.html",
+      "source": "量子位",
+      "date": "Wed, 13 May 2026 03:10:53 +0000",
+      "hotScore": 63,
+      "models": [
+        "Claude",
+        "Llama"
+      ],
+      "image": "https://www.qbitai.com/wp-content/uploads/imgs/qbitai-logo-1.png"
+    },
+    {
+      "title": "医疗计划的新支付模式是为AI打造的 大部分科技界都不知道",
+      "summary": "没有任何政府机制支付人工智能代理, 监控病人在探视之间",
+      "link": "https://techcrunch.com/2026/05/12/medicares-new-payment-model-is-built-for-ai-and-most-of-the-tech-world-has-no-idea/",
+      "source": "TechCrunch",
+      "date": "Wed, 13 May 2026 00:26:48 +0000",
       "hotScore": 56,
       "models": [],
-      "image": "https://techcrunch.com/wp-content/uploads/2026/05/vlad-tenev-robinhood-GettyImages-2272038864.jpg?w=1024"
+      "image": "https://techcrunch.com/wp-content/uploads/2022/06/GettyImages-877394926.jpg?resize=1200,800"
     },
     {
-      "title": "通用汽车刚刚解雇了数百名 IT 员工，转而雇用人工智能技能更强的员工",
-      "summary": "一些职位专注于人工智能原生开发、数据工程和分析、基于云的工程、代理和模型开发以及即时工程和新的人工智能工作流程。",
-      "link": "https://techcrunch.com/2026/05/11/gm-just-laid-off-hundreds-of-it-workers-to-hire-those-with-stronger-ai-skills/",
+      "title": "将OpenAI交给孩子",
+      "summary": "阿尔特曼说,穆斯克专注于控制最初的盈利,使他暂停了,因为OpenAI致力于将高级AI排除在一个人的手中,阿尔特曼带着他的..",
+      "link": "https://techcrunch.com/2026/05/12/musk-mulled-handing-openai-to-his-children-altman-testifies/",
       "source": "TechCrunch",
-      "date": "Mon, 11 May 2026 23:04:10 +0000",
-      "hotScore": 55,
-      "models": [],
-      "image": "https://techcrunch.com/wp-content/uploads/2026/05/gm-headquarters-getty.jpg?resize=1200,800"
-    },
-    {
-      "title": "一位诺贝尔奖获得者经济学家表示，人工智能领域值得关注的三件事",
-      "summary": "这个故事最初出现在我们关于人工智能的每周通讯《算法》中。要首先在您的收件箱中收到此类故事，请在此处注册。就在他获得诺贝尔奖的几个月前……",
-      "link": "https://www.technologyreview.com/2026/05/11/1137090/three-things-in-ai-to-watch-according-to-a-nobel-winning-economist/",
-      "source": "MIT科技评论",
-      "date": "Mon, 11 May 2026 17:35:12 +0000",
-      "hotScore": 49,
-      "models": [
-        "文心一言"
-      ],
-      "image": "https://wp.technologyreview.com/wp-content/uploads/2026/05/260507_algo2.jpg?resize=1200,600"
-    },
-    {
-      "title": "Digg 再次尝试，这次是作为人工智能新闻聚合器",
-      "summary": "该公司在给测试人员的一封电子邮件中表示，该网站的目标是“追踪某个领域中最有影响力的声音”，并展示真正值得“关注”的新闻。",
-      "link": "https://techcrunch.com/2026/05/11/digg-tries-again-this-time-as-an-ai-news-aggregator/",
-      "source": "TechCrunch",
-      "date": "Mon, 11 May 2026 17:02:35 +0000",
-      "hotScore": 50,
-      "models": [],
-      "image": "https://techcrunch.com/wp-content/uploads/2026/05/digg-ver2-at-10.40.29-AM.jpg?resize=1200,888"
-    },
-    {
-      "title": "通过客户支持工程促进突破性人工智能创新",
-      "summary": "麦肯锡的研究表明，尽管数字化已经进行了多年，但组织从数字投资中获得的价值还不到预期的三分之一。那是因为大多数大公司都是从……开始的。",
-      "link": "https://www.technologyreview.com/2026/05/11/1136967/fostering-breakthrough-ai-innovation-through-customer-back-engineering/",
-      "source": "MIT科技评论",
-      "date": "Mon, 11 May 2026 13:33:06 +0000",
-      "hotScore": 47,
-      "models": [],
-      "image": "https://wp.technologyreview.com/wp-content/uploads/2026/05/Capital-One-iStock-2208464815.jpg?w=1943"
-    },
-    {
-      "title": "没有足够的火箭用于太空数据中心——Cowboy Space 筹集了 2.75 亿美元来建造它们",
-      "summary": "对人工智能计算的明显永不满足的需求让数据中心企业家将目光投向了明星。有一个关键问题：没有足够的火箭将数据中心放置在地球周围的轨道上，而且……",
-      "link": "https://techcrunch.com/2026/05/11/there-arent-enough-rockets-for-space-data-centers-cowboy-space-raised-275-million-to-build-them/",
-      "source": "TechCrunch",
-      "date": "Mon, 11 May 2026 13:00:00 +0000",
-      "hotScore": 48,
-      "models": [],
-      "image": "https://techcrunch.com/wp-content/uploads/2026/05/Cowbow-Space-Company-photo.jpeg?resize=1200,960"
-    },
-    {
-      "title": "在金融领域实施先进的人工智能技术",
-      "summary": "在长期以来以精确和控制为特征的财务部门中，人工智能的出现与其说是一种管理巧妙的升级，不如说是一种悄然的叛乱。员工已经在使用它了……",
-      "link": "https://www.technologyreview.com/2026/05/11/1136786/implementing-advanced-ai-technologies-in-finance/",
-      "source": "MIT科技评论",
-      "date": "Mon, 11 May 2026 13:00:00 +0000",
-      "hotScore": 46,
-      "models": [],
-      "image": "https://wp.technologyreview.com/wp-content/uploads/2026/05/NetSuite-social-card.png"
-    },
-    {
-      "title": "The Download: the hantavirus outbreak and Musk v. Altman week 2",
-      "summary": "This is today’s edition of The Download, our weekday newsletter that provides a daily dose of what’s going on in the world of technology. Here’s what you need to know about the cruise ship hantavirus…",
-      "link": "https://www.technologyreview.com/2026/05/11/1137031/the-download-hantavirus-outbreak-musk-altman-trial/",
-      "source": "MIT科技评论",
-      "date": "Mon, 11 May 2026 12:10:00 +0000",
-      "hotScore": 47,
-      "models": [],
-      "image": "https://wp.technologyreview.com/wp-content/uploads/2023/10/ND23-space-01b.jpg?w=3000"
-    },
-    {
-      "title": "做AI漫剧的、搞Agent的、投硅谷的，5.20这些赛道顶流碰头了｜最新嘉宾阵容",
-      "summary": "5月20日，马上AI起来！",
-      "link": "https://www.qbitai.com/2026/05/415263.html",
-      "source": "量子位",
-      "date": "Mon, 11 May 2026 10:18:49 +0000",
+      "date": "Tue, 12 May 2026 18:05:15 +0000",
       "hotScore": 51,
-      "models": [
-        "智谱GLM",
-        "昆仑万维"
-      ],
-      "image": "https://www.qbitai.com/wp-content/uploads/imgs/qbitai-logo-1.png"
-    },
-    {
-      "title": "硅谷刷屏的AI护城河新论：代码能抄，产品能抄，但有一样东西，谁都抄不走",
-      "summary": "AI时代最贵的东西，已经不是模型了",
-      "link": "https://www.qbitai.com/2026/05/415842.html",
-      "source": "量子位",
-      "date": "Mon, 11 May 2026 08:31:05 +0000",
-      "hotScore": 48,
       "models": [],
-      "image": "https://www.qbitai.com/wp-content/uploads/imgs/qbitai-logo-1.png"
+      "image": "https://techcrunch.com/wp-content/uploads/2026/05/GettyImages-2273246979.jpg?resize=1200,800"
     },
     {
-      "title": "Get ready for the whisper-filled office of the future",
-      "summary": "How will work setups change if we spend more and more time talking to our computers?",
-      "link": "https://techcrunch.com/2026/05/10/get-ready-for-the-whisper-filled-office-of-the-future/",
+      "title": "Anthropic warns investors against secondary platforms offering access to its shares",
+      "summary": "“这些公司提供的任何Anthropic股票的销售或转让,或对Anthropic股票的任何权益,都是无效的,不会在我国的账簿和记录中得到承认。”.",
+      "link": "https://techcrunch.com/2026/05/12/anthropic-warns-investors-against-secondary-platforms-offering-access-to-its-shares/",
       "source": "TechCrunch",
-      "date": "Sun, 10 May 2026 21:15:30 +0000",
-      "hotScore": 42,
-      "models": [],
-      "image": "https://techcrunch.com/wp-content/uploads/2022/12/GettyImages-84164497.jpg?resize=1200,798"
-    },
-    {
-      "title": "Anthropic says ‘evil’ portrayals of AI were responsible for Claude’s blackmail attempts",
-      "summary": "Fictional portrayals of artificial intelligence can have a real effect on AI models, according to Anthropic.",
-      "link": "https://techcrunch.com/2026/05/10/anthropic-says-evil-portrayals-of-ai-were-responsible-for-claudes-blackmail-attempts/",
-      "source": "TechCrunch",
-      "date": "Sun, 10 May 2026 20:40:41 +0000",
-      "hotScore": 45,
+      "date": "Tue, 12 May 2026 17:36:34 +0000",
+      "hotScore": 51,
       "models": [
         "Claude"
       ],
       "image": "https://techcrunch.com/wp-content/uploads/2026/04/GettyImages-2269811684.jpg?w=1024"
     },
     {
-      "title": "We’re feeling cynical about xAI’s big deal with Anthropic",
-      "summary": "On the latest episode of the Equity podcast, we discussed what xAI's deal with Anthropic might mean for parent company SpaceX.",
-      "link": "https://techcrunch.com/2026/05/10/were-feeling-cynical-about-xais-big-deal-with-anthropic/",
+      "title": "报告:Google和SpaceX在会谈中将数据中心送入轨道",
+      "summary": "Google and SpaceX are in talks to build data centers in orbit, pitching space as the future home for AI compute, even as costs today remain far higher than on the ground.",
+      "link": "https://techcrunch.com/2026/05/12/report-google-and-spacex-in-talks-to-put-data-centers-into-orbit/",
       "source": "TechCrunch",
-      "date": "Sun, 10 May 2026 15:34:25 +0000",
-      "hotScore": 46,
+      "date": "Tue, 12 May 2026 17:30:57 +0000",
+      "hotScore": 54,
       "models": [
         "Claude",
         "Grok"
       ],
-      "image": "https://techcrunch.com/wp-content/uploads/2025/06/GettyImages-2217198328.jpeg?resize=1200,800"
+      "image": "https://techcrunch.com/wp-content/uploads/2024/02/starship-stacked-oft-3.jpeg?resize=1200,674"
     },
     {
-      "title": "Voice AI in India is hard — Wispr Flow is betting on it anyway",
-      "summary": "Wispr Flow says growth accelerated in India after its Hinglish rollout, even as voice AI products continue to face challenges.",
-      "link": "https://techcrunch.com/2026/05/09/voice-ai-in-india-is-hard-wispr-flow-is-betting-on-it-anyway/",
+      "title": "Google 在其Android Show上公布的所有信息,从Googlebook到气温编码的部件",
+      "summary": "Google揭幕了新的AI-First Google笔记本电脑,更多的代理双子座功能,气温编码的Android部件,Chrome的双子座,刷新Android Auto,更领先于I/O.",
+      "link": "https://techcrunch.com/2026/05/12/everything-google-announced-at-its-android-show-from-googlebooks-to-vibe-coded-widgets/",
       "source": "TechCrunch",
-      "date": "Sun, 10 May 2026 02:00:00 +0000",
-      "hotScore": 31,
-      "models": [],
-      "image": "https://techcrunch.com/wp-content/uploads/2026/05/wispr-flow-india-image.jpg?resize=1200,800"
+      "date": "Tue, 12 May 2026 17:01:00 +0000",
+      "hotScore": 53,
+      "models": [
+        "Gemini",
+        "Cursor"
+      ],
+      "image": "https://techcrunch.com/wp-content/uploads/2026/05/googlebook.png?resize=1200,843"
     },
     {
-      "title": "So you’ve heard these AI terms and nodded along; let’s fix that",
-      "summary": "The rise of AI has brought an avalanche of new terms and slang. Here is a glossary with definitions of some of the most important words and phrases you might encounter.",
-      "link": "https://techcrunch.com/2026/05/09/artificial-intelligence-definition-glossary-hallucinations-guide-to-common-ai-terms/",
+      "title": "Google 向 Gboard 添加双子座动力拼写功能, 对于拼写功能的启动来说, 这可能是一个坏消息 ",
+      "summary": "Google's transcription feature will initially launch with Samsung Galaxy and Google Pixel phones.",
+      "link": "https://techcrunch.com/2026/05/12/google-adds-gemini-powered-dictation-to-gboard-which-could-be-bad-news-for-dictation-startups/",
       "source": "TechCrunch",
-      "date": "Sat, 09 May 2026 21:45:00 +0000",
-      "hotScore": 29,
+      "date": "Tue, 12 May 2026 17:00:00 +0000",
+      "hotScore": 53,
       "models": [
         "Gemini"
       ],
-      "image": "https://techcrunch.com/wp-content/uploads/2025/03/GettyImages-ai-generated-eb728837-4a65-4ce4-b814-abd0c140d20c.jpg?w=1024"
+      "image": "https://techcrunch.com/wp-content/uploads/2026/01/google-gemini-jagmeet-singh-techcrunch.jpg?resize=1200,800"
     },
     {
-      "title": "Nvidia has already committed $40B to equity AI deals this year",
-      "summary": "Nvidia continues to be a big investor in the AI ecosystem.",
-      "link": "https://techcrunch.com/2026/05/09/nvidia-has-already-committed-40b-to-equity-ai-deals-this-year/",
+      "title": "AI法律服务行业正在兴起",
+      "summary": "Anthropic's new tools are designed to help law firms automate specific clerical functions — things like document search and review, case law resources, deposition prep, document drafting, and other…",
+      "link": "https://techcrunch.com/2026/05/12/the-ai-legal-services-industry-is-heating-up-anthropic-is-getting-in-on-the-action/",
       "source": "TechCrunch",
-      "date": "Sat, 09 May 2026 14:43:30 +0000",
+      "date": "Tue, 12 May 2026 17:00:00 +0000",
+      "hotScore": 48,
+      "models": [
+        "Claude"
+      ],
+      "image": "https://techcrunch.com/wp-content/uploads/2026/02/GettyImages-2261514463.jpg?w=1024"
+    },
+    {
+      "title": "Google 给Android带来代理AI和风景编码部件",
+      "summary": "双子座智能还将包括基于G板的拼写和形式填充能力.",
+      "link": "https://techcrunch.com/2026/05/12/google-brings-agentic-ai-and-vibe-coded-widgets-to-android/",
+      "source": "TechCrunch",
+      "date": "Tue, 12 May 2026 17:00:00 +0000",
+      "hotScore": 53,
+      "models": [
+        "Gemini"
+      ],
+      "image": "https://techcrunch.com/wp-content/uploads/2025/09/GettyImages-2233653192.jpg?resize=1200,786"
+    },
+    {
+      "title": "Threads tests a Meta AI integration that works similarly to Grok",
+      "summary": "该功能旨在帮助人们实时了解趋势和破解故事的背景,以及接受建议,所有这一切都在对话中.",
+      "link": "https://techcrunch.com/2026/05/12/threads-tests-a-meta-ai-integration-that-works-similarly-to-grok/",
+      "source": "TechCrunch",
+      "date": "Tue, 12 May 2026 16:34:36 +0000",
+      "hotScore": 47,
+      "models": [
+        "Llama",
+        "Grok"
+      ],
+      "image": "https://techcrunch.com/wp-content/uploads/2026/02/threads-finger-GettyImages-2232887912.jpg?w=1024"
+    },
+    {
+      "title": "世界模型: AI中重要的十件事",
+      "summary": "World models recently made our list of 10 Things That Matter in AI Right Now. Watch executive editor Niall Firth explain why this emerging area of AI is gaining so much attention. Join MIT Technology…",
+      "link": "https://www.technologyreview.com/2026/05/12/1137134/world-models-10-things-that-matter-in-ai-right-now/",
+      "source": "MIT科技评论",
+      "date": "Tue, 12 May 2026 16:22:15 +0000",
+      "hotScore": 48,
+      "models": [],
+      "image": "https://wp.technologyreview.com/wp-content/uploads/2024/01/Mat-Honan-1.png"
+    },
+    {
+      "title": "Dessn为其生产重点设计工具筹集了6M美元",
+      "summary": "一个名为Dessn的新启动已经筹集了600万美元,用于建造AI动力设计工具,直接与生产代码库合作.",
+      "link": "https://techcrunch.com/2026/05/12/dessn-raises-6m-for-its-production-focused-design-tool/",
+      "source": "TechCrunch",
+      "date": "Tue, 12 May 2026 13:00:00 +0000",
+      "hotScore": 48,
+      "models": [
+        "Perplexity"
+      ],
+      "image": "https://techcrunch.com/wp-content/uploads/2026/05/Screenshot-2026-05-01-at-6.45.13-PM.jpeg?resize=1200,560"
+    },
+    {
+      "title": "The Download: a Nobel winner on AI, and the case for fixing everything",
+      "summary": "这是今天的《下载》, 据诺贝尔奖得主说,AI有三件事要看..",
+      "link": "https://www.technologyreview.com/2026/05/12/1137103/the-download-nobel-winner-ai-maintenance-of-everything/",
+      "source": "MIT科技评论",
+      "date": "Tue, 12 May 2026 12:10:00 +0000",
+      "hotScore": 43,
+      "models": [],
+      "image": "https://wp.technologyreview.com/wp-content/uploads/2026/05/SoundofDataFinal1f-V-edited.jpeg"
+    },
+    {
+      "title": "AI语音启动 Vapi在赢得了超过40个对手的亚马逊环之后 点击了500M的估值",
+      "summary": "Vapi says its enterprise business has grown tenfold since early 2025 as companies shift customer support and sales calls to AI agents.",
+      "link": "https://techcrunch.com/2026/05/12/vapi-hits-500m-valuation-as-amazon-ring-chose-its-ai-platform-over-40-rivals/",
+      "source": "TechCrunch",
+      "date": "Tue, 12 May 2026 11:30:00 +0000",
+      "hotScore": 51,
+      "models": [],
+      "image": "https://techcrunch.com/wp-content/uploads/2026/05/vapi-founders-jordan-dearsley-nikhil-gupta.jpg?resize=1200,800"
+    },
+    {
+      "title": "根据诺贝尔经济学奖获得者的说法,AI有三件事要看",
+      "summary": "这个故事最初出现在我们的AI每周通讯The Algorithm上. 要把这样的故事放进你的收件箱 先在这里签名 在他被授予诺贝尔奖前几个月..",
+      "link": "https://www.technologyreview.com/2026/05/11/1137090/three-things-in-ai-to-watch-according-to-a-nobel-winning-economist/",
+      "source": "MIT科技评论",
+      "date": "Mon, 11 May 2026 17:35:12 +0000",
+      "hotScore": 38,
+      "models": [
+        "文心一言"
+      ],
+      "image": "https://wp.technologyreview.com/wp-content/uploads/2026/05/260507_algo2.jpg?resize=1200,600"
+    },
+    {
+      "title": "通过客户支持工程促进AI创新",
+      "summary": "Despite years of digitization, organizations capture less than one-third of the value expected from digital investments, according to McKinsey research. That’s because most big companies begin with…",
+      "link": "https://www.technologyreview.com/2026/05/11/1136967/fostering-breakthrough-ai-innovation-through-customer-back-engineering/",
+      "source": "MIT科技评论",
+      "date": "Mon, 11 May 2026 13:33:06 +0000",
+      "hotScore": 32,
+      "models": [],
+      "image": "https://wp.technologyreview.com/wp-content/uploads/2026/05/Capital-One-iStock-2208464815.jpg?w=1943"
+    },
+    {
+      "title": "在金融领域应用先进的AI技术",
+      "summary": "在长期以来被精确和控制定义的财务部门中,AI的到来与其说是静悄悄的叛乱,不如说是整齐地管理的升级. 员工已经在使用它的同时..",
+      "link": "https://www.technologyreview.com/2026/05/11/1136786/implementing-advanced-ai-technologies-in-finance/",
+      "source": "MIT科技评论",
+      "date": "Mon, 11 May 2026 13:00:00 +0000",
       "hotScore": 31,
       "models": [],
-      "image": "https://techcrunch.com/wp-content/uploads/2026/03/GettyImages-2266475966.jpg?w=1024"
+      "image": "https://wp.technologyreview.com/wp-content/uploads/2026/05/NetSuite-social-card.png"
     },
     {
-      "title": "Musk v. Altman week 2: OpenAI fires back, and Shivon Zilis reveals that Musk tried to poach Sam Altman",
-      "summary": "In the second week of the landmark trial between Elon Musk and OpenAI, Musk’s motivations for bringing the suit were under scrutiny. Last week, Musk took the stand, alleging that OpenAI CEO Sam…",
+      "title": "The Download: the hantavirus outbreak and Musk v. Altman week 2",
+      "summary": "这是今天的《下载》, 以下是你需要了解的游轮汉塔病毒情况:",
+      "link": "https://www.technologyreview.com/2026/05/11/1137031/the-download-hantavirus-outbreak-musk-altman-trial/",
+      "source": "MIT科技评论",
+      "date": "Mon, 11 May 2026 12:10:00 +0000",
+      "hotScore": 37,
+      "models": [],
+      "image": "https://wp.technologyreview.com/wp-content/uploads/2023/10/ND23-space-01b.jpg?w=3000"
+    },
+    {
+      "title": "Musk v. Altman Week 2: OpenAI开火还击,Shivon Zilis透露Musk试图偷袭Sam Altman",
+      "summary": "在埃隆·穆斯克和OpenAI之间的具有里程碑意义的审判的第二个星期,穆斯克提出诉讼的动机受到审查. 上星期,穆斯克采取了立场,指控OpenAI CEO山姆..",
       "link": "https://www.technologyreview.com/2026/05/08/1137008/musk-v-altman-week-2-openai-fires-back-and-shivon-zilis-reveals-that-musk-tried-to-poach-sam-altman/",
       "source": "MIT科技评论",
       "date": "Fri, 08 May 2026 23:59:19 +0000",
@@ -318,174 +394,60 @@
         "Grok"
       ],
       "image": "https://wp.technologyreview.com/wp-content/uploads/2026/05/260508_OpenAIcase.jpg?resize=1200,600"
-    },
-    {
-      "title": "Laid-off Oracle workers tried to negotiate better severance. Oracle said no.",
-      "summary": "Some found out they didn't qualify for WARN Act protections like two-months notice because the company had classified them as remote workers.",
-      "link": "https://techcrunch.com/2026/05/08/laid-off-oracle-workers-tried-to-negotiate-better-severance-oracle-said-no/",
-      "source": "TechCrunch",
-      "date": "Fri, 08 May 2026 22:59:05 +0000",
-      "hotScore": 25,
-      "models": [],
-      "image": "https://techcrunch.com/wp-content/uploads/2022/06/GettyImages-528022874.jpg?w=1024"
-    },
-    {
-      "title": "Cloudflare says AI made 1,100 jobs obsolete, even as revenue hit a record high",
-      "summary": "Cloudflare announced its first large-scale layoff. CEO Matthew Prince says because of AI efficiency gains, the company doesn't need as many support roles.",
-      "link": "https://techcrunch.com/2026/05/08/cloudflare-says-ai-made-1100-jobs-obsolete-even-as-revenue-hit-a-record-high/",
-      "source": "TechCrunch",
-      "date": "Fri, 08 May 2026 18:33:21 +0000",
-      "hotScore": 25,
-      "models": [],
-      "image": "https://techcrunch.com/wp-content/uploads/2019/12/Matthew-Prince-CloudflareDSC00252.jpg?resize=1200,800"
-    },
-    {
-      "title": "Here’s what you need to know about the cruise ship hantavirus outbreak",
-      "summary": "MIT Technology Review Explains: Let our writers untangle the complex, messy world of technology to help you understand what’s coming next. You can read more from the series here. Eight passengers…",
-      "link": "https://www.technologyreview.com/2026/05/08/1136988/heres-what-you-need-to-know-about-the-cruise-ship-hantavirus-outbreak/",
-      "source": "MIT科技评论",
-      "date": "Fri, 08 May 2026 16:19:40 +0000",
-      "hotScore": 22,
-      "models": [],
-      "image": "https://wp.technologyreview.com/wp-content/uploads/2026/05/260507_Hantavirus.jpg?resize=1200,600"
-    },
-    {
-      "title": "The “people’s airline” and the enterprise AI gold rush",
-      "summary": "Everyone wants a piece of the enterprise AI pie, and this week, we saw a string of companies making their moves. From Anthropic and OpenAI announcing new joint ventures targeting enterprise AI…",
-      "link": "https://techcrunch.com/podcast/the-peoples-airline-and-the-enterprise-ai-gold-rush/",
-      "source": "TechCrunch",
-      "date": "Fri, 08 May 2026 15:46:17 +0000",
-      "hotScore": 35,
-      "models": [
-        "Claude",
-        "Grok"
-      ],
-      "image": "https://techcrunch.com/wp-content/uploads/2025/08/Claude-Chrome-Ext_email-hero-hero.png?w=1200"
-    },
-    {
-      "title": "The Download: AI malaise and babymaking tech",
-      "summary": "This is today’s edition of The Download, our weekday newsletter that provides a daily dose of what’s going on in the world of technology. We’ve entered the era of AI malaise AI is spreading…",
-      "link": "https://www.technologyreview.com/2026/05/08/1136985/the-download-ai-malaise-babymaking-ivf-tech/",
-      "source": "MIT科技评论",
-      "date": "Fri, 08 May 2026 12:10:00 +0000",
-      "hotScore": 25,
-      "models": [],
-      "image": "https://wp.technologyreview.com/wp-content/uploads/2024/04/5.-Hanusik-thumb.jpg?w=3000"
-    },
-    {
-      "title": "The fax machine is the bottleneck in US healthcare, and VCs are starting to notice",
-      "summary": "Like many AI companies automating work that humans currently do, Basata will eventually face a harder question about where the line is between augmenting workers and displacing them. For now, the…",
-      "link": "https://techcrunch.com/2026/05/07/the-back-office-problem-that-explains-why-specialists-never-call-you-back/",
-      "source": "TechCrunch",
-      "date": "Fri, 08 May 2026 04:42:29 +0000",
-      "hotScore": 23,
-      "models": [],
-      "image": "https://techcrunch.com/wp-content/uploads/2022/11/GettyImages-10005136-e1667318874934.jpg?resize=1200,675"
     }
   ],
   "daily": [
     {
-      "title": "原来Ilya还有70亿美元OpenAI股权",
-      "summary": "世纪庭审实锤OpenAI「造富神话」",
-      "link": "https://www.qbitai.com/2026/05/416597.html",
-      "source": "量子位",
-      "date": "Tue, 12 May 2026 13:55:01 +0000",
-      "hotScore": 74,
+      "title": "Anthropic now has more business customers than OpenAI, according to Ramp data",
+      "summary": "Anthropic首次拥有比OpenAI更多的商业客户.",
+      "link": "https://techcrunch.com/2026/05/13/anthropic-now-has-more-business-customers-than-openai-according-to-ramp-data/",
+      "source": "TechCrunch",
+      "date": "Wed, 13 May 2026 14:00:00 +0000",
+      "hotScore": 73,
       "models": [
-        "GPT",
-        "ChatGPT"
+        "Claude"
       ],
-      "image": "https://www.qbitai.com/wp-content/uploads/imgs/qbitai-logo-1.png"
+      "image": "https://techcrunch.com/wp-content/uploads/2026/02/modi-openai-anthropic-2261854815.jpg?resize=1200,800"
     },
     {
-      "title": "Threads 测试了与 Grok 类似的 Meta AI 集成",
-      "summary": "该功能旨在帮助人们在对话中获取有关趋势和突发新闻的实时背景，并接收建议。",
-      "link": "https://techcrunch.com/2026/05/12/threads-tests-a-meta-ai-integration-that-works-similarly-to-grok/",
+      "title": "Origin Lab募集了8M美元帮助电子游戏公司将数据出售给世界模范建设者",
+      "summary": "Origin Lab将作为一个市场,AI实验室可以购买高质量的特许数据,视频游戏公司可以出售.",
+      "link": "https://techcrunch.com/2026/05/13/origin-lab-raises-8m-to-help-video-game-companies-sell-data-to-world-model-builders/",
       "source": "TechCrunch",
-      "date": "Tue, 12 May 2026 16:34:36 +0000",
+      "date": "Wed, 13 May 2026 16:22:01 +0000",
+      "hotScore": 70,
+      "models": [],
+      "image": "https://techcrunch.com/wp-content/uploads/2026/05/Origin-Lab-Co-Founders.jpg?resize=1156,1200"
+    },
+    {
+      "title": "苹果画的饼谷歌率先搞定！Gemini全面进驻全家桶，连鼠标都AI上了",
+      "summary": "谷歌把Gemini塞进了Android",
+      "link": "https://www.qbitai.com/2026/05/416870.html",
+      "source": "量子位",
+      "date": "Wed, 13 May 2026 08:29:20 +0000",
       "hotScore": 70,
       "models": [
-        "Llama",
-        "Grok"
-      ],
-      "image": "https://techcrunch.com/wp-content/uploads/2026/02/threads-finger-GettyImages-2232887912.jpg?w=1024"
-    },
-    {
-      "title": "世界模型：目前人工智能中最重要的 10 件事",
-      "summary": "世界模型最近被列入了我们目前人工智能领域最重要的 10 件事清单。观看执行编辑 Niall Firth 解释为什么人工智能这一新兴领域受到如此多的关注。加入麻省理工学院技术...",
-      "link": "https://www.technologyreview.com/2026/05/12/1137134/world-models-10-things-that-matter-in-ai-right-now/",
-      "source": "MIT科技评论",
-      "date": "Tue, 12 May 2026 16:22:15 +0000",
-      "hotScore": 68,
-      "models": [],
-      "image": "https://wp.technologyreview.com/wp-content/uploads/2024/01/Mat-Honan-1.png"
-    },
-    {
-      "title": "360发布OpenClaw生态安全报告：AI智能体风险进入自动化审计阶段",
-      "summary": "累计发现23个独立安全漏洞",
-      "link": "https://www.qbitai.com/2026/05/416582.html",
-      "source": "量子位",
-      "date": "Tue, 12 May 2026 09:35:29 +0000",
-      "hotScore": 68,
-      "models": [
-        "智谱GLM",
-        "商汤日日新"
+        "Gemini"
       ],
       "image": "https://www.qbitai.com/wp-content/uploads/imgs/qbitai-logo-1.png"
     },
     {
-      "title": "AI第一金主黄仁勋：日均花掉20亿",
-      "summary": "“AI御三家”都投了",
-      "link": "https://www.qbitai.com/2026/05/416540.html",
-      "source": "量子位",
-      "date": "Tue, 12 May 2026 08:03:52 +0000",
-      "hotScore": 68,
-      "models": [
-        "Claude",
-        "Grok",
-        "Mistral",
-        "Perplexity",
-        "Cohere"
-      ],
-      "image": "https://www.qbitai.com/wp-content/uploads/imgs/qbitai-logo-1.png"
-    },
-    {
-      "title": "Dessn 为其以生产为中心的设计工具筹集了 600 万美元",
-      "summary": "一家名为 Dessn 的新初创公司筹集了 600 万美元，用于构建直接与生产代码库配合使用的人工智能设计工具。",
-      "link": "https://techcrunch.com/2026/05/12/dessn-raises-6m-for-its-production-focused-design-tool/",
+      "title": "Amazon推出搜索栏的AI购物助理,由Alexa+提供动力",
+      "summary": "Alexa for Schopping是亚马逊搜索栏中一个新的个性化AI购物助理,取代其Rufus助理.",
+      "link": "https://techcrunch.com/2026/05/13/amazon-launches-an-ai-shopping-assistant-for-the-search-bar-powered-by-alexa/",
       "source": "TechCrunch",
-      "date": "Tue, 12 May 2026 13:00:00 +0000",
-      "hotScore": 67,
+      "date": "Wed, 13 May 2026 14:59:32 +0000",
+      "hotScore": 69,
       "models": [],
-      "image": "https://techcrunch.com/wp-content/uploads/2026/05/Screenshot-2026-05-01-at-6.45.13-PM.jpeg?resize=1200,560"
+      "image": "https://techcrunch.com/wp-content/uploads/2026/05/Alexa-for-Shopping-Chat-Window.jpg?w=1200"
     },
     {
-      "title": "AI 语音初创公司 Vapi 在击败 40 多个竞争对手的 Amazon Ring 后估值达到 5 亿美元",
-      "summary": "Vapi 表示，自 2025 年初以来，随着公司将客户支持和销售电话转移给人工智能代理，其企业业务增长了 10 倍。",
-      "link": "https://techcrunch.com/2026/05/12/vapi-hits-500m-valuation-as-amazon-ring-chose-its-ai-platform-over-40-rivals/",
-      "source": "TechCrunch",
-      "date": "Tue, 12 May 2026 11:30:00 +0000",
-      "hotScore": 66,
-      "models": [],
-      "image": "https://techcrunch.com/wp-content/uploads/2026/05/vapi-founders-jordan-dearsley-nikhil-gupta.jpg?resize=1200,800"
-    },
-    {
-      "title": "下载：人工智能领域的诺贝尔奖获得者以及解决一切问题的案例",
-      "summary": "这是今天的《下载》版本，这是我们的工作日时事通讯，每天提供技术世界中正在发生的事情。一位诺贝尔奖获得者表示，人工智能领域值得关注的三件事……",
-      "link": "https://www.technologyreview.com/2026/05/12/1137103/the-download-nobel-winner-ai-maintenance-of-everything/",
-      "source": "MIT科技评论",
-      "date": "Tue, 12 May 2026 12:10:00 +0000",
-      "hotScore": 64,
-      "models": [],
-      "image": "https://wp.technologyreview.com/wp-content/uploads/2026/05/SoundofDataFinal1f-V-edited.jpeg"
-    },
-    {
-      "title": "OpenClaw低调更新重磅版本，龙虾长手长脚了",
-      "summary": "让AI agent看到屏幕，也能操作鼠标键盘",
-      "link": "https://www.qbitai.com/2026/05/416034.html",
+      "title": "8岁小学生idea直接变应用，秒哒3.0刚刚把AI应用门槛打没了",
+      "summary": "甚至可以直接在手机上做APP",
+      "link": "https://www.qbitai.com/2026/05/417366.html",
       "source": "量子位",
-      "date": "Tue, 12 May 2026 04:02:50 +0000",
-      "hotScore": 63,
+      "date": "Wed, 13 May 2026 14:04:42 +0000",
+      "hotScore": 69,
       "models": [
         "Claude",
         "Cursor"
@@ -493,476 +455,557 @@
       "image": "https://www.qbitai.com/wp-content/uploads/imgs/qbitai-logo-1.png"
     },
     {
-      "title": "估值200亿美元！可灵AI被曝剥离快手单独融资",
-      "summary": "快手，可能要亲手拆出第二家“快手”了。",
-      "link": "https://www.qbitai.com/2026/05/416056.html",
+      "title": "奥特曼趁马斯克出差爆猛料：他曾想让子女继承OpenAI",
+      "summary": "奥特曼曝这老些瓜",
+      "link": "https://www.qbitai.com/2026/05/416739.html",
       "source": "量子位",
-      "date": "Tue, 12 May 2026 06:06:38 +0000",
-      "hotScore": 62,
+      "date": "Wed, 13 May 2026 03:38:46 +0000",
+      "hotScore": 69,
+      "models": [],
+      "image": "https://www.qbitai.com/wp-content/uploads/imgs/qbitai-logo-1.png"
+    },
+    {
+      "title": "WhatsApp adds an incognito mode in Meta AI chats",
+      "summary": "Meta说,这些无法识别的对话没有保存,一旦关闭聊天,消息将默认消失.",
+      "link": "https://techcrunch.com/2026/05/13/whatsapp-adds-an-incognito-mode-in-meta-ai-chats/",
+      "source": "TechCrunch",
+      "date": "Wed, 13 May 2026 14:00:00 +0000",
+      "hotScore": 68,
       "models": [
-        "MiniMax",
-        "智谱GLM",
-        "Sora",
-        "Runway"
+        "Llama"
+      ],
+      "image": "https://techcrunch.com/wp-content/uploads/2026/05/Incognito-chat-with-Meta-AI_Image.jpeg?resize=1200,673"
+    },
+    {
+      "title": "一种新型的客户:小企业主",
+      "summary": "对于创始人和投资者来说,Anthropic的新提供信号是AI平台战争正在扩张下市,用户收购的下一个主要战场不是\"财富500\";这是",
+      "link": "https://techcrunch.com/2026/05/13/anthropic-courts-a-new-kind-of-customer-small-business-owners/",
+      "source": "TechCrunch",
+      "date": "Wed, 13 May 2026 16:00:00 +0000",
+      "hotScore": 67,
+      "models": [
+        "Claude",
+        "Cowork"
+      ],
+      "image": "https://techcrunch.com/wp-content/uploads/2026/03/Dario-Amodei-Anthropic-1.jpg?w=1024"
+    },
+    {
+      "title": "Poppy 饰演一个主动的AI助手 帮助组织你的数字生活",
+      "summary": "Poppy is an AI-powered app that connects your calendar, email, messages, and other services to surface reminders, suggestions, and tasks based on what’s happening in your life.",
+      "link": "https://techcrunch.com/2026/05/13/poppy-debuts-a-proactive-ai-assistant-to-help-organize-your-digital-life/",
+      "source": "TechCrunch",
+      "date": "Wed, 13 May 2026 13:27:09 +0000",
+      "hotScore": 67,
+      "models": [],
+      "image": "https://techcrunch.com/wp-content/uploads/2026/05/poppy-header.jpeg?resize=1200,727"
+    },
+    {
+      "title": "适应目标与AutoScientist,一个帮助模型自我训练的AI工具",
+      "summary": "适应器新的自动科学家工具旨在让模型通过常规微调的自动化方法快速适应特定能力.",
+      "link": "https://techcrunch.com/2026/05/13/adaption-aims-big-with-autoscientist-an-ai-tool-that-helps-models-train-themselves/",
+      "source": "TechCrunch",
+      "date": "Wed, 13 May 2026 12:11:33 +0000",
+      "hotScore": 66,
+      "models": [
+        "Cohere"
+      ],
+      "image": "https://techcrunch.com/wp-content/uploads/2025/03/Sara-Hooker_headshot.jpg?resize=900,1200"
+    },
+    {
+      "title": "AI拿婚外情写勒索邮件，查一年告诉我科幻小说教坏的",
+      "summary": "Anthropic新研究实锤了",
+      "link": "https://www.qbitai.com/2026/05/416831.html",
+      "source": "量子位",
+      "date": "Wed, 13 May 2026 05:40:53 +0000",
+      "hotScore": 65,
+      "models": [
+        "Claude",
+        "Grok"
       ],
       "image": "https://www.qbitai.com/wp-content/uploads/imgs/qbitai-logo-1.png"
     },
     {
-      "title": "Thinking Machines 希望构建一个能够在说话时真正倾听的人工智能",
-      "summary": "目前，您使用过的每个人工智能模型都以相同的方式工作。你说话，它听。它会回应，你听着。 Thinking Machines 正试图通过构建一个处理你的输入的模型来改变这一现状……",
-      "link": "https://techcrunch.com/2026/05/11/thinking-machines-wants-to-build-an-ai-that-actually-listens-while-it-talks/",
-      "source": "TechCrunch",
-      "date": "Tue, 12 May 2026 04:52:35 +0000",
-      "hotScore": 60,
+      "title": "下载:在轨道上制造毒品和美国航天局的核动力航天器",
+      "summary": "This is today’s edition of The Download, our weekday newsletter that provides a daily dose of what’s going on in the world of technology. A plan to make drugs in orbit is going commercial A startup…",
+      "link": "https://www.technologyreview.com/2026/05/13/1137176/the-download-drugs-in-orbit-nasa-nuclear-spacecraft/",
+      "source": "MIT科技评论",
+      "date": "Wed, 13 May 2026 12:10:00 +0000",
+      "hotScore": 64,
       "models": [],
-      "image": "https://techcrunch.com/wp-content/uploads/2026/05/GettyImages-2271655163.jpg?resize=1200,879"
+      "image": "https://wp.technologyreview.com/wp-content/uploads/2024/06/Comp-13YS.jpg?w=2400"
     },
     {
-      "title": "Robinhood 乘着人工智能的浪潮准备第二次零售企业 IPO",
-      "summary": "Robinhood 秘密提交了第二个风险基金的申请，这次的目标是成长型企业和早期初创企业。",
-      "link": "https://techcrunch.com/2026/05/11/riding-an-ai-rally-robinhood-preps-second-retail-venture-ipo/",
+      "title": "林俊旸果然创业了！一个“Qwen负责人”头衔值135亿",
+      "summary": "对于一家还没发产品的中国AI初创公司而言，这一估值，几乎没有先例。但相比林俊旸之前同台竞速的硅谷同行，不算贵。",
+      "link": "https://www.qbitai.com/2026/05/416963.html",
+      "source": "量子位",
+      "date": "Wed, 13 May 2026 08:44:16 +0000",
+      "hotScore": 64,
+      "models": [
+        "Qwen",
+        "GPT",
+        "ChatGPT",
+        "Claude",
+        "DeepSeek"
+      ],
+      "image": "https://www.qbitai.com/wp-content/uploads/imgs/qbitai-logo-1.png"
+    },
+    {
+      "title": "Auto Research时代，47个没有标准答案的任务成了Agent能力必测榜",
+      "summary": "正式进入“迭代优化”时代",
+      "link": "https://www.qbitai.com/2026/05/416754.html",
+      "source": "量子位",
+      "date": "Wed, 13 May 2026 04:08:58 +0000",
+      "hotScore": 64,
+      "models": [
+        "GPT"
+      ],
+      "image": "https://www.qbitai.com/wp-content/uploads/imgs/qbitai-logo-1.png"
+    },
+    {
+      "title": "爱思唯尔把Meta告了：拿Sci-Hub盗版论文训练大模型",
+      "summary": "多方原告组团上阵",
+      "link": "https://www.qbitai.com/2026/05/416576.html",
+      "source": "量子位",
+      "date": "Wed, 13 May 2026 03:10:53 +0000",
+      "hotScore": 63,
+      "models": [
+        "Claude",
+        "Llama"
+      ],
+      "image": "https://www.qbitai.com/wp-content/uploads/imgs/qbitai-logo-1.png"
+    },
+    {
+      "title": "AI步入“自我进化”时代，李彦宏首提AI时代度量衡“DAA”｜Create2026百度AI开发者⼤会速览",
+      "summary": "李彦宏提出“AI时代进化论”",
+      "link": "https://www.qbitai.com/2026/05/416762.html",
+      "source": "量子位",
+      "date": "Wed, 13 May 2026 04:43:31 +0000",
+      "hotScore": 61,
+      "models": [
+        "Claude"
+      ],
+      "image": "https://www.qbitai.com/wp-content/uploads/imgs/qbitai-logo-1.png"
+    },
+    {
+      "title": "医疗计划的新支付模式是为AI打造的 大部分科技界都不知道",
+      "summary": "没有任何政府机制支付人工智能代理, 监控病人在探视之间",
+      "link": "https://techcrunch.com/2026/05/12/medicares-new-payment-model-is-built-for-ai-and-most-of-the-tech-world-has-no-idea/",
       "source": "TechCrunch",
-      "date": "Tue, 12 May 2026 00:09:01 +0000",
+      "date": "Wed, 13 May 2026 00:26:48 +0000",
       "hotScore": 56,
       "models": [],
-      "image": "https://techcrunch.com/wp-content/uploads/2026/05/vlad-tenev-robinhood-GettyImages-2272038864.jpg?w=1024"
+      "image": "https://techcrunch.com/wp-content/uploads/2022/06/GettyImages-877394926.jpg?resize=1200,800"
     },
     {
-      "title": "通用汽车刚刚解雇了数百名 IT 员工，转而雇用人工智能技能更强的员工",
-      "summary": "一些职位专注于人工智能原生开发、数据工程和分析、基于云的工程、代理和模型开发以及即时工程和新的人工智能工作流程。",
-      "link": "https://techcrunch.com/2026/05/11/gm-just-laid-off-hundreds-of-it-workers-to-hire-those-with-stronger-ai-skills/",
+      "title": "报告:Google和SpaceX在会谈中将数据中心送入轨道",
+      "summary": "Google and SpaceX are in talks to build data centers in orbit, pitching space as the future home for AI compute, even as costs today remain far higher than on the ground.",
+      "link": "https://techcrunch.com/2026/05/12/report-google-and-spacex-in-talks-to-put-data-centers-into-orbit/",
       "source": "TechCrunch",
-      "date": "Mon, 11 May 2026 23:04:10 +0000",
-      "hotScore": 55,
-      "models": [],
-      "image": "https://techcrunch.com/wp-content/uploads/2026/05/gm-headquarters-getty.jpg?resize=1200,800"
-    },
-    {
-      "title": "Digg 再次尝试，这次是作为人工智能新闻聚合器",
-      "summary": "该公司在给测试人员的一封电子邮件中表示，该网站的目标是“追踪某个领域中最有影响力的声音”，并展示真正值得“关注”的新闻。",
-      "link": "https://techcrunch.com/2026/05/11/digg-tries-again-this-time-as-an-ai-news-aggregator/",
-      "source": "TechCrunch",
-      "date": "Mon, 11 May 2026 17:02:35 +0000",
-      "hotScore": 50,
-      "models": [],
-      "image": "https://techcrunch.com/wp-content/uploads/2026/05/digg-ver2-at-10.40.29-AM.jpg?resize=1200,888"
-    },
-    {
-      "title": "一位诺贝尔奖获得者经济学家表示，人工智能领域值得关注的三件事",
-      "summary": "这个故事最初出现在我们关于人工智能的每周通讯《算法》中。要首先在您的收件箱中收到此类故事，请在此处注册。就在他获得诺贝尔奖的几个月前……",
-      "link": "https://www.technologyreview.com/2026/05/11/1137090/three-things-in-ai-to-watch-according-to-a-nobel-winning-economist/",
-      "source": "MIT科技评论",
-      "date": "Mon, 11 May 2026 17:35:12 +0000",
-      "hotScore": 49,
+      "date": "Tue, 12 May 2026 17:30:57 +0000",
+      "hotScore": 54,
       "models": [
-        "文心一言"
+        "Claude",
+        "Grok"
       ],
-      "image": "https://wp.technologyreview.com/wp-content/uploads/2026/05/260507_algo2.jpg?resize=1200,600"
+      "image": "https://techcrunch.com/wp-content/uploads/2024/02/starship-stacked-oft-3.jpeg?resize=1200,674"
+    },
+    {
+      "title": "Google 在其Android Show上公布的所有信息,从Googlebook到气温编码的部件",
+      "summary": "Google揭幕了新的AI-First Google笔记本电脑,更多的代理双子座功能,气温编码的Android部件,Chrome的双子座,刷新Android Auto,更领先于I/O.",
+      "link": "https://techcrunch.com/2026/05/12/everything-google-announced-at-its-android-show-from-googlebooks-to-vibe-coded-widgets/",
+      "source": "TechCrunch",
+      "date": "Tue, 12 May 2026 17:01:00 +0000",
+      "hotScore": 53,
+      "models": [
+        "Gemini",
+        "Cursor"
+      ],
+      "image": "https://techcrunch.com/wp-content/uploads/2026/05/googlebook.png?resize=1200,843"
+    },
+    {
+      "title": "Google 向 Gboard 添加双子座动力拼写功能, 对于拼写功能的启动来说, 这可能是一个坏消息 ",
+      "summary": "Google's transcription feature will initially launch with Samsung Galaxy and Google Pixel phones.",
+      "link": "https://techcrunch.com/2026/05/12/google-adds-gemini-powered-dictation-to-gboard-which-could-be-bad-news-for-dictation-startups/",
+      "source": "TechCrunch",
+      "date": "Tue, 12 May 2026 17:00:00 +0000",
+      "hotScore": 53,
+      "models": [
+        "Gemini"
+      ],
+      "image": "https://techcrunch.com/wp-content/uploads/2026/01/google-gemini-jagmeet-singh-techcrunch.jpg?resize=1200,800"
+    },
+    {
+      "title": "Google 给Android带来代理AI和风景编码部件",
+      "summary": "双子座智能还将包括基于G板的拼写和形式填充能力.",
+      "link": "https://techcrunch.com/2026/05/12/google-brings-agentic-ai-and-vibe-coded-widgets-to-android/",
+      "source": "TechCrunch",
+      "date": "Tue, 12 May 2026 17:00:00 +0000",
+      "hotScore": 53,
+      "models": [
+        "Gemini"
+      ],
+      "image": "https://techcrunch.com/wp-content/uploads/2025/09/GettyImages-2233653192.jpg?resize=1200,786"
+    },
+    {
+      "title": "将OpenAI交给孩子",
+      "summary": "阿尔特曼说,穆斯克专注于控制最初的盈利,使他暂停了,因为OpenAI致力于将高级AI排除在一个人的手中,阿尔特曼带着他的..",
+      "link": "https://techcrunch.com/2026/05/12/musk-mulled-handing-openai-to-his-children-altman-testifies/",
+      "source": "TechCrunch",
+      "date": "Tue, 12 May 2026 18:05:15 +0000",
+      "hotScore": 51,
+      "models": [],
+      "image": "https://techcrunch.com/wp-content/uploads/2026/05/GettyImages-2273246979.jpg?resize=1200,800"
+    },
+    {
+      "title": "Anthropic warns investors against secondary platforms offering access to its shares",
+      "summary": "“这些公司提供的任何Anthropic股票的销售或转让,或对Anthropic股票的任何权益,都是无效的,不会在我国的账簿和记录中得到承认。”.",
+      "link": "https://techcrunch.com/2026/05/12/anthropic-warns-investors-against-secondary-platforms-offering-access-to-its-shares/",
+      "source": "TechCrunch",
+      "date": "Tue, 12 May 2026 17:36:34 +0000",
+      "hotScore": 51,
+      "models": [
+        "Claude"
+      ],
+      "image": "https://techcrunch.com/wp-content/uploads/2026/04/GettyImages-2269811684.jpg?w=1024"
+    },
+    {
+      "title": "AI法律服务行业正在兴起",
+      "summary": "Anthropic's new tools are designed to help law firms automate specific clerical functions — things like document search and review, case law resources, deposition prep, document drafting, and other…",
+      "link": "https://techcrunch.com/2026/05/12/the-ai-legal-services-industry-is-heating-up-anthropic-is-getting-in-on-the-action/",
+      "source": "TechCrunch",
+      "date": "Tue, 12 May 2026 17:00:00 +0000",
+      "hotScore": 48,
+      "models": [
+        "Claude"
+      ],
+      "image": "https://techcrunch.com/wp-content/uploads/2026/02/GettyImages-2261514463.jpg?w=1024"
     }
   ],
   "weekly": [
     {
-      "title": "原来Ilya还有70亿美元OpenAI股权",
-      "summary": "世纪庭审实锤OpenAI「造富神话」",
-      "link": "https://www.qbitai.com/2026/05/416597.html",
-      "source": "量子位",
-      "date": "Tue, 12 May 2026 13:55:01 +0000",
-      "hotScore": 74,
+      "title": "Anthropic now has more business customers than OpenAI, according to Ramp data",
+      "summary": "Anthropic首次拥有比OpenAI更多的商业客户.",
+      "link": "https://techcrunch.com/2026/05/13/anthropic-now-has-more-business-customers-than-openai-according-to-ramp-data/",
+      "source": "TechCrunch",
+      "date": "Wed, 13 May 2026 14:00:00 +0000",
+      "hotScore": 73,
       "models": [
-        "GPT",
-        "ChatGPT"
+        "Claude"
       ],
-      "image": "https://www.qbitai.com/wp-content/uploads/imgs/qbitai-logo-1.png"
+      "image": "https://techcrunch.com/wp-content/uploads/2026/02/modi-openai-anthropic-2261854815.jpg?resize=1200,800"
     },
     {
-      "title": "Threads 测试了与 Grok 类似的 Meta AI 集成",
-      "summary": "该功能旨在帮助人们在对话中获取有关趋势和突发新闻的实时背景，并接收建议。",
-      "link": "https://techcrunch.com/2026/05/12/threads-tests-a-meta-ai-integration-that-works-similarly-to-grok/",
+      "title": "Origin Lab募集了8M美元帮助电子游戏公司将数据出售给世界模范建设者",
+      "summary": "Origin Lab将作为一个市场,AI实验室可以购买高质量的特许数据,视频游戏公司可以出售.",
+      "link": "https://techcrunch.com/2026/05/13/origin-lab-raises-8m-to-help-video-game-companies-sell-data-to-world-model-builders/",
       "source": "TechCrunch",
-      "date": "Tue, 12 May 2026 16:34:36 +0000",
+      "date": "Wed, 13 May 2026 16:22:01 +0000",
+      "hotScore": 70,
+      "models": [],
+      "image": "https://techcrunch.com/wp-content/uploads/2026/05/Origin-Lab-Co-Founders.jpg?resize=1156,1200"
+    },
+    {
+      "title": "苹果画的饼谷歌率先搞定！Gemini全面进驻全家桶，连鼠标都AI上了",
+      "summary": "谷歌把Gemini塞进了Android",
+      "link": "https://www.qbitai.com/2026/05/416870.html",
+      "source": "量子位",
+      "date": "Wed, 13 May 2026 08:29:20 +0000",
       "hotScore": 70,
       "models": [
-        "Llama",
-        "Grok"
-      ],
-      "image": "https://techcrunch.com/wp-content/uploads/2026/02/threads-finger-GettyImages-2232887912.jpg?w=1024"
-    },
-    {
-      "title": "世界模型：目前人工智能中最重要的 10 件事",
-      "summary": "世界模型最近被列入了我们目前人工智能领域最重要的 10 件事清单。观看执行编辑 Niall Firth 解释为什么人工智能这一新兴领域受到如此多的关注。加入麻省理工学院技术...",
-      "link": "https://www.technologyreview.com/2026/05/12/1137134/world-models-10-things-that-matter-in-ai-right-now/",
-      "source": "MIT科技评论",
-      "date": "Tue, 12 May 2026 16:22:15 +0000",
-      "hotScore": 68,
-      "models": [],
-      "image": "https://wp.technologyreview.com/wp-content/uploads/2024/01/Mat-Honan-1.png"
-    },
-    {
-      "title": "360发布OpenClaw生态安全报告：AI智能体风险进入自动化审计阶段",
-      "summary": "累计发现23个独立安全漏洞",
-      "link": "https://www.qbitai.com/2026/05/416582.html",
-      "source": "量子位",
-      "date": "Tue, 12 May 2026 09:35:29 +0000",
-      "hotScore": 68,
-      "models": [
-        "智谱GLM",
-        "商汤日日新"
+        "Gemini"
       ],
       "image": "https://www.qbitai.com/wp-content/uploads/imgs/qbitai-logo-1.png"
     },
     {
-      "title": "AI第一金主黄仁勋：日均花掉20亿",
-      "summary": "“AI御三家”都投了",
-      "link": "https://www.qbitai.com/2026/05/416540.html",
+      "title": "Amazon推出搜索栏的AI购物助理,由Alexa+提供动力",
+      "summary": "Alexa for Schopping是亚马逊搜索栏中一个新的个性化AI购物助理,取代其Rufus助理.",
+      "link": "https://techcrunch.com/2026/05/13/amazon-launches-an-ai-shopping-assistant-for-the-search-bar-powered-by-alexa/",
+      "source": "TechCrunch",
+      "date": "Wed, 13 May 2026 14:59:32 +0000",
+      "hotScore": 69,
+      "models": [],
+      "image": "https://techcrunch.com/wp-content/uploads/2026/05/Alexa-for-Shopping-Chat-Window.jpg?w=1200"
+    },
+    {
+      "title": "8岁小学生idea直接变应用，秒哒3.0刚刚把AI应用门槛打没了",
+      "summary": "甚至可以直接在手机上做APP",
+      "link": "https://www.qbitai.com/2026/05/417366.html",
       "source": "量子位",
-      "date": "Tue, 12 May 2026 08:03:52 +0000",
-      "hotScore": 68,
+      "date": "Wed, 13 May 2026 14:04:42 +0000",
+      "hotScore": 69,
       "models": [
         "Claude",
-        "Grok",
-        "Mistral",
-        "Perplexity",
-        "Cohere"
+        "Cursor"
       ],
       "image": "https://www.qbitai.com/wp-content/uploads/imgs/qbitai-logo-1.png"
     },
     {
-      "title": "Dessn 为其以生产为中心的设计工具筹集了 600 万美元",
-      "summary": "一家名为 Dessn 的新初创公司筹集了 600 万美元，用于构建直接与生产代码库配合使用的人工智能设计工具。",
-      "link": "https://techcrunch.com/2026/05/12/dessn-raises-6m-for-its-production-focused-design-tool/",
-      "source": "TechCrunch",
-      "date": "Tue, 12 May 2026 13:00:00 +0000",
-      "hotScore": 67,
+      "title": "奥特曼趁马斯克出差爆猛料：他曾想让子女继承OpenAI",
+      "summary": "奥特曼曝这老些瓜",
+      "link": "https://www.qbitai.com/2026/05/416739.html",
+      "source": "量子位",
+      "date": "Wed, 13 May 2026 03:38:46 +0000",
+      "hotScore": 69,
       "models": [],
-      "image": "https://techcrunch.com/wp-content/uploads/2026/05/Screenshot-2026-05-01-at-6.45.13-PM.jpeg?resize=1200,560"
+      "image": "https://www.qbitai.com/wp-content/uploads/imgs/qbitai-logo-1.png"
     },
     {
-      "title": "AI 语音初创公司 Vapi 在击败 40 多个竞争对手的 Amazon Ring 后估值达到 5 亿美元",
-      "summary": "Vapi 表示，自 2025 年初以来，随着公司将客户支持和销售电话转移给人工智能代理，其企业业务增长了 10 倍。",
+      "title": "WhatsApp adds an incognito mode in Meta AI chats",
+      "summary": "Meta说,这些无法识别的对话没有保存,一旦关闭聊天,消息将默认消失.",
+      "link": "https://techcrunch.com/2026/05/13/whatsapp-adds-an-incognito-mode-in-meta-ai-chats/",
+      "source": "TechCrunch",
+      "date": "Wed, 13 May 2026 14:00:00 +0000",
+      "hotScore": 68,
+      "models": [
+        "Llama"
+      ],
+      "image": "https://techcrunch.com/wp-content/uploads/2026/05/Incognito-chat-with-Meta-AI_Image.jpeg?resize=1200,673"
+    },
+    {
+      "title": "一种新型的客户:小企业主",
+      "summary": "对于创始人和投资者来说,Anthropic的新提供信号是AI平台战争正在扩张下市,用户收购的下一个主要战场不是\"财富500\";这是",
+      "link": "https://techcrunch.com/2026/05/13/anthropic-courts-a-new-kind-of-customer-small-business-owners/",
+      "source": "TechCrunch",
+      "date": "Wed, 13 May 2026 16:00:00 +0000",
+      "hotScore": 67,
+      "models": [
+        "Claude",
+        "Cowork"
+      ],
+      "image": "https://techcrunch.com/wp-content/uploads/2026/03/Dario-Amodei-Anthropic-1.jpg?w=1024"
+    },
+    {
+      "title": "Poppy 饰演一个主动的AI助手 帮助组织你的数字生活",
+      "summary": "Poppy is an AI-powered app that connects your calendar, email, messages, and other services to surface reminders, suggestions, and tasks based on what’s happening in your life.",
+      "link": "https://techcrunch.com/2026/05/13/poppy-debuts-a-proactive-ai-assistant-to-help-organize-your-digital-life/",
+      "source": "TechCrunch",
+      "date": "Wed, 13 May 2026 13:27:09 +0000",
+      "hotScore": 67,
+      "models": [],
+      "image": "https://techcrunch.com/wp-content/uploads/2026/05/poppy-header.jpeg?resize=1200,727"
+    },
+    {
+      "title": "适应目标与AutoScientist,一个帮助模型自我训练的AI工具",
+      "summary": "适应器新的自动科学家工具旨在让模型通过常规微调的自动化方法快速适应特定能力.",
+      "link": "https://techcrunch.com/2026/05/13/adaption-aims-big-with-autoscientist-an-ai-tool-that-helps-models-train-themselves/",
+      "source": "TechCrunch",
+      "date": "Wed, 13 May 2026 12:11:33 +0000",
+      "hotScore": 66,
+      "models": [
+        "Cohere"
+      ],
+      "image": "https://techcrunch.com/wp-content/uploads/2025/03/Sara-Hooker_headshot.jpg?resize=900,1200"
+    },
+    {
+      "title": "AI拿婚外情写勒索邮件，查一年告诉我科幻小说教坏的",
+      "summary": "Anthropic新研究实锤了",
+      "link": "https://www.qbitai.com/2026/05/416831.html",
+      "source": "量子位",
+      "date": "Wed, 13 May 2026 05:40:53 +0000",
+      "hotScore": 65,
+      "models": [
+        "Claude",
+        "Grok"
+      ],
+      "image": "https://www.qbitai.com/wp-content/uploads/imgs/qbitai-logo-1.png"
+    },
+    {
+      "title": "下载:在轨道上制造毒品和美国航天局的核动力航天器",
+      "summary": "This is today’s edition of The Download, our weekday newsletter that provides a daily dose of what’s going on in the world of technology. A plan to make drugs in orbit is going commercial A startup…",
+      "link": "https://www.technologyreview.com/2026/05/13/1137176/the-download-drugs-in-orbit-nasa-nuclear-spacecraft/",
+      "source": "MIT科技评论",
+      "date": "Wed, 13 May 2026 12:10:00 +0000",
+      "hotScore": 64,
+      "models": [],
+      "image": "https://wp.technologyreview.com/wp-content/uploads/2024/06/Comp-13YS.jpg?w=2400"
+    },
+    {
+      "title": "林俊旸果然创业了！一个“Qwen负责人”头衔值135亿",
+      "summary": "对于一家还没发产品的中国AI初创公司而言，这一估值，几乎没有先例。但相比林俊旸之前同台竞速的硅谷同行，不算贵。",
+      "link": "https://www.qbitai.com/2026/05/416963.html",
+      "source": "量子位",
+      "date": "Wed, 13 May 2026 08:44:16 +0000",
+      "hotScore": 64,
+      "models": [
+        "Qwen",
+        "GPT",
+        "ChatGPT",
+        "Claude",
+        "DeepSeek"
+      ],
+      "image": "https://www.qbitai.com/wp-content/uploads/imgs/qbitai-logo-1.png"
+    },
+    {
+      "title": "Auto Research时代，47个没有标准答案的任务成了Agent能力必测榜",
+      "summary": "正式进入“迭代优化”时代",
+      "link": "https://www.qbitai.com/2026/05/416754.html",
+      "source": "量子位",
+      "date": "Wed, 13 May 2026 04:08:58 +0000",
+      "hotScore": 64,
+      "models": [
+        "GPT"
+      ],
+      "image": "https://www.qbitai.com/wp-content/uploads/imgs/qbitai-logo-1.png"
+    },
+    {
+      "title": "爱思唯尔把Meta告了：拿Sci-Hub盗版论文训练大模型",
+      "summary": "多方原告组团上阵",
+      "link": "https://www.qbitai.com/2026/05/416576.html",
+      "source": "量子位",
+      "date": "Wed, 13 May 2026 03:10:53 +0000",
+      "hotScore": 63,
+      "models": [
+        "Claude",
+        "Llama"
+      ],
+      "image": "https://www.qbitai.com/wp-content/uploads/imgs/qbitai-logo-1.png"
+    },
+    {
+      "title": "AI步入“自我进化”时代，李彦宏首提AI时代度量衡“DAA”｜Create2026百度AI开发者⼤会速览",
+      "summary": "李彦宏提出“AI时代进化论”",
+      "link": "https://www.qbitai.com/2026/05/416762.html",
+      "source": "量子位",
+      "date": "Wed, 13 May 2026 04:43:31 +0000",
+      "hotScore": 61,
+      "models": [
+        "Claude"
+      ],
+      "image": "https://www.qbitai.com/wp-content/uploads/imgs/qbitai-logo-1.png"
+    },
+    {
+      "title": "医疗计划的新支付模式是为AI打造的 大部分科技界都不知道",
+      "summary": "没有任何政府机制支付人工智能代理, 监控病人在探视之间",
+      "link": "https://techcrunch.com/2026/05/12/medicares-new-payment-model-is-built-for-ai-and-most-of-the-tech-world-has-no-idea/",
+      "source": "TechCrunch",
+      "date": "Wed, 13 May 2026 00:26:48 +0000",
+      "hotScore": 56,
+      "models": [],
+      "image": "https://techcrunch.com/wp-content/uploads/2022/06/GettyImages-877394926.jpg?resize=1200,800"
+    },
+    {
+      "title": "报告:Google和SpaceX在会谈中将数据中心送入轨道",
+      "summary": "Google and SpaceX are in talks to build data centers in orbit, pitching space as the future home for AI compute, even as costs today remain far higher than on the ground.",
+      "link": "https://techcrunch.com/2026/05/12/report-google-and-spacex-in-talks-to-put-data-centers-into-orbit/",
+      "source": "TechCrunch",
+      "date": "Tue, 12 May 2026 17:30:57 +0000",
+      "hotScore": 54,
+      "models": [
+        "Claude",
+        "Grok"
+      ],
+      "image": "https://techcrunch.com/wp-content/uploads/2024/02/starship-stacked-oft-3.jpeg?resize=1200,674"
+    },
+    {
+      "title": "Google 在其Android Show上公布的所有信息,从Googlebook到气温编码的部件",
+      "summary": "Google揭幕了新的AI-First Google笔记本电脑,更多的代理双子座功能,气温编码的Android部件,Chrome的双子座,刷新Android Auto,更领先于I/O.",
+      "link": "https://techcrunch.com/2026/05/12/everything-google-announced-at-its-android-show-from-googlebooks-to-vibe-coded-widgets/",
+      "source": "TechCrunch",
+      "date": "Tue, 12 May 2026 17:01:00 +0000",
+      "hotScore": 53,
+      "models": [
+        "Gemini",
+        "Cursor"
+      ],
+      "image": "https://techcrunch.com/wp-content/uploads/2026/05/googlebook.png?resize=1200,843"
+    },
+    {
+      "title": "Google 向 Gboard 添加双子座动力拼写功能, 对于拼写功能的启动来说, 这可能是一个坏消息 ",
+      "summary": "Google's transcription feature will initially launch with Samsung Galaxy and Google Pixel phones.",
+      "link": "https://techcrunch.com/2026/05/12/google-adds-gemini-powered-dictation-to-gboard-which-could-be-bad-news-for-dictation-startups/",
+      "source": "TechCrunch",
+      "date": "Tue, 12 May 2026 17:00:00 +0000",
+      "hotScore": 53,
+      "models": [
+        "Gemini"
+      ],
+      "image": "https://techcrunch.com/wp-content/uploads/2026/01/google-gemini-jagmeet-singh-techcrunch.jpg?resize=1200,800"
+    },
+    {
+      "title": "Google 给Android带来代理AI和风景编码部件",
+      "summary": "双子座智能还将包括基于G板的拼写和形式填充能力.",
+      "link": "https://techcrunch.com/2026/05/12/google-brings-agentic-ai-and-vibe-coded-widgets-to-android/",
+      "source": "TechCrunch",
+      "date": "Tue, 12 May 2026 17:00:00 +0000",
+      "hotScore": 53,
+      "models": [
+        "Gemini"
+      ],
+      "image": "https://techcrunch.com/wp-content/uploads/2025/09/GettyImages-2233653192.jpg?resize=1200,786"
+    },
+    {
+      "title": "将OpenAI交给孩子",
+      "summary": "阿尔特曼说,穆斯克专注于控制最初的盈利,使他暂停了,因为OpenAI致力于将高级AI排除在一个人的手中,阿尔特曼带着他的..",
+      "link": "https://techcrunch.com/2026/05/12/musk-mulled-handing-openai-to-his-children-altman-testifies/",
+      "source": "TechCrunch",
+      "date": "Tue, 12 May 2026 18:05:15 +0000",
+      "hotScore": 51,
+      "models": [],
+      "image": "https://techcrunch.com/wp-content/uploads/2026/05/GettyImages-2273246979.jpg?resize=1200,800"
+    },
+    {
+      "title": "Anthropic warns investors against secondary platforms offering access to its shares",
+      "summary": "“这些公司提供的任何Anthropic股票的销售或转让,或对Anthropic股票的任何权益,都是无效的,不会在我国的账簿和记录中得到承认。”.",
+      "link": "https://techcrunch.com/2026/05/12/anthropic-warns-investors-against-secondary-platforms-offering-access-to-its-shares/",
+      "source": "TechCrunch",
+      "date": "Tue, 12 May 2026 17:36:34 +0000",
+      "hotScore": 51,
+      "models": [
+        "Claude"
+      ],
+      "image": "https://techcrunch.com/wp-content/uploads/2026/04/GettyImages-2269811684.jpg?w=1024"
+    },
+    {
+      "title": "AI语音启动 Vapi在赢得了超过40个对手的亚马逊环之后 点击了500M的估值",
+      "summary": "Vapi says its enterprise business has grown tenfold since early 2025 as companies shift customer support and sales calls to AI agents.",
       "link": "https://techcrunch.com/2026/05/12/vapi-hits-500m-valuation-as-amazon-ring-chose-its-ai-platform-over-40-rivals/",
       "source": "TechCrunch",
       "date": "Tue, 12 May 2026 11:30:00 +0000",
-      "hotScore": 66,
+      "hotScore": 51,
       "models": [],
       "image": "https://techcrunch.com/wp-content/uploads/2026/05/vapi-founders-jordan-dearsley-nikhil-gupta.jpg?resize=1200,800"
     },
     {
-      "title": "下载：人工智能领域的诺贝尔奖获得者以及解决一切问题的案例",
-      "summary": "这是今天的《下载》版本，这是我们的工作日时事通讯，每天提供技术世界中正在发生的事情。一位诺贝尔奖获得者表示，人工智能领域值得关注的三件事……",
-      "link": "https://www.technologyreview.com/2026/05/12/1137103/the-download-nobel-winner-ai-maintenance-of-everything/",
-      "source": "MIT科技评论",
-      "date": "Tue, 12 May 2026 12:10:00 +0000",
-      "hotScore": 64,
-      "models": [],
-      "image": "https://wp.technologyreview.com/wp-content/uploads/2026/05/SoundofDataFinal1f-V-edited.jpeg"
-    },
-    {
-      "title": "OpenClaw低调更新重磅版本，龙虾长手长脚了",
-      "summary": "让AI agent看到屏幕，也能操作鼠标键盘",
-      "link": "https://www.qbitai.com/2026/05/416034.html",
-      "source": "量子位",
-      "date": "Tue, 12 May 2026 04:02:50 +0000",
-      "hotScore": 63,
-      "models": [
-        "Claude",
-        "Cursor"
-      ],
-      "image": "https://www.qbitai.com/wp-content/uploads/imgs/qbitai-logo-1.png"
-    },
-    {
-      "title": "估值200亿美元！可灵AI被曝剥离快手单独融资",
-      "summary": "快手，可能要亲手拆出第二家“快手”了。",
-      "link": "https://www.qbitai.com/2026/05/416056.html",
-      "source": "量子位",
-      "date": "Tue, 12 May 2026 06:06:38 +0000",
-      "hotScore": 62,
-      "models": [
-        "MiniMax",
-        "智谱GLM",
-        "Sora",
-        "Runway"
-      ],
-      "image": "https://www.qbitai.com/wp-content/uploads/imgs/qbitai-logo-1.png"
-    },
-    {
-      "title": "Thinking Machines 希望构建一个能够在说话时真正倾听的人工智能",
-      "summary": "目前，您使用过的每个人工智能模型都以相同的方式工作。你说话，它听。它会回应，你听着。 Thinking Machines 正试图通过构建一个处理你的输入的模型来改变这一现状……",
-      "link": "https://techcrunch.com/2026/05/11/thinking-machines-wants-to-build-an-ai-that-actually-listens-while-it-talks/",
+      "title": "AI法律服务行业正在兴起",
+      "summary": "Anthropic's new tools are designed to help law firms automate specific clerical functions — things like document search and review, case law resources, deposition prep, document drafting, and other…",
+      "link": "https://techcrunch.com/2026/05/12/the-ai-legal-services-industry-is-heating-up-anthropic-is-getting-in-on-the-action/",
       "source": "TechCrunch",
-      "date": "Tue, 12 May 2026 04:52:35 +0000",
-      "hotScore": 60,
-      "models": [],
-      "image": "https://techcrunch.com/wp-content/uploads/2026/05/GettyImages-2271655163.jpg?resize=1200,879"
-    },
-    {
-      "title": "Robinhood 乘着人工智能的浪潮准备第二次零售企业 IPO",
-      "summary": "Robinhood 秘密提交了第二个风险基金的申请，这次的目标是成长型企业和早期初创企业。",
-      "link": "https://techcrunch.com/2026/05/11/riding-an-ai-rally-robinhood-preps-second-retail-venture-ipo/",
-      "source": "TechCrunch",
-      "date": "Tue, 12 May 2026 00:09:01 +0000",
-      "hotScore": 56,
-      "models": [],
-      "image": "https://techcrunch.com/wp-content/uploads/2026/05/vlad-tenev-robinhood-GettyImages-2272038864.jpg?w=1024"
-    },
-    {
-      "title": "通用汽车刚刚解雇了数百名 IT 员工，转而雇用人工智能技能更强的员工",
-      "summary": "一些职位专注于人工智能原生开发、数据工程和分析、基于云的工程、代理和模型开发以及即时工程和新的人工智能工作流程。",
-      "link": "https://techcrunch.com/2026/05/11/gm-just-laid-off-hundreds-of-it-workers-to-hire-those-with-stronger-ai-skills/",
-      "source": "TechCrunch",
-      "date": "Mon, 11 May 2026 23:04:10 +0000",
-      "hotScore": 55,
-      "models": [],
-      "image": "https://techcrunch.com/wp-content/uploads/2026/05/gm-headquarters-getty.jpg?resize=1200,800"
-    },
-    {
-      "title": "做AI漫剧的、搞Agent的、投硅谷的，5.20这些赛道顶流碰头了｜最新嘉宾阵容",
-      "summary": "5月20日，马上AI起来！",
-      "link": "https://www.qbitai.com/2026/05/415263.html",
-      "source": "量子位",
-      "date": "Mon, 11 May 2026 10:18:49 +0000",
-      "hotScore": 51,
-      "models": [
-        "智谱GLM",
-        "昆仑万维"
-      ],
-      "image": "https://www.qbitai.com/wp-content/uploads/imgs/qbitai-logo-1.png"
-    },
-    {
-      "title": "Digg 再次尝试，这次是作为人工智能新闻聚合器",
-      "summary": "该公司在给测试人员的一封电子邮件中表示，该网站的目标是“追踪某个领域中最有影响力的声音”，并展示真正值得“关注”的新闻。",
-      "link": "https://techcrunch.com/2026/05/11/digg-tries-again-this-time-as-an-ai-news-aggregator/",
-      "source": "TechCrunch",
-      "date": "Mon, 11 May 2026 17:02:35 +0000",
-      "hotScore": 50,
-      "models": [],
-      "image": "https://techcrunch.com/wp-content/uploads/2026/05/digg-ver2-at-10.40.29-AM.jpg?resize=1200,888"
-    },
-    {
-      "title": "一位诺贝尔奖获得者经济学家表示，人工智能领域值得关注的三件事",
-      "summary": "这个故事最初出现在我们关于人工智能的每周通讯《算法》中。要首先在您的收件箱中收到此类故事，请在此处注册。就在他获得诺贝尔奖的几个月前……",
-      "link": "https://www.technologyreview.com/2026/05/11/1137090/three-things-in-ai-to-watch-according-to-a-nobel-winning-economist/",
-      "source": "MIT科技评论",
-      "date": "Mon, 11 May 2026 17:35:12 +0000",
-      "hotScore": 49,
-      "models": [
-        "文心一言"
-      ],
-      "image": "https://wp.technologyreview.com/wp-content/uploads/2026/05/260507_algo2.jpg?resize=1200,600"
-    },
-    {
-      "title": "没有足够的火箭用于太空数据中心——Cowboy Space 筹集了 2.75 亿美元来建造它们",
-      "summary": "对人工智能计算的明显永不满足的需求让数据中心企业家将目光投向了明星。有一个关键问题：没有足够的火箭将数据中心放置在地球周围的轨道上，而且……",
-      "link": "https://techcrunch.com/2026/05/11/there-arent-enough-rockets-for-space-data-centers-cowboy-space-raised-275-million-to-build-them/",
-      "source": "TechCrunch",
-      "date": "Mon, 11 May 2026 13:00:00 +0000",
+      "date": "Tue, 12 May 2026 17:00:00 +0000",
       "hotScore": 48,
-      "models": [],
-      "image": "https://techcrunch.com/wp-content/uploads/2026/05/Cowbow-Space-Company-photo.jpeg?resize=1200,960"
-    },
-    {
-      "title": "硅谷刷屏的AI护城河新论：代码能抄，产品能抄，但有一样东西，谁都抄不走",
-      "summary": "AI时代最贵的东西，已经不是模型了",
-      "link": "https://www.qbitai.com/2026/05/415842.html",
-      "source": "量子位",
-      "date": "Mon, 11 May 2026 08:31:05 +0000",
-      "hotScore": 48,
-      "models": [],
-      "image": "https://www.qbitai.com/wp-content/uploads/imgs/qbitai-logo-1.png"
-    },
-    {
-      "title": "通过客户支持工程促进突破性人工智能创新",
-      "summary": "麦肯锡的研究表明，尽管数字化已经进行了多年，但组织从数字投资中获得的价值还不到预期的三分之一。那是因为大多数大公司都是从……开始的。",
-      "link": "https://www.technologyreview.com/2026/05/11/1136967/fostering-breakthrough-ai-innovation-through-customer-back-engineering/",
-      "source": "MIT科技评论",
-      "date": "Mon, 11 May 2026 13:33:06 +0000",
-      "hotScore": 47,
-      "models": [],
-      "image": "https://wp.technologyreview.com/wp-content/uploads/2026/05/Capital-One-iStock-2208464815.jpg?w=1943"
-    },
-    {
-      "title": "The Download: the hantavirus outbreak and Musk v. Altman week 2",
-      "summary": "This is today’s edition of The Download, our weekday newsletter that provides a daily dose of what’s going on in the world of technology. Here’s what you need to know about the cruise ship hantavirus…",
-      "link": "https://www.technologyreview.com/2026/05/11/1137031/the-download-hantavirus-outbreak-musk-altman-trial/",
-      "source": "MIT科技评论",
-      "date": "Mon, 11 May 2026 12:10:00 +0000",
-      "hotScore": 47,
-      "models": [],
-      "image": "https://wp.technologyreview.com/wp-content/uploads/2023/10/ND23-space-01b.jpg?w=3000"
-    },
-    {
-      "title": "在金融领域实施先进的人工智能技术",
-      "summary": "在长期以来以精确和控制为特征的财务部门中，人工智能的出现与其说是一种管理巧妙的升级，不如说是一种悄然的叛乱。员工已经在使用它了……",
-      "link": "https://www.technologyreview.com/2026/05/11/1136786/implementing-advanced-ai-technologies-in-finance/",
-      "source": "MIT科技评论",
-      "date": "Mon, 11 May 2026 13:00:00 +0000",
-      "hotScore": 46,
-      "models": [],
-      "image": "https://wp.technologyreview.com/wp-content/uploads/2026/05/NetSuite-social-card.png"
-    },
-    {
-      "title": "We’re feeling cynical about xAI’s big deal with Anthropic",
-      "summary": "On the latest episode of the Equity podcast, we discussed what xAI's deal with Anthropic might mean for parent company SpaceX.",
-      "link": "https://techcrunch.com/2026/05/10/were-feeling-cynical-about-xais-big-deal-with-anthropic/",
-      "source": "TechCrunch",
-      "date": "Sun, 10 May 2026 15:34:25 +0000",
-      "hotScore": 46,
-      "models": [
-        "Claude",
-        "Grok"
-      ],
-      "image": "https://techcrunch.com/wp-content/uploads/2025/06/GettyImages-2217198328.jpeg?resize=1200,800"
-    },
-    {
-      "title": "Anthropic says ‘evil’ portrayals of AI were responsible for Claude’s blackmail attempts",
-      "summary": "Fictional portrayals of artificial intelligence can have a real effect on AI models, according to Anthropic.",
-      "link": "https://techcrunch.com/2026/05/10/anthropic-says-evil-portrayals-of-ai-were-responsible-for-claudes-blackmail-attempts/",
-      "source": "TechCrunch",
-      "date": "Sun, 10 May 2026 20:40:41 +0000",
-      "hotScore": 45,
       "models": [
         "Claude"
       ],
-      "image": "https://techcrunch.com/wp-content/uploads/2026/04/GettyImages-2269811684.jpg?w=1024"
+      "image": "https://techcrunch.com/wp-content/uploads/2026/02/GettyImages-2261514463.jpg?w=1024"
     },
     {
-      "title": "Get ready for the whisper-filled office of the future",
-      "summary": "How will work setups change if we spend more and more time talking to our computers?",
-      "link": "https://techcrunch.com/2026/05/10/get-ready-for-the-whisper-filled-office-of-the-future/",
-      "source": "TechCrunch",
-      "date": "Sun, 10 May 2026 21:15:30 +0000",
-      "hotScore": 42,
-      "models": [],
-      "image": "https://techcrunch.com/wp-content/uploads/2022/12/GettyImages-84164497.jpg?resize=1200,798"
-    },
-    {
-      "title": "The “people’s airline” and the enterprise AI gold rush",
-      "summary": "Everyone wants a piece of the enterprise AI pie, and this week, we saw a string of companies making their moves. From Anthropic and OpenAI announcing new joint ventures targeting enterprise AI…",
-      "link": "https://techcrunch.com/podcast/the-peoples-airline-and-the-enterprise-ai-gold-rush/",
-      "source": "TechCrunch",
-      "date": "Fri, 08 May 2026 15:46:17 +0000",
-      "hotScore": 35,
-      "models": [
-        "Claude",
-        "Grok"
-      ],
-      "image": "https://techcrunch.com/wp-content/uploads/2025/08/Claude-Chrome-Ext_email-hero-hero.png?w=1200"
-    },
-    {
-      "title": "Voice AI in India is hard — Wispr Flow is betting on it anyway",
-      "summary": "Wispr Flow says growth accelerated in India after its Hinglish rollout, even as voice AI products continue to face challenges.",
-      "link": "https://techcrunch.com/2026/05/09/voice-ai-in-india-is-hard-wispr-flow-is-betting-on-it-anyway/",
-      "source": "TechCrunch",
-      "date": "Sun, 10 May 2026 02:00:00 +0000",
-      "hotScore": 31,
-      "models": [],
-      "image": "https://techcrunch.com/wp-content/uploads/2026/05/wispr-flow-india-image.jpg?resize=1200,800"
-    },
-    {
-      "title": "Nvidia has already committed $40B to equity AI deals this year",
-      "summary": "Nvidia continues to be a big investor in the AI ecosystem.",
-      "link": "https://techcrunch.com/2026/05/09/nvidia-has-already-committed-40b-to-equity-ai-deals-this-year/",
-      "source": "TechCrunch",
-      "date": "Sat, 09 May 2026 14:43:30 +0000",
-      "hotScore": 31,
-      "models": [],
-      "image": "https://techcrunch.com/wp-content/uploads/2026/03/GettyImages-2266475966.jpg?w=1024"
-    },
-    {
-      "title": "Musk v. Altman week 2: OpenAI fires back, and Shivon Zilis reveals that Musk tried to poach Sam Altman",
-      "summary": "In the second week of the landmark trial between Elon Musk and OpenAI, Musk’s motivations for bringing the suit were under scrutiny. Last week, Musk took the stand, alleging that OpenAI CEO Sam…",
-      "link": "https://www.technologyreview.com/2026/05/08/1137008/musk-v-altman-week-2-openai-fires-back-and-shivon-zilis-reveals-that-musk-tried-to-poach-sam-altman/",
+      "title": "世界模型: AI中重要的十件事",
+      "summary": "World models recently made our list of 10 Things That Matter in AI Right Now. Watch executive editor Niall Firth explain why this emerging area of AI is gaining so much attention. Join MIT Technology…",
+      "link": "https://www.technologyreview.com/2026/05/12/1137134/world-models-10-things-that-matter-in-ai-right-now/",
       "source": "MIT科技评论",
-      "date": "Fri, 08 May 2026 23:59:19 +0000",
-      "hotScore": 30,
+      "date": "Tue, 12 May 2026 16:22:15 +0000",
+      "hotScore": 48,
+      "models": [],
+      "image": "https://wp.technologyreview.com/wp-content/uploads/2024/01/Mat-Honan-1.png"
+    },
+    {
+      "title": "Dessn为其生产重点设计工具筹集了6M美元",
+      "summary": "一个名为Dessn的新启动已经筹集了600万美元,用于建造AI动力设计工具,直接与生产代码库合作.",
+      "link": "https://techcrunch.com/2026/05/12/dessn-raises-6m-for-its-production-focused-design-tool/",
+      "source": "TechCrunch",
+      "date": "Tue, 12 May 2026 13:00:00 +0000",
+      "hotScore": 48,
       "models": [
-        "Grok"
+        "Perplexity"
       ],
-      "image": "https://wp.technologyreview.com/wp-content/uploads/2026/05/260508_OpenAIcase.jpg?resize=1200,600"
+      "image": "https://techcrunch.com/wp-content/uploads/2026/05/Screenshot-2026-05-01-at-6.45.13-PM.jpeg?resize=1200,560"
     },
     {
-      "title": "So you’ve heard these AI terms and nodded along; let’s fix that",
-      "summary": "The rise of AI has brought an avalanche of new terms and slang. Here is a glossary with definitions of some of the most important words and phrases you might encounter.",
-      "link": "https://techcrunch.com/2026/05/09/artificial-intelligence-definition-glossary-hallucinations-guide-to-common-ai-terms/",
-      "source": "TechCrunch",
-      "date": "Sat, 09 May 2026 21:45:00 +0000",
-      "hotScore": 29,
-      "models": [
-        "Gemini"
-      ],
-      "image": "https://techcrunch.com/wp-content/uploads/2025/03/GettyImages-ai-generated-eb728837-4a65-4ce4-b814-abd0c140d20c.jpg?w=1024"
-    },
-    {
-      "title": "Laid-off Oracle workers tried to negotiate better severance. Oracle said no.",
-      "summary": "Some found out they didn't qualify for WARN Act protections like two-months notice because the company had classified them as remote workers.",
-      "link": "https://techcrunch.com/2026/05/08/laid-off-oracle-workers-tried-to-negotiate-better-severance-oracle-said-no/",
-      "source": "TechCrunch",
-      "date": "Fri, 08 May 2026 22:59:05 +0000",
-      "hotScore": 25,
-      "models": [],
-      "image": "https://techcrunch.com/wp-content/uploads/2022/06/GettyImages-528022874.jpg?w=1024"
-    },
-    {
-      "title": "Cloudflare says AI made 1,100 jobs obsolete, even as revenue hit a record high",
-      "summary": "Cloudflare announced its first large-scale layoff. CEO Matthew Prince says because of AI efficiency gains, the company doesn't need as many support roles.",
-      "link": "https://techcrunch.com/2026/05/08/cloudflare-says-ai-made-1100-jobs-obsolete-even-as-revenue-hit-a-record-high/",
-      "source": "TechCrunch",
-      "date": "Fri, 08 May 2026 18:33:21 +0000",
-      "hotScore": 25,
-      "models": [],
-      "image": "https://techcrunch.com/wp-content/uploads/2019/12/Matthew-Prince-CloudflareDSC00252.jpg?resize=1200,800"
-    },
-    {
-      "title": "The Download: AI malaise and babymaking tech",
-      "summary": "This is today’s edition of The Download, our weekday newsletter that provides a daily dose of what’s going on in the world of technology. We’ve entered the era of AI malaise AI is spreading…",
-      "link": "https://www.technologyreview.com/2026/05/08/1136985/the-download-ai-malaise-babymaking-ivf-tech/",
-      "source": "MIT科技评论",
-      "date": "Fri, 08 May 2026 12:10:00 +0000",
-      "hotScore": 25,
-      "models": [],
-      "image": "https://wp.technologyreview.com/wp-content/uploads/2024/04/5.-Hanusik-thumb.jpg?w=3000"
-    },
-    {
-      "title": "The fax machine is the bottleneck in US healthcare, and VCs are starting to notice",
-      "summary": "Like many AI companies automating work that humans currently do, Basata will eventually face a harder question about where the line is between augmenting workers and displacing them. For now, the…",
-      "link": "https://techcrunch.com/2026/05/07/the-back-office-problem-that-explains-why-specialists-never-call-you-back/",
-      "source": "TechCrunch",
-      "date": "Fri, 08 May 2026 04:42:29 +0000",
-      "hotScore": 23,
-      "models": [],
-      "image": "https://techcrunch.com/wp-content/uploads/2022/11/GettyImages-10005136-e1667318874934.jpg?resize=1200,675"
-    },
-    {
-      "title": "Here’s what you need to know about the cruise ship hantavirus outbreak",
-      "summary": "MIT Technology Review Explains: Let our writers untangle the complex, messy world of technology to help you understand what’s coming next. You can read more from the series here. Eight passengers…",
-      "link": "https://www.technologyreview.com/2026/05/08/1136988/heres-what-you-need-to-know-about-the-cruise-ship-hantavirus-outbreak/",
-      "source": "MIT科技评论",
-      "date": "Fri, 08 May 2026 16:19:40 +0000",
-      "hotScore": 22,
-      "models": [],
-      "image": "https://wp.technologyreview.com/wp-content/uploads/2026/05/260507_Hantavirus.jpg?resize=1200,600"
-    }
-  ],
-  "models": [
-    {
-      "title": "原来Ilya还有70亿美元OpenAI股权",
-      "summary": "世纪庭审实锤OpenAI「造富神话」",
-      "link": "https://www.qbitai.com/2026/05/416597.html",
-      "source": "量子位",
-      "date": "Tue, 12 May 2026 13:55:01 +0000",
-      "hotScore": 74,
-      "models": [
-        "GPT",
-        "ChatGPT"
-      ],
-      "image": "https://www.qbitai.com/wp-content/uploads/imgs/qbitai-logo-1.png"
-    },
-    {
-      "title": "Threads 测试了与 Grok 类似的 Meta AI 集成",
-      "summary": "该功能旨在帮助人们在对话中获取有关趋势和突发新闻的实时背景，并接收建议。",
+      "title": "Threads tests a Meta AI integration that works similarly to Grok",
+      "summary": "该功能旨在帮助人们实时了解趋势和破解故事的背景,以及接受建议,所有这一切都在对话中.",
       "link": "https://techcrunch.com/2026/05/12/threads-tests-a-meta-ai-integration-that-works-similarly-to-grok/",
       "source": "TechCrunch",
       "date": "Tue, 12 May 2026 16:34:36 +0000",
-      "hotScore": 70,
+      "hotScore": 47,
       "models": [
         "Llama",
         "Grok"
@@ -970,128 +1013,60 @@
       "image": "https://techcrunch.com/wp-content/uploads/2026/02/threads-finger-GettyImages-2232887912.jpg?w=1024"
     },
     {
-      "title": "360发布OpenClaw生态安全报告：AI智能体风险进入自动化审计阶段",
-      "summary": "累计发现23个独立安全漏洞",
-      "link": "https://www.qbitai.com/2026/05/416582.html",
-      "source": "量子位",
-      "date": "Tue, 12 May 2026 09:35:29 +0000",
-      "hotScore": 68,
-      "models": [
-        "智谱GLM",
-        "商汤日日新"
-      ],
-      "image": "https://www.qbitai.com/wp-content/uploads/imgs/qbitai-logo-1.png"
+      "title": "The Download: a Nobel winner on AI, and the case for fixing everything",
+      "summary": "这是今天的《下载》, 据诺贝尔奖得主说,AI有三件事要看..",
+      "link": "https://www.technologyreview.com/2026/05/12/1137103/the-download-nobel-winner-ai-maintenance-of-everything/",
+      "source": "MIT科技评论",
+      "date": "Tue, 12 May 2026 12:10:00 +0000",
+      "hotScore": 43,
+      "models": [],
+      "image": "https://wp.technologyreview.com/wp-content/uploads/2026/05/SoundofDataFinal1f-V-edited.jpeg"
     },
     {
-      "title": "AI第一金主黄仁勋：日均花掉20亿",
-      "summary": "“AI御三家”都投了",
-      "link": "https://www.qbitai.com/2026/05/416540.html",
-      "source": "量子位",
-      "date": "Tue, 12 May 2026 08:03:52 +0000",
-      "hotScore": 68,
-      "models": [
-        "Claude",
-        "Grok",
-        "Mistral",
-        "Perplexity",
-        "Cohere"
-      ],
-      "image": "https://www.qbitai.com/wp-content/uploads/imgs/qbitai-logo-1.png"
-    },
-    {
-      "title": "OpenClaw低调更新重磅版本，龙虾长手长脚了",
-      "summary": "让AI agent看到屏幕，也能操作鼠标键盘",
-      "link": "https://www.qbitai.com/2026/05/416034.html",
-      "source": "量子位",
-      "date": "Tue, 12 May 2026 04:02:50 +0000",
-      "hotScore": 63,
-      "models": [
-        "Claude",
-        "Cursor"
-      ],
-      "image": "https://www.qbitai.com/wp-content/uploads/imgs/qbitai-logo-1.png"
-    },
-    {
-      "title": "估值200亿美元！可灵AI被曝剥离快手单独融资",
-      "summary": "快手，可能要亲手拆出第二家“快手”了。",
-      "link": "https://www.qbitai.com/2026/05/416056.html",
-      "source": "量子位",
-      "date": "Tue, 12 May 2026 06:06:38 +0000",
-      "hotScore": 62,
-      "models": [
-        "MiniMax",
-        "智谱GLM",
-        "Sora",
-        "Runway"
-      ],
-      "image": "https://www.qbitai.com/wp-content/uploads/imgs/qbitai-logo-1.png"
-    },
-    {
-      "title": "做AI漫剧的、搞Agent的、投硅谷的，5.20这些赛道顶流碰头了｜最新嘉宾阵容",
-      "summary": "5月20日，马上AI起来！",
-      "link": "https://www.qbitai.com/2026/05/415263.html",
-      "source": "量子位",
-      "date": "Mon, 11 May 2026 10:18:49 +0000",
-      "hotScore": 51,
-      "models": [
-        "智谱GLM",
-        "昆仑万维"
-      ],
-      "image": "https://www.qbitai.com/wp-content/uploads/imgs/qbitai-logo-1.png"
-    },
-    {
-      "title": "一位诺贝尔奖获得者经济学家表示，人工智能领域值得关注的三件事",
-      "summary": "这个故事最初出现在我们关于人工智能的每周通讯《算法》中。要首先在您的收件箱中收到此类故事，请在此处注册。就在他获得诺贝尔奖的几个月前……",
+      "title": "根据诺贝尔经济学奖获得者的说法,AI有三件事要看",
+      "summary": "这个故事最初出现在我们的AI每周通讯The Algorithm上. 要把这样的故事放进你的收件箱 先在这里签名 在他被授予诺贝尔奖前几个月..",
       "link": "https://www.technologyreview.com/2026/05/11/1137090/three-things-in-ai-to-watch-according-to-a-nobel-winning-economist/",
       "source": "MIT科技评论",
       "date": "Mon, 11 May 2026 17:35:12 +0000",
-      "hotScore": 49,
+      "hotScore": 38,
       "models": [
         "文心一言"
       ],
       "image": "https://wp.technologyreview.com/wp-content/uploads/2026/05/260507_algo2.jpg?resize=1200,600"
     },
     {
-      "title": "We’re feeling cynical about xAI’s big deal with Anthropic",
-      "summary": "On the latest episode of the Equity podcast, we discussed what xAI's deal with Anthropic might mean for parent company SpaceX.",
-      "link": "https://techcrunch.com/2026/05/10/were-feeling-cynical-about-xais-big-deal-with-anthropic/",
-      "source": "TechCrunch",
-      "date": "Sun, 10 May 2026 15:34:25 +0000",
-      "hotScore": 46,
-      "models": [
-        "Claude",
-        "Grok"
-      ],
-      "image": "https://techcrunch.com/wp-content/uploads/2025/06/GettyImages-2217198328.jpeg?resize=1200,800"
+      "title": "The Download: the hantavirus outbreak and Musk v. Altman week 2",
+      "summary": "这是今天的《下载》, 以下是你需要了解的游轮汉塔病毒情况:",
+      "link": "https://www.technologyreview.com/2026/05/11/1137031/the-download-hantavirus-outbreak-musk-altman-trial/",
+      "source": "MIT科技评论",
+      "date": "Mon, 11 May 2026 12:10:00 +0000",
+      "hotScore": 37,
+      "models": [],
+      "image": "https://wp.technologyreview.com/wp-content/uploads/2023/10/ND23-space-01b.jpg?w=3000"
     },
     {
-      "title": "Anthropic says ‘evil’ portrayals of AI were responsible for Claude’s blackmail attempts",
-      "summary": "Fictional portrayals of artificial intelligence can have a real effect on AI models, according to Anthropic.",
-      "link": "https://techcrunch.com/2026/05/10/anthropic-says-evil-portrayals-of-ai-were-responsible-for-claudes-blackmail-attempts/",
-      "source": "TechCrunch",
-      "date": "Sun, 10 May 2026 20:40:41 +0000",
-      "hotScore": 45,
-      "models": [
-        "Claude"
-      ],
-      "image": "https://techcrunch.com/wp-content/uploads/2026/04/GettyImages-2269811684.jpg?w=1024"
+      "title": "通过客户支持工程促进AI创新",
+      "summary": "Despite years of digitization, organizations capture less than one-third of the value expected from digital investments, according to McKinsey research. That’s because most big companies begin with…",
+      "link": "https://www.technologyreview.com/2026/05/11/1136967/fostering-breakthrough-ai-innovation-through-customer-back-engineering/",
+      "source": "MIT科技评论",
+      "date": "Mon, 11 May 2026 13:33:06 +0000",
+      "hotScore": 32,
+      "models": [],
+      "image": "https://wp.technologyreview.com/wp-content/uploads/2026/05/Capital-One-iStock-2208464815.jpg?w=1943"
     },
     {
-      "title": "The “people’s airline” and the enterprise AI gold rush",
-      "summary": "Everyone wants a piece of the enterprise AI pie, and this week, we saw a string of companies making their moves. From Anthropic and OpenAI announcing new joint ventures targeting enterprise AI…",
-      "link": "https://techcrunch.com/podcast/the-peoples-airline-and-the-enterprise-ai-gold-rush/",
-      "source": "TechCrunch",
-      "date": "Fri, 08 May 2026 15:46:17 +0000",
-      "hotScore": 35,
-      "models": [
-        "Claude",
-        "Grok"
-      ],
-      "image": "https://techcrunch.com/wp-content/uploads/2025/08/Claude-Chrome-Ext_email-hero-hero.png?w=1200"
+      "title": "在金融领域应用先进的AI技术",
+      "summary": "在长期以来被精确和控制定义的财务部门中,AI的到来与其说是静悄悄的叛乱,不如说是整齐地管理的升级. 员工已经在使用它的同时..",
+      "link": "https://www.technologyreview.com/2026/05/11/1136786/implementing-advanced-ai-technologies-in-finance/",
+      "source": "MIT科技评论",
+      "date": "Mon, 11 May 2026 13:00:00 +0000",
+      "hotScore": 31,
+      "models": [],
+      "image": "https://wp.technologyreview.com/wp-content/uploads/2026/05/NetSuite-social-card.png"
     },
     {
-      "title": "Musk v. Altman week 2: OpenAI fires back, and Shivon Zilis reveals that Musk tried to poach Sam Altman",
-      "summary": "In the second week of the landmark trial between Elon Musk and OpenAI, Musk’s motivations for bringing the suit were under scrutiny. Last week, Musk took the stand, alleging that OpenAI CEO Sam…",
+      "title": "Musk v. Altman Week 2: OpenAI开火还击,Shivon Zilis透露Musk试图偷袭Sam Altman",
+      "summary": "在埃隆·穆斯克和OpenAI之间的具有里程碑意义的审判的第二个星期,穆斯克提出诉讼的动机受到审查. 上星期,穆斯克采取了立场,指控OpenAI CEO山姆..",
       "link": "https://www.technologyreview.com/2026/05/08/1137008/musk-v-altman-week-2-openai-fires-back-and-shivon-zilis-reveals-that-musk-tried-to-poach-sam-altman/",
       "source": "MIT科技评论",
       "date": "Fri, 08 May 2026 23:59:19 +0000",
@@ -1100,18 +1075,271 @@
         "Grok"
       ],
       "image": "https://wp.technologyreview.com/wp-content/uploads/2026/05/260508_OpenAIcase.jpg?resize=1200,600"
+    }
+  ],
+  "models": [
+    {
+      "title": "Anthropic now has more business customers than OpenAI, according to Ramp data",
+      "summary": "Anthropic首次拥有比OpenAI更多的商业客户.",
+      "link": "https://techcrunch.com/2026/05/13/anthropic-now-has-more-business-customers-than-openai-according-to-ramp-data/",
+      "source": "TechCrunch",
+      "date": "Wed, 13 May 2026 14:00:00 +0000",
+      "hotScore": 73,
+      "models": [
+        "Claude"
+      ],
+      "image": "https://techcrunch.com/wp-content/uploads/2026/02/modi-openai-anthropic-2261854815.jpg?resize=1200,800"
     },
     {
-      "title": "So you’ve heard these AI terms and nodded along; let’s fix that",
-      "summary": "The rise of AI has brought an avalanche of new terms and slang. Here is a glossary with definitions of some of the most important words and phrases you might encounter.",
-      "link": "https://techcrunch.com/2026/05/09/artificial-intelligence-definition-glossary-hallucinations-guide-to-common-ai-terms/",
-      "source": "TechCrunch",
-      "date": "Sat, 09 May 2026 21:45:00 +0000",
-      "hotScore": 29,
+      "title": "苹果画的饼谷歌率先搞定！Gemini全面进驻全家桶，连鼠标都AI上了",
+      "summary": "谷歌把Gemini塞进了Android",
+      "link": "https://www.qbitai.com/2026/05/416870.html",
+      "source": "量子位",
+      "date": "Wed, 13 May 2026 08:29:20 +0000",
+      "hotScore": 70,
       "models": [
         "Gemini"
       ],
-      "image": "https://techcrunch.com/wp-content/uploads/2025/03/GettyImages-ai-generated-eb728837-4a65-4ce4-b814-abd0c140d20c.jpg?w=1024"
+      "image": "https://www.qbitai.com/wp-content/uploads/imgs/qbitai-logo-1.png"
+    },
+    {
+      "title": "8岁小学生idea直接变应用，秒哒3.0刚刚把AI应用门槛打没了",
+      "summary": "甚至可以直接在手机上做APP",
+      "link": "https://www.qbitai.com/2026/05/417366.html",
+      "source": "量子位",
+      "date": "Wed, 13 May 2026 14:04:42 +0000",
+      "hotScore": 69,
+      "models": [
+        "Claude",
+        "Cursor"
+      ],
+      "image": "https://www.qbitai.com/wp-content/uploads/imgs/qbitai-logo-1.png"
+    },
+    {
+      "title": "WhatsApp adds an incognito mode in Meta AI chats",
+      "summary": "Meta说,这些无法识别的对话没有保存,一旦关闭聊天,消息将默认消失.",
+      "link": "https://techcrunch.com/2026/05/13/whatsapp-adds-an-incognito-mode-in-meta-ai-chats/",
+      "source": "TechCrunch",
+      "date": "Wed, 13 May 2026 14:00:00 +0000",
+      "hotScore": 68,
+      "models": [
+        "Llama"
+      ],
+      "image": "https://techcrunch.com/wp-content/uploads/2026/05/Incognito-chat-with-Meta-AI_Image.jpeg?resize=1200,673"
+    },
+    {
+      "title": "一种新型的客户:小企业主",
+      "summary": "对于创始人和投资者来说,Anthropic的新提供信号是AI平台战争正在扩张下市,用户收购的下一个主要战场不是\"财富500\";这是",
+      "link": "https://techcrunch.com/2026/05/13/anthropic-courts-a-new-kind-of-customer-small-business-owners/",
+      "source": "TechCrunch",
+      "date": "Wed, 13 May 2026 16:00:00 +0000",
+      "hotScore": 67,
+      "models": [
+        "Claude",
+        "Cowork"
+      ],
+      "image": "https://techcrunch.com/wp-content/uploads/2026/03/Dario-Amodei-Anthropic-1.jpg?w=1024"
+    },
+    {
+      "title": "适应目标与AutoScientist,一个帮助模型自我训练的AI工具",
+      "summary": "适应器新的自动科学家工具旨在让模型通过常规微调的自动化方法快速适应特定能力.",
+      "link": "https://techcrunch.com/2026/05/13/adaption-aims-big-with-autoscientist-an-ai-tool-that-helps-models-train-themselves/",
+      "source": "TechCrunch",
+      "date": "Wed, 13 May 2026 12:11:33 +0000",
+      "hotScore": 66,
+      "models": [
+        "Cohere"
+      ],
+      "image": "https://techcrunch.com/wp-content/uploads/2025/03/Sara-Hooker_headshot.jpg?resize=900,1200"
+    },
+    {
+      "title": "AI拿婚外情写勒索邮件，查一年告诉我科幻小说教坏的",
+      "summary": "Anthropic新研究实锤了",
+      "link": "https://www.qbitai.com/2026/05/416831.html",
+      "source": "量子位",
+      "date": "Wed, 13 May 2026 05:40:53 +0000",
+      "hotScore": 65,
+      "models": [
+        "Claude",
+        "Grok"
+      ],
+      "image": "https://www.qbitai.com/wp-content/uploads/imgs/qbitai-logo-1.png"
+    },
+    {
+      "title": "林俊旸果然创业了！一个“Qwen负责人”头衔值135亿",
+      "summary": "对于一家还没发产品的中国AI初创公司而言，这一估值，几乎没有先例。但相比林俊旸之前同台竞速的硅谷同行，不算贵。",
+      "link": "https://www.qbitai.com/2026/05/416963.html",
+      "source": "量子位",
+      "date": "Wed, 13 May 2026 08:44:16 +0000",
+      "hotScore": 64,
+      "models": [
+        "Qwen",
+        "GPT",
+        "ChatGPT",
+        "Claude",
+        "DeepSeek"
+      ],
+      "image": "https://www.qbitai.com/wp-content/uploads/imgs/qbitai-logo-1.png"
+    },
+    {
+      "title": "Auto Research时代，47个没有标准答案的任务成了Agent能力必测榜",
+      "summary": "正式进入“迭代优化”时代",
+      "link": "https://www.qbitai.com/2026/05/416754.html",
+      "source": "量子位",
+      "date": "Wed, 13 May 2026 04:08:58 +0000",
+      "hotScore": 64,
+      "models": [
+        "GPT"
+      ],
+      "image": "https://www.qbitai.com/wp-content/uploads/imgs/qbitai-logo-1.png"
+    },
+    {
+      "title": "爱思唯尔把Meta告了：拿Sci-Hub盗版论文训练大模型",
+      "summary": "多方原告组团上阵",
+      "link": "https://www.qbitai.com/2026/05/416576.html",
+      "source": "量子位",
+      "date": "Wed, 13 May 2026 03:10:53 +0000",
+      "hotScore": 63,
+      "models": [
+        "Claude",
+        "Llama"
+      ],
+      "image": "https://www.qbitai.com/wp-content/uploads/imgs/qbitai-logo-1.png"
+    },
+    {
+      "title": "AI步入“自我进化”时代，李彦宏首提AI时代度量衡“DAA”｜Create2026百度AI开发者⼤会速览",
+      "summary": "李彦宏提出“AI时代进化论”",
+      "link": "https://www.qbitai.com/2026/05/416762.html",
+      "source": "量子位",
+      "date": "Wed, 13 May 2026 04:43:31 +0000",
+      "hotScore": 61,
+      "models": [
+        "Claude"
+      ],
+      "image": "https://www.qbitai.com/wp-content/uploads/imgs/qbitai-logo-1.png"
+    },
+    {
+      "title": "报告:Google和SpaceX在会谈中将数据中心送入轨道",
+      "summary": "Google and SpaceX are in talks to build data centers in orbit, pitching space as the future home for AI compute, even as costs today remain far higher than on the ground.",
+      "link": "https://techcrunch.com/2026/05/12/report-google-and-spacex-in-talks-to-put-data-centers-into-orbit/",
+      "source": "TechCrunch",
+      "date": "Tue, 12 May 2026 17:30:57 +0000",
+      "hotScore": 54,
+      "models": [
+        "Claude",
+        "Grok"
+      ],
+      "image": "https://techcrunch.com/wp-content/uploads/2024/02/starship-stacked-oft-3.jpeg?resize=1200,674"
+    },
+    {
+      "title": "Google 在其Android Show上公布的所有信息,从Googlebook到气温编码的部件",
+      "summary": "Google揭幕了新的AI-First Google笔记本电脑,更多的代理双子座功能,气温编码的Android部件,Chrome的双子座,刷新Android Auto,更领先于I/O.",
+      "link": "https://techcrunch.com/2026/05/12/everything-google-announced-at-its-android-show-from-googlebooks-to-vibe-coded-widgets/",
+      "source": "TechCrunch",
+      "date": "Tue, 12 May 2026 17:01:00 +0000",
+      "hotScore": 53,
+      "models": [
+        "Gemini",
+        "Cursor"
+      ],
+      "image": "https://techcrunch.com/wp-content/uploads/2026/05/googlebook.png?resize=1200,843"
+    },
+    {
+      "title": "Google 向 Gboard 添加双子座动力拼写功能, 对于拼写功能的启动来说, 这可能是一个坏消息 ",
+      "summary": "Google's transcription feature will initially launch with Samsung Galaxy and Google Pixel phones.",
+      "link": "https://techcrunch.com/2026/05/12/google-adds-gemini-powered-dictation-to-gboard-which-could-be-bad-news-for-dictation-startups/",
+      "source": "TechCrunch",
+      "date": "Tue, 12 May 2026 17:00:00 +0000",
+      "hotScore": 53,
+      "models": [
+        "Gemini"
+      ],
+      "image": "https://techcrunch.com/wp-content/uploads/2026/01/google-gemini-jagmeet-singh-techcrunch.jpg?resize=1200,800"
+    },
+    {
+      "title": "Google 给Android带来代理AI和风景编码部件",
+      "summary": "双子座智能还将包括基于G板的拼写和形式填充能力.",
+      "link": "https://techcrunch.com/2026/05/12/google-brings-agentic-ai-and-vibe-coded-widgets-to-android/",
+      "source": "TechCrunch",
+      "date": "Tue, 12 May 2026 17:00:00 +0000",
+      "hotScore": 53,
+      "models": [
+        "Gemini"
+      ],
+      "image": "https://techcrunch.com/wp-content/uploads/2025/09/GettyImages-2233653192.jpg?resize=1200,786"
+    },
+    {
+      "title": "Anthropic warns investors against secondary platforms offering access to its shares",
+      "summary": "“这些公司提供的任何Anthropic股票的销售或转让,或对Anthropic股票的任何权益,都是无效的,不会在我国的账簿和记录中得到承认。”.",
+      "link": "https://techcrunch.com/2026/05/12/anthropic-warns-investors-against-secondary-platforms-offering-access-to-its-shares/",
+      "source": "TechCrunch",
+      "date": "Tue, 12 May 2026 17:36:34 +0000",
+      "hotScore": 51,
+      "models": [
+        "Claude"
+      ],
+      "image": "https://techcrunch.com/wp-content/uploads/2026/04/GettyImages-2269811684.jpg?w=1024"
+    },
+    {
+      "title": "AI法律服务行业正在兴起",
+      "summary": "Anthropic's new tools are designed to help law firms automate specific clerical functions — things like document search and review, case law resources, deposition prep, document drafting, and other…",
+      "link": "https://techcrunch.com/2026/05/12/the-ai-legal-services-industry-is-heating-up-anthropic-is-getting-in-on-the-action/",
+      "source": "TechCrunch",
+      "date": "Tue, 12 May 2026 17:00:00 +0000",
+      "hotScore": 48,
+      "models": [
+        "Claude"
+      ],
+      "image": "https://techcrunch.com/wp-content/uploads/2026/02/GettyImages-2261514463.jpg?w=1024"
+    },
+    {
+      "title": "Dessn为其生产重点设计工具筹集了6M美元",
+      "summary": "一个名为Dessn的新启动已经筹集了600万美元,用于建造AI动力设计工具,直接与生产代码库合作.",
+      "link": "https://techcrunch.com/2026/05/12/dessn-raises-6m-for-its-production-focused-design-tool/",
+      "source": "TechCrunch",
+      "date": "Tue, 12 May 2026 13:00:00 +0000",
+      "hotScore": 48,
+      "models": [
+        "Perplexity"
+      ],
+      "image": "https://techcrunch.com/wp-content/uploads/2026/05/Screenshot-2026-05-01-at-6.45.13-PM.jpeg?resize=1200,560"
+    },
+    {
+      "title": "Threads tests a Meta AI integration that works similarly to Grok",
+      "summary": "该功能旨在帮助人们实时了解趋势和破解故事的背景,以及接受建议,所有这一切都在对话中.",
+      "link": "https://techcrunch.com/2026/05/12/threads-tests-a-meta-ai-integration-that-works-similarly-to-grok/",
+      "source": "TechCrunch",
+      "date": "Tue, 12 May 2026 16:34:36 +0000",
+      "hotScore": 47,
+      "models": [
+        "Llama",
+        "Grok"
+      ],
+      "image": "https://techcrunch.com/wp-content/uploads/2026/02/threads-finger-GettyImages-2232887912.jpg?w=1024"
+    },
+    {
+      "title": "根据诺贝尔经济学奖获得者的说法,AI有三件事要看",
+      "summary": "这个故事最初出现在我们的AI每周通讯The Algorithm上. 要把这样的故事放进你的收件箱 先在这里签名 在他被授予诺贝尔奖前几个月..",
+      "link": "https://www.technologyreview.com/2026/05/11/1137090/three-things-in-ai-to-watch-according-to-a-nobel-winning-economist/",
+      "source": "MIT科技评论",
+      "date": "Mon, 11 May 2026 17:35:12 +0000",
+      "hotScore": 38,
+      "models": [
+        "文心一言"
+      ],
+      "image": "https://wp.technologyreview.com/wp-content/uploads/2026/05/260507_algo2.jpg?resize=1200,600"
+    },
+    {
+      "title": "Musk v. Altman Week 2: OpenAI开火还击,Shivon Zilis透露Musk试图偷袭Sam Altman",
+      "summary": "在埃隆·穆斯克和OpenAI之间的具有里程碑意义的审判的第二个星期,穆斯克提出诉讼的动机受到审查. 上星期,穆斯克采取了立场,指控OpenAI CEO山姆..",
+      "link": "https://www.technologyreview.com/2026/05/08/1137008/musk-v-altman-week-2-openai-fires-back-and-shivon-zilis-reveals-that-musk-tried-to-poach-sam-altman/",
+      "source": "MIT科技评论",
+      "date": "Fri, 08 May 2026 23:59:19 +0000",
+      "hotScore": 30,
+      "models": [
+        "Grok"
+      ],
+      "image": "https://wp.technologyreview.com/wp-content/uploads/2026/05/260508_OpenAIcase.jpg?resize=1200,600"
     }
   ]
 }

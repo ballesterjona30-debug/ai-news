@@ -78,38 +78,53 @@ const HOT_TOPICS = [
   { kw: "大模型", score: 3 }, { kw: "deepseek", score: 4 },
 ];
 
-// ======= TRANSLATION (Google via proxy with retry + direct fallback) =======
-async function translateText(text) {
-  if (!text || text.length < 5) return text;
+// ======= TRANSLATION =======
+// Primary: LibreTranslate public instance (no proxy needed, no API key)
+// Fallback: Google via proxy (better quality but needs working proxy)
+const LIBRE_INSTANCES = [
+  "https://translate.fedilab.app/translate",
+];
 
-  // Attempt 1: Google via proxy (primary)
-  for (let attempt = 0; attempt < 3; attempt++) {
+async function translateLibre(text) {
+  for (let attempt = 0; attempt < 5; attempt++) {
     try {
-      const result = await googleTranslate(text, {
-        from: "en",
-        to: "zh-CN",
-        fetchOptions: { agent: proxyAgent },
+      const url = LIBRE_INSTANCES[attempt % LIBRE_INSTANCES.length];
+      const res = await fetch(url, {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({ q: text, source: "en", target: "zh", format: "text" }),
+        signal: AbortSignal.timeout(15000),
       });
-      if (result.text && result.text !== text) return result.text;
-    } catch {}
-    if (attempt < 2) await delay(1000 * (attempt + 1)); // backoff: 1s, 2s
+      const data = await res.json();
+      if (data.translatedText && data.translatedText !== text) return data.translatedText;
+      // Rate limited or error — back off and retry
+      await delay(2500 * (attempt + 1));
+    } catch {
+      await delay(2000 * (attempt + 1));
+    }
   }
+  return null;
+}
 
-  // Attempt 2: Google directly (no proxy, might work intermittently)
+async function translateGoogleViaProxy(text) {
   try {
-    const result = await googleTranslate(text, { from: "en", to: "zh-CN" });
+    const result = await googleTranslate(text, {
+      from: "en", to: "zh-CN",
+      fetchOptions: { agent: proxyAgent },
+    });
     if (result.text && result.text !== text) return result.text;
   } catch {}
+  return null;
+}
 
-  // Attempt 3: MyMemory (rate-limited but sometimes available)
-  try {
-    const url = "https://api.mymemory.translated.net/get?q=" + encodeURIComponent(text) + "&langpair=en|zh-CN";
-    const res = await fetch(url, { signal: AbortSignal.timeout(10000) });
-    const data = await res.json();
-    const t = data?.responseData?.translatedText || "";
-    if (t && !t.includes("MYMEMORY WARNING") && !t.includes("QUOTA")) return t;
-  } catch {}
-
+async function translateText(text) {
+  if (!text || text.length < 5) return text;
+  // Try LibreTranslate first (no proxy needed)
+  const libreResult = await translateLibre(text);
+  if (libreResult) return libreResult;
+  // Fallback: Google via proxy (better quality)
+  const googleResult = await translateGoogleViaProxy(text);
+  if (googleResult) return googleResult;
   return text;
 }
 
@@ -463,18 +478,21 @@ async function main() {
   }
 
   // 翻译
-  console.log("\n翻译(Google via proxy)…");
+  console.log("\n翻译(LibreTranslate)…");
+  let translated = 0, failed = 0;
   for (let i = 0; i < latest.length; i++) {
     if (latest[i].needsTranslate) {
       const origTitle = latest[i].title, origSummary = latest[i].summary;
       latest[i].title = await translateText(latest[i].title);
-      await delay(600); // longer delay to avoid rate limit
+      await delay(1500);
       latest[i].summary = await translateText(latest[i].summary);
-      const changed = latest[i].title !== origTitle || latest[i].summary !== origSummary;
-      if (i % 5 === 0) console.log(`  翻译 [${i+1}/${latest.length}]${changed ? '' : ' ⚠部分失败'}…`);
-      await delay(600);
+      if (latest[i].title !== origTitle || latest[i].summary !== origSummary) translated++;
+      else failed++;
+      if (i % 5 === 0) console.log(`  翻译 [${i+1}/${latest.length}]…`);
+      await delay(1500);
     }
   }
+  console.log(`  翻译完成: ${translated} 篇成功${failed > 0 ? ', ' + failed + ' 篇失败' : ''}`);
 
   // 翻译后再匹配一次（中文关键词）
   console.log("\n模型标签补充(译文)…");
